@@ -3,28 +3,26 @@ project:
   output-dir: docs
 
 website:
-  favicon: logo.png
   navbar:
-    logo: logo.png
     left:
-    - text: "Ana Sayfa"
-      href: index.qmd
-    - text: "Analizler"
-      href: analizler.qmd
-    - text: "Blog"
-      href: blog.qmd
-    - text: "Hakkımda"
-      href: about.qmd
+      - text: "Ana Sayfa"
+        href: index.qmd
+      - text: "Analizler"
+        href: analizler.qmd
+      - text: "Blog"
+        href: blog.qmd
+      - text: "Hakkımızda"
+        href: about.qmd
     right:
       - icon: github
         href: https://github.com/kaansevim/rapor
       - icon: twitter
         href: https://x.com/kaanswm
-    
+
 format:
   html:
-    theme: cosmo
+    theme:
+      light: [cosmo, styles.scss]
     css: styles.css
 
 editor: visual
-

@@ -1,0 +1,9 @@
+/*-- scss:defaults --*/
+$body-bg: #e0ffe0; // Lavanta
+$font-family-base: "Segoe UI", sans-serif;
+
+/*-- scss:rules --*/
+body {
+  background-color: $body-bg;
+  font-family: $font-family-base;
+}
