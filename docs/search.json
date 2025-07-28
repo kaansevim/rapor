@@ -1,24 +1,31 @@
 [
   {
-    "objectID": "posts/welcome/index.html",
-    "href": "posts/welcome/index.html",
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "R ile Öğrenme",
+    "section": "",
+    "text": "Merhaba, bu blog sayfasında R dili, istatistiksel analizler ve sosyal bilimler üzerine yazılarımı paylaşıyorum.\nYazılar için Analizler bölümüne göz atabilirsiniz."
+  },
+  {
+    "objectID": "blog/Ayşenur Sevim Hakkında/rgiris.html",
+    "href": "blog/Ayşenur Sevim Hakkında/rgiris.html",
+    "title": "Bu sayfa Ayşenur’un iş tecrübesini aktarmaktadır",
+    "section": "",
+    "text": "Merhaba Arkadaşlar,\nsize bu güne kadarki iş tecrübemi aktaracağım.\n\nSince this post doesn’t specify an explicit image, the first image in the post will be used in the listing page of posts."
+  },
+  {
+    "objectID": "analizler/welcome/index.html",
+    "href": "analizler/welcome/index.html",
     "title": "Welcome To My Blog",
     "section": "",
     "text": "This is the first post in a Quarto blog. Welcome!\n\nSince this post doesn’t specify an explicit image, the first image in the post will be used in the listing page of posts."
   },
   {
-    "objectID": "posts/my-new-post/index.html",
-    "href": "posts/my-new-post/index.html",
+    "objectID": "analizler/my-new-post/index.html",
+    "href": "analizler/my-new-post/index.html",
     "title": "My new post",
     "section": "",
-    "text": "This is a post with executable code.\n\n1 + 1\n\n[1] 2\n\n\n\nTüm raporlar ve içerikler burada yayınlanacaktır\n\nlibrary(tidyverse)\n\nWarning: package 'tidyverse' was built under R version 4.3.3\n\n\nWarning: package 'ggplot2' was built under R version 4.3.3\n\n\n── Attaching core tidyverse packages ──────────────────────── tidyverse 2.0.0 ──\n✔ dplyr     1.1.4     ✔ readr     2.1.4\n✔ forcats   1.0.0     ✔ stringr   1.5.1\n✔ ggplot2   3.5.1     ✔ tibble    3.2.1\n✔ lubridate 1.9.3     ✔ tidyr     1.3.0\n✔ purrr     1.0.2     \n── Conflicts ────────────────────────────────────────── tidyverse_conflicts() ──\n✖ dplyr::filter() masks stats::filter()\n✖ dplyr::lag()    masks stats::lag()\nℹ Use the conflicted package (&lt;http://conflicted.r-lib.org/&gt;) to force all conflicts to become errors"
-  },
-  {
-    "objectID": "index.html",
-    "href": "index.html",
-    "title": "Rapor",
-    "section": "",
-    "text": "Ders ve analizler üzerine kurulmuş bir blog sayfasıdır.\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nMy new post\n\n\n\n\n\n\nnews\n\n\ncode\n\n\naraştırma\n\n\n\n\n\n\n\n\n\nJul 27, 2025\n\n\nHarlow Malloc\n\n\n\n\n\n\n\n\n\n\n\n\nPost With Code\n\n\n\n\n\n\nnews\n\n\ncode\n\n\nanalysis\n\n\n\n\n\n\n\n\n\nJul 27, 2025\n\n\nHarlow Malloc\n\n\n\n\n\n\n\n\n\n\n\n\nBu sayfa Ayşenur’un iş tecrübesini aktarmaktadır\n\n\n\n\n\n\nnews\n\n\n\n\n\n\n\n\n\nJul 24, 2025\n\n\nTristan O’Malley\n\n\n\n\n\n\n\n\n\n\n\n\nWelcome To My Blog\n\n\n\n\n\n\nnews\n\n\n\n\n\n\n\n\n\nJul 24, 2025\n\n\nTristan O’Malley\n\n\n\n\n\n\nNo matching items"
+    "text": "This is a post with executable code.\n\n1 + 1\n\n[1] 2\n\n\n\nTüm raporlar ve içerikler burada yayınlanacaktır\n\nlibrary(tidyverse)\n\n── Attaching core tidyverse packages ──────────────────────── tidyverse 2.0.0 ──\n✔ dplyr     1.1.4     ✔ readr     2.1.5\n✔ forcats   1.0.0     ✔ stringr   1.5.1\n✔ ggplot2   3.5.1     ✔ tibble    3.2.1\n✔ lubridate 1.9.4     ✔ tidyr     1.3.1\n✔ purrr     1.0.2     \n── Conflicts ────────────────────────────────────────── tidyverse_conflicts() ──\n✖ dplyr::filter() masks stats::filter()\n✖ dplyr::lag()    masks stats::lag()\nℹ Use the conflicted package (&lt;http://conflicted.r-lib.org/&gt;) to force all conflicts to become errors"
   },
   {
     "objectID": "about.html",
@@ -28,17 +35,24 @@
     "text": "About this blog"
   },
   {
-    "objectID": "posts/Ayşenur Sevim Hakkında/index.html",
-    "href": "posts/Ayşenur Sevim Hakkında/index.html",
-    "title": "Bu sayfa Ayşenur’un iş tecrübesini aktarmaktadır",
-    "section": "",
-    "text": "Merhaba Arkadaşlar,\nsize bu güne kadarki iş tecrübemi aktaracağım.\n\nSince this post doesn’t specify an explicit image, the first image in the post will be used in the listing page of posts."
-  },
-  {
-    "objectID": "posts/post-with-code/index.html",
-    "href": "posts/post-with-code/index.html",
+    "objectID": "analizler/post-with-code/index.html",
+    "href": "analizler/post-with-code/index.html",
     "title": "Post With Code",
     "section": "",
     "text": "This is a post with executable code.\n\n1 + 1\n\n[1] 2"
+  },
+  {
+    "objectID": "analizler.html",
+    "href": "analizler.html",
+    "title": "Analizler",
+    "section": "",
+    "text": "Bu sayfada tüm yazılarımı bulabilirsiniz. Yazıları kategorilere göre filtreleyebilir veya tarih sırasına göre sıralayabilirsiniz.\n\n\n\n\n\n\n   \n     \n     \n       Order By\n       Default\n         \n          Title\n        \n         \n          Date - Oldest\n        \n         \n          Date - Newest\n        \n         \n          Author\n        \n     \n  \n    \n      \n      \n    \n\n\n\n\n\n\n\n\n\n\nMy new post\n\n\n\n\n\n\nnews\n\n\ncode\n\n\naraştırma\n\n\n\n\n\n\n\n\n\nJul 27, 2025\n\n\nHarlow Malloc\n\n\n\n\n\n\n\n\n\n\n\n\nPost With Code\n\n\n\n\n\n\nnews\n\n\ncode\n\n\nanalysis\n\n\n\n\n\n\n\n\n\nJul 27, 2025\n\n\nHarlow Malloc\n\n\n\n\n\n\n\n\n\n\n\n\nWelcome To My Blog\n\n\n\n\n\n\nnews\n\n\n\n\n\n\n\n\n\nJul 24, 2025\n\n\nTristan O’Malley\n\n\n\n\n\n\nNo matching items"
+  },
+  {
+    "objectID": "blog.html",
+    "href": "blog.html",
+    "title": "Blog",
+    "section": "",
+    "text": "Bu sayfada kişisel blog yazılarımı ve yorumlarımı bulabilirsiniz.\n\n\n\n\n\n\n   \n     \n     \n       Order By\n       Default\n         \n          Title\n        \n         \n          Date - Oldest\n        \n         \n          Date - Newest\n        \n         \n          Author\n        \n     \n  \n    \n      \n      \n    \n\n\n\n\n\n\n\n\n\n\nBu sayfa Ayşenur’un iş tecrübesini aktarmaktadır\n\n\n\n\n\n\nnews\n\n\n\n\n\n\n\n\n\nJul 24, 2025\n\n\nTristan O’Malley\n\n\n\n\n\n\nNo matching items"
   }
 ]

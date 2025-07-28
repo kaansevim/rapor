@@ -3,14 +3,24 @@ project:
   output-dir: docs
 
 website:
-  title: "rapor"
+  favicon: logo.png
   navbar:
+    logo: logo.png
+    left:
+    - text: "Ana Sayfa"
+      href: index.qmd
+    - text: "Analizler"
+      href: analizler.qmd
+    - text: "Blog"
+      href: blog.qmd
+    - text: "Hakkımda"
+      href: about.qmd
     right:
-      - about.qmd
       - icon: github
-        href: https://github.com/
+        href: https://github.com/kaansevim/rapor
       - icon: twitter
-        href: https://twitter.com
+        href: https://x.com/kaanswm
+    
 format:
   html:
     theme: cosmo

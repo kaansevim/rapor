@@ -1,0 +1,12 @@
+---
+title: "Blog"
+listing:
+  contents: blog
+  sort: "date desc"
+  type: default
+  categories: true
+  sort-ui: true
+  filter-ui: true
+---
+
+Bu sayfada kişisel blog yazılarımı ve yorumlarımı bulabilirsiniz.

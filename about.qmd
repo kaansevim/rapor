@@ -1,19 +1,18 @@
 ---
 title: "About"
-image: profile.jpg
+image: images/dergiresim.jpg
 about:
   template: jolla
   links:
     - icon: twitter
       text: Twitter
-      href: https://twitter.com
+      href: https://x.com/kaanswm
     - icon: linkedin
       text: LinkedIn
-      href: https://linkedin.com
+      href: https://www.linkedin.com/in/kaan-sevim-43043875/
     - icon: github
       text: Github
-      href: https://github.com
-
+      href: https://github.com/kaansevim/rapor
 ---
 
 About this blog

@@ -1,0 +1,12 @@
+---
+title: "Analizler"
+listing:
+  contents: analizler
+  sort: "date desc"
+  type: default
+  categories: true
+  sort-ui: true
+  filter-ui: true
+---
+
+Bu sayfada tüm yazılarımı bulabilirsiniz. Yazıları kategorilere göre filtreleyebilir veya tarih sırasına göre sıralayabilirsiniz.

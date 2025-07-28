@@ -1,14 +1,9 @@
 ---
-title: "Rapor"
-listing:
-  contents: posts
-  sort: "date desc"
-  type: default
-  categories: true
-  sort-ui: false
-  filter-ui: false
+title: "R ile Öğrenme"
 page-layout: full
 title-block-banner: true
 ---
 
-Ders ve analizler üzerine kurulmuş bir blog sayfasıdır.
+Merhaba, bu blog sayfasında R dili, istatistiksel analizler ve sosyal bilimler üzerine yazılarımı paylaşıyorum.
+
+Yazılar için [Analizler](analizler.qmd) bölümüne göz atabilirsiniz.

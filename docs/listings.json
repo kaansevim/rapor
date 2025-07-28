@@ -1,11 +1,16 @@
 [
   {
-    "listing": "/index.html",
+    "listing": "/analizler.html",
     "items": [
-      "/posts/my-new-post/index.html",
-      "/posts/post-with-code/index.html",
-      "/posts/Ayşenur Sevim Hakkında/index.html",
-      "/posts/welcome/index.html"
+      "/analizler/my-new-post/index.html",
+      "/analizler/post-with-code/index.html",
+      "/analizler/welcome/index.html"
+    ]
+  },
+  {
+    "listing": "/blog.html",
+    "items": [
+      "/blog/Ayşenur Sevim Hakkında/rgiris.html"
     ]
   }
 ]
