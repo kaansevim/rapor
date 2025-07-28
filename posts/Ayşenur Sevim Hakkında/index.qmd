@@ -1,0 +1,14 @@
+---
+title: "Bu sayfa Ayşenur'un iş tecrübesini aktarmaktadır"
+author: "Tristan O'Malley"
+date: "2025-07-24"
+categories: [news]
+---
+
+Merhaba Arkadaşlar,
+
+size bu güne kadarki iş tecrübemi aktaracağım.
+
+![](thumbnail.jpg)
+
+Since this post doesn't specify an explicit `image`, the first image in the post will be used in the listing page of posts.
