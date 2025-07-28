@@ -1,5 +1,5 @@
 ---
-title: '<img src="images/logo.png" width="50" style="vertical-align: middle;"> Rapor'
+title: '<img src="logo.png" width="140" style="vertical-align: middle;">'
 page-layout: full
 title-block-banner: false
 ---
@@ -24,7 +24,7 @@ Bu blogda hem kendi yazılarımı hem de sizlerden gelecek içerikleri paylaşma
 
 📢 Eğer sizin de R ile yaptığınız analizler, geliştirdiğiniz görselleştirmeler veya öğrenecek-öğretecek fikirleriniz varsa, katkılarınızı **memnuniyetle yayınlamak isterim**.
 
-Haydi birlikte öğrenelim, birlikte üretelim!\
+Bbirlikte öğrenelim, birlikte üretelim!\
 💻📊📚
 
 Yazılar için [Analizler](analizler.qmd) bölümüne göz atabilirsiniz.
