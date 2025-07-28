@@ -7,7 +7,7 @@ format:
     anchor-sections: false
 ---
 
-Merhaba, bu site sosyal bilimlerde veriyle düşünen, üreten ve paylaşan herkes için açık bir öğrenme alanı olması için tasarlanmıştır.
+Merhaba, Rapor sitesi sosyal bilimlerde veriyle düşünen, üreten ve paylaşan herkes için açık bir öğrenme alanı olması için tasarlanmıştır.
 
 R programlama dili, istatistiksel analizlerin ötesinde; görselleştirme, raporlama, içerik analizi ve etkileşimli dashboard üretiminde ve daha pek çok alanda güçlü ve **ücretsiz** bir araç olarak sosyal bilimcilerin vazgeçilmezi haline gelmiştir.
 

@@ -1,6 +1,5 @@
 ---
-title: "Neden Araştırma Yöntemi Önemli"
-format: html
+title: "Neden Araştırma Yöntemleri Kritik Öneme Sahiptir"
 ---
 
-Hayatın her alanında elde ettiğimiz bilginin doğrulu oldukça kıymetlidir. İsterseniz bilgiye inanın isterseniz bilin ama bir başkasına bildiğinizi ikna etmek istiyorsanız bir yönteminiz olması gerekir. İnsanlar size neden inansın. Bu bilgiye nasıl eriştiğimiz genel kabul gören bazı paradigmaları vardır. Bu derste bu yöntemleri öğrenmeye çalışacağız.
+Günlük yaşamın her alanında üretilen bilginin **güvenirliği**, kullanılan araştırma yöntemlerinin doğruluğu ve geçerliliği ile doğrudan ilişkilidir. Elde ettiğimiz verileri başkalarına sunarken ya da bilimsel tartışmalara katılırken, benimsediğimiz metodolojik yaklaşımın şeffaflığı ve sistematikliği, bilginin kabul görmesini sağlar. Bu bağlamda, araştırma sürecinde veri toplama, analiz ve yorumlama aşamalarında, alanında kabul görmüş paradigmaların rehberliğine ihtiyaç duyulur. Bu derste, araştırma yöntemlerinin temellerini, çeşitli yöntemlerin avantaj ve sınırlılıklarını ve bu yöntemlerin bilimsel bilgi üretimine katkılarını akademik bir bakış açısıyla ele alacağız.

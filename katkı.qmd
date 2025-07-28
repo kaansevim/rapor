@@ -1,0 +1,126 @@
+---
+title: "Türkçe Sosyal Bilim Analizlerini Güçlendirmek İçin"
+format: html
+---
+
+### Katkıda Bulunun
+
+Rapor sitesi, sosyal bilimlerde R ile çalışan, üretken ve paylaşımcı bir topluluk oluşturmayı amaçlamaktadır. Siz de bilgi, kod, görselleştirme veya yöntem önerilerinizle katkıda bulunarak hem kendi deneyiminizi paylaşabilir hem de bu kaynağı daha zengin hale getirebilirsiniz.
+
+------------------------------------------------------------------------
+
+## Neden Katkıda Bulunmalısınız?
+
+-   **Paylaşılabilirlik:** Kod temelli analizlerinizin tekrarlanabilir olması için.
+-   **İşbirliği:** Farklı bakış açılarıyla içeriği geliştirerek daha kapsayıcı kaynaklar oluşturmak için.
+-   **Görünürlük:** Açık kaynak eserleriniz, hem akademik camiada hem de GitHub topluluğunda bilinirlik kazanmak için.
+-   **Öğrenme:** Başkalarının katkılarını inceleyerek yeni paketler, yöntemler ve pratikler öğrenmek için.
+
+------------------------------------------------------------------------
+
+## Nasıl Katkıda Bulunursunuz?
+
+1.  **GitHub Hesabı Oluşturun**\
+    Henüz bir hesabınız yoksa [github.com](https://github.com/) üzerinden ücretsiz kayıt olun.
+
+2.  **Projeyi Fork’layın**\
+    Bu sayfanın sağ üst köşesindeki **Fork** düğmesi ile kendi GitHub hesabınıza kopyasını alın:
+
+    ``` bash
+    https://github.com/kaansevim/rapor
+    ```
+
+3.  **Yerel Makinenize Klonlayın (R Studio)**
+
+    ``` bash
+    git clone https://github.com/<kullanici_adiniz/rapor.git
+    cd rapor
+    ```
+
+4.  **Yeni Bir Branch Oluşturun**
+
+    ``` bash
+    git checkout -b katkilarim
+    ```
+
+5.  **İçeriğinizi Ekleyin veya Düzenleyin**
+
+    -   **Analizler** eklemek için `analizler/` klasörüne,\
+    -   **Blog** gönderisi için `blog/` altına,\
+    -   **Araştırma Yöntemleri** notları için `research/` dizinine,\
+        uygun bir `.qmd` dosyası oluşturun.\
+        Dosyanın en üstünde mutlaka:
+
+    ``` yaml
+    ---
+    title: "Dosya Başlığı"
+    ---
+    ```
+
+    olarak `title` meta verisini ekleyin.
+
+6.  **Commit ve Push**
+
+    ``` bash
+    git add .
+    git commit -m "Katkı: [kısa açıklama]"
+    git push origin katkilarim
+    ```
+
+7.  **Pull Request Oluşturun**\
+    GitHub’daki kendi reposunuza gidip **Compare & pull request** butonuna tıklayın.
+
+    -   Başlıkta ne eklediğinizi kısaca yazın,\
+    -   Açıklama bölümünde detay verin (hangi dosyada, hangi başlıkta değişiklik yaptınız).
+
+8.  **İnceleme ve Birleştirme**\
+    Gönderdiğiniz PR gözden geçirildikten sonra, onaylanırsa sitenize eklenecektir.
+
+------------------------------------------------------------------------
+
+## İçerik Hazırlama Kuralları
+
+-   **Dosya Adları**: Türkçe karakter yerine ASCII kullanın, boşluk yerine kısa çizgi (`-`) tercih edin (örn. `03-icerik-analizi.qmd`).\
+
+-   **Front Matter**: Her `.qmd` dosyasında en az aşağıdakileri bulundurun:
+
+    ``` yaml
+    ---
+    title: "Anlaşılır Bir Başlık"
+    date: 2025-07-XX       # isteğe bağlı
+    categories: [r, analiz]
+    ---
+    ```
+
+-   **Kod Blokları**:
+
+    ```` markdown
+    ```r
+    # R kodu buraya
+    ```
+    ````
+
+-   **Görseller**: `images/örnek.png` altında saklayın, Markdown’da `![](images/örnek.png)` ile çağırın.
+
+------------------------------------------------------------------------
+
+## Sorular ve Destek
+
+Herhangi bir aşamada takılırsanız veya teknik bir sorun yaşarsanız:
+
+-   GitHub Issues’da sorunuzu açabilirsiniz:
+
+    ```         
+    https://github.com/kaansevim/rapor/issues
+    ```
+
+-   E-posta ile ulaşmak isterseniz:
+
+    ```         
+    kaan.sevim@izu.edu.tr
+    ```
+
+------------------------------------------------------------------------
+
+**Katkılarınız için şimdiden teşekkürler!**\
+Birlikte öğrenelim, birlikte üretelim. 💻📊📚

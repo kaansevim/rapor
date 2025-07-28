@@ -24,7 +24,9 @@ website:
       - text: "Araştırma Yöntemleri"
         file: research/index.qmd
       - text: "Katkı"
-        href: katki.qmd
+        href: katkı.qmd
+      - text: "İletişim"
+        href: iletişim.qmd
       - icon: github
         href: https://github.com/kaansevim/rapor
       - icon: twitter
