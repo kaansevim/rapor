@@ -1,5 +1,6 @@
 ---
-title: "verigorsel"
+title: "Veri Görselleştirme"
 format: html
 ---
 
+Verileri daha iyi anlayabilmek ve onları sunabilmek için verileri iyi bir şekilde görselleştirmekte oldukça önemli hale gelmeye başlamıştır. Bu noktoda veri görselleştirmesi için kolay ve hızlı uyarlanabilir veri paketleri burada blog yazısı olarak ele alınacaktır.
