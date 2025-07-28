@@ -1,28 +1,87 @@
 project:
   type: website
   output-dir: docs
+  
+execute:
+    freeze: auto
 
 website:
+  title: "Rapor"
+  
+  favicon: "logo.png"
+  
   navbar:
-    left:
+    background: primary
+    right:
       - text: "Ana Sayfa"
         href: index.qmd
       - text: "Analizler"
         href: analizler.qmd
+      - text: "Veri Görsel"
+        href: verigorsel.qmd
       - text: "Blog"
         href: blog.qmd
-      - text: "Hakkımızda"
-        href: about.qmd
-    right:
+      - text: "Araştırma Yöntemleri"
+        file: research/index.qmd
+      - text: "Katkı"
+        href: katki.qmd
       - icon: github
         href: https://github.com/kaansevim/rapor
       - icon: twitter
         href: https://x.com/kaanswm
+      - icon: linkedin
+        href: https://www.linkedin.com/in/kaan-sevim-43043875/
+        
+  sidebar: 
+    - title: "Araştırma Yöntemleri"
+      style: docked
+      search: false
+      background: dark
+      contents:
+      - section: "Genel Giriş"
+        contents:
+          - text: "Giriş"
+          - file: research/index.qmd
+      - section: "Haftalık Konu Başlıkları"
+        contents:
+          - text: "1: Araştırma Süreci ve Temel Kavramlar"
+            file: research/01-research.qmd
+          - text: "2: Araştırma Türleri ve Tasarımları"
+            file: research/02-research.qmd
+          - text: "3: Betimleyici Araştırma Yöntemleri"
+            file: research/03-research.qmd
+          - text: "4: Deneysel Araştırma Yöntemleri"
+            file: research/04-research.qmd
+          - text: "5: Ölçme Araçları ve Anket Tasarımı"
+            file: research/05-research.qmd
+          - text: "6: Ölçek Geliştirme ve Geçerlilik"
+            file: research/06-research.qmd
+          - text: "7: Örneklem Seçimi ve Örneklem Büyüklüğü"
+            file: research/07-research.qmd
+          - text: "8: Veri Toplama Teknikleri"
+            file: research/08-research.qmd
+          - text: "9: Nitel Araştırma Yöntemleri"
+            file: research/09-research.qmd
+          - text: "10: İçerik Analizi ve Tematik Kodlama"
+            file: research/10-research.qmd
+          - text: "11: Durum Çalışması ve Etnografi"
+            file: research/11-research.qmd
+          - text: "12: Değişkenler Arası İlişkilerin Analizi"
+            file: research/12-research.qmd
+          - text: "13: SPSS ve R ile Veri Analizi Temelleri"
+            file: research/13-research.qmd
+          - text: "14: Bulguların Yorumlanması ve Raporlama"
+            file: research/14-research.qmd
+          - text: "15: Etik Kurallar ve Araştırma Yazımı"
+            file: research/15-research.qmd
+      
+  page-footer: "Copyright 2025 &copy; Kaan Sevim"
+  repo-url: https://kaansevim.github.io/rapor/
 
 format:
   html:
     theme:
-      light: [cosmo, styles.scss]
+      light: flatly
+      dark: darkly
     css: styles.css
-
-editor: visual
+    toc: true

@@ -1,12 +1,13 @@
 ---
-title: '<img src="logo.png" width="140" style="vertical-align: middle;">'
+title: "R ile Sosyal Bilimler"
 page-layout: full
 title-block-banner: false
+format:
+  html:
+    anchor-sections: false
 ---
 
-## R ile Sosyal Bilimler
-
-Merhaba, bu s site sosyal bilimlerde veriyle düşünen, üreten ve paylaşan herkes için açık bir öğrenme alanı olması için tasarlanmıştır.
+Merhaba, bu site sosyal bilimlerde veriyle düşünen, üreten ve paylaşan herkes için açık bir öğrenme alanı olması için tasarlanmıştır.
 
 R programlama dili, istatistiksel analizlerin ötesinde; görselleştirme, raporlama, içerik analizi ve etkileşimli dashboard üretiminde ve daha pek çok alanda güçlü ve **ücretsiz** bir araç olarak sosyal bilimcilerin vazgeçilmezi haline gelmiştir.
 
@@ -24,7 +25,9 @@ Bu blogda hem kendi yazılarımı hem de sizlerden gelecek içerikleri paylaşma
 
 📢 Eğer sizin de R ile yaptığınız analizler, geliştirdiğiniz görselleştirmeler veya öğrenecek-öğretecek fikirleriniz varsa, katkılarınızı **memnuniyetle yayınlamak isterim**.
 
-Bbirlikte öğrenelim, birlikte üretelim!\
+Birlikte öğrenelim, birlikte üretelim!\
 💻📊📚
 
 Yazılar için [Analizler](analizler.qmd) bölümüne göz atabilirsiniz.
+
+![](logo.png){width="84"}

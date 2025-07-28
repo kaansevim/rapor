@@ -1,0 +1,6 @@
+---
+title: "Neden Araştırma Yöntemi Önemli"
+format: html
+---
+
+Hayatın her alanında elde ettiğimiz bilginin doğrulu oldukça kıymetlidir. İsterseniz bilgiye inanın isterseniz bilin ama bir başkasına bildiğinizi ikna etmek istiyorsanız bir yönteminiz olması gerekir. İnsanlar size neden inansın. Bu bilgiye nasıl eriştiğimiz genel kabul gören bazı paradigmaları vardır. Bu derste bu yöntemleri öğrenmeye çalışacağız.

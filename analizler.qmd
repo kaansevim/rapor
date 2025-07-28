@@ -3,7 +3,7 @@ title: "Analizler"
 listing:
   contents: analizler
   sort: "date desc"
-  type: default
+  type: table
   categories: true
   sort-ui: true
   filter-ui: true

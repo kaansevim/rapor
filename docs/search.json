@@ -2,16 +2,9 @@
   {
     "objectID": "index.html",
     "href": "index.html",
-    "title": "",
+    "title": "R ile Sosyal Bilimler",
     "section": "",
-    "text": "Merhaba, bu s site sosyal bilimlerde veriyle düşünen, üreten ve paylaşan herkes için açık bir öğrenme alanı olması için tasarlanmıştır.\nR programlama dili, istatistiksel analizlerin ötesinde; görselleştirme, raporlama, içerik analizi ve etkileşimli dashboard üretiminde ve daha pek çok alanda güçlü ve ücretsiz bir araç olarak sosyal bilimcilerin vazgeçilmezi haline gelmiştir.\nTürkiye’de, özellikle sosyal bilimlerde veri analizi çoğunlukla SPSS gibi paket programlara yürütülmektedir. Elbetteki SPSS oldukça güçlü bir yapısı ve nispeten kolay bir arayüzü bulunmaktadır. Ama ileri düzey analizler yapmak istediğinizde veya verinizi iyi bir şekilde görselleştirmek istediğinizde veya analiz öncesi formül girmeniz gerektiğinde zorlayıcı olabilmektedir. Bunların da ötesinde R tek bir kodla tüm Tablo veya Görselinizi verebilmektedir. Yani farklı analiz türlerinde etkili olduğu kadar aynı zamanda da size hız katmaktadır. Hız katmaktan da daha güzel bir şey varsa o da sonrasında yapıtğınız tüm analizleri okyabilmeniz ve başklarının yapıtğı analizleri açık kaynak takip edebilmenizdir. Yani bir SPSS analizi yaparken dönüp dönüp Youtube videosundan bakmak yerine hazır kodlarınız ve dökümanlarınızı düzenli bir şekilde kullanabilirsiniz. Günümüz dünyasında artık veri daha karmaşık, sorular daha derin ve cevaplar daha çok yönlü. Bu noktada R dili, bize yepyeni kapılar açıyor:\n\n\nKod temelli analizlerin tekrarlanabilirliği,\nDaha gelişmiş modelleme olanakları,\nEtkileyici grafikler ve interaktif raporlar,\nVe en önemlisi: paylaşılabilir, şeffaf bilimsel üretim.\n\nBu blogda hem kendi yazılarımı hem de sizlerden gelecek içerikleri paylaşmayı amaçlıyorum. Amacımız; sosyal bilimler alanında R ile çalışan, çalışmak isteyen ya da sadece merak eden herkes için bir kaynak oluşturmak. Düzenli olarak içeriklerin düzenlenmesi ve güncel güvenilir bir içerik üretebilmek için bu sayfayı geliştirmek adına Github üzerinden destek olmak isterseniz benimle iletişime geçmekten çekinmeyin lütfen.\n📢 Eğer sizin de R ile yaptığınız analizler, geliştirdiğiniz görselleştirmeler veya öğrenecek-öğretecek fikirleriniz varsa, katkılarınızı memnuniyetle yayınlamak isterim.\nHaydi birlikte öğrenelim, birlikte üretelim!\n💻📊📚\nYazılar için Analizler bölümüne göz atabilirsiniz."
-  },
-  {
-    "objectID": "index.html#r-ile-sosyal-bilimler",
-    "href": "index.html#r-ile-sosyal-bilimler",
-    "title": "",
-    "section": "",
-    "text": "Merhaba, bu s site sosyal bilimlerde veriyle düşünen, üreten ve paylaşan herkes için açık bir öğrenme alanı olması için tasarlanmıştır.\nR programlama dili, istatistiksel analizlerin ötesinde; görselleştirme, raporlama, içerik analizi ve etkileşimli dashboard üretiminde ve daha pek çok alanda güçlü ve ücretsiz bir araç olarak sosyal bilimcilerin vazgeçilmezi haline gelmiştir.\nTürkiye’de, özellikle sosyal bilimlerde veri analizi çoğunlukla SPSS gibi paket programlara yürütülmektedir. Elbetteki SPSS oldukça güçlü bir yapısı ve nispeten kolay bir arayüzü bulunmaktadır. Ama ileri düzey analizler yapmak istediğinizde veya verinizi iyi bir şekilde görselleştirmek istediğinizde veya analiz öncesi formül girmeniz gerektiğinde zorlayıcı olabilmektedir. Bunların da ötesinde R tek bir kodla tüm Tablo veya Görselinizi verebilmektedir. Yani farklı analiz türlerinde etkili olduğu kadar aynı zamanda da size hız katmaktadır. Hız katmaktan da daha güzel bir şey varsa o da sonrasında yapıtğınız tüm analizleri okyabilmeniz ve başklarının yapıtğı analizleri açık kaynak takip edebilmenizdir. Yani bir SPSS analizi yaparken dönüp dönüp Youtube videosundan bakmak yerine hazır kodlarınız ve dökümanlarınızı düzenli bir şekilde kullanabilirsiniz. Günümüz dünyasında artık veri daha karmaşık, sorular daha derin ve cevaplar daha çok yönlü. Bu noktada R dili, bize yepyeni kapılar açıyor:\n\n\nKod temelli analizlerin tekrarlanabilirliği,\nDaha gelişmiş modelleme olanakları,\nEtkileyici grafikler ve interaktif raporlar,\nVe en önemlisi: paylaşılabilir, şeffaf bilimsel üretim.\n\nBu blogda hem kendi yazılarımı hem de sizlerden gelecek içerikleri paylaşmayı amaçlıyorum. Amacımız; sosyal bilimler alanında R ile çalışan, çalışmak isteyen ya da sadece merak eden herkes için bir kaynak oluşturmak. Düzenli olarak içeriklerin düzenlenmesi ve güncel güvenilir bir içerik üretebilmek için bu sayfayı geliştirmek adına Github üzerinden destek olmak isterseniz benimle iletişime geçmekten çekinmeyin lütfen.\n📢 Eğer sizin de R ile yaptığınız analizler, geliştirdiğiniz görselleştirmeler veya öğrenecek-öğretecek fikirleriniz varsa, katkılarınızı memnuniyetle yayınlamak isterim.\nHaydi birlikte öğrenelim, birlikte üretelim!\n💻📊📚\nYazılar için Analizler bölümüne göz atabilirsiniz."
+    "text": "Merhaba, bu site sosyal bilimlerde veriyle düşünen, üreten ve paylaşan herkes için açık bir öğrenme alanı olması için tasarlanmıştır.\nR programlama dili, istatistiksel analizlerin ötesinde; görselleştirme, raporlama, içerik analizi ve etkileşimli dashboard üretiminde ve daha pek çok alanda güçlü ve ücretsiz bir araç olarak sosyal bilimcilerin vazgeçilmezi haline gelmiştir.\nTürkiye’de, özellikle sosyal bilimlerde veri analizi çoğunlukla SPSS gibi paket programlara yürütülmektedir. Elbetteki SPSS oldukça güçlü bir yapısı ve nispeten kolay bir arayüzü bulunmaktadır. Ama ileri düzey analizler yapmak istediğinizde veya verinizi iyi bir şekilde görselleştirmek istediğinizde veya analiz öncesi formül girmeniz gerektiğinde zorlayıcı olabilmektedir. Bunların da ötesinde R tek bir kodla tüm Tablo veya Görselinizi verebilmektedir. Yani farklı analiz türlerinde etkili olduğu kadar aynı zamanda da size hız katmaktadır. Hız katmaktan da daha güzel bir şey varsa o da sonrasında yapıtğınız tüm analizleri okyabilmeniz ve başklarının yapıtğı analizleri açık kaynak takip edebilmenizdir. Yani bir SPSS analizi yaparken dönüp dönüp Youtube videosundan bakmak yerine hazır kodlarınız ve dökümanlarınızı düzenli bir şekilde kullanabilirsiniz. Günümüz dünyasında artık veri daha karmaşık, sorular daha derin ve cevaplar daha çok yönlü. Bu noktada R dili, bize yepyeni kapılar açıyor:\n\n\nKod temelli analizlerin tekrarlanabilirliği,\nDaha gelişmiş modelleme olanakları,\nEtkileyici grafikler ve interaktif raporlar,\nVe en önemlisi: paylaşılabilir, şeffaf bilimsel üretim.\n\nBu blogda hem kendi yazılarımı hem de sizlerden gelecek içerikleri paylaşmayı amaçlıyorum. Amacımız; sosyal bilimler alanında R ile çalışan, çalışmak isteyen ya da sadece merak eden herkes için bir kaynak oluşturmak. Düzenli olarak içeriklerin düzenlenmesi ve güncel güvenilir bir içerik üretebilmek için bu sayfayı geliştirmek adına Github üzerinden destek olmak isterseniz benimle iletişime geçmekten çekinmeyin lütfen.\n📢 Eğer sizin de R ile yaptığınız analizler, geliştirdiğiniz görselleştirmeler veya öğrenecek-öğretecek fikirleriniz varsa, katkılarınızı memnuniyetle yayınlamak isterim.\nBirlikte öğrenelim, birlikte üretelim!\n💻📊📚\nYazılar için Analizler bölümüne göz atabilirsiniz."
   },
   {
     "objectID": "blog/Ayşenur Sevim Hakkında/rgiris.html",
@@ -35,13 +28,6 @@
     "text": "This is a post with executable code.\n\n1 + 1\n\n[1] 2\n\n\n\nTüm raporlar ve içerikler burada yayınlanacaktır\n\nlibrary(tidyverse)\n\n── Attaching core tidyverse packages ──────────────────────── tidyverse 2.0.0 ──\n✔ dplyr     1.1.4     ✔ readr     2.1.5\n✔ forcats   1.0.0     ✔ stringr   1.5.1\n✔ ggplot2   3.5.1     ✔ tibble    3.2.1\n✔ lubridate 1.9.4     ✔ tidyr     1.3.1\n✔ purrr     1.0.2     \n── Conflicts ────────────────────────────────────────── tidyverse_conflicts() ──\n✖ dplyr::filter() masks stats::filter()\n✖ dplyr::lag()    masks stats::lag()\nℹ Use the conflicted package (&lt;http://conflicted.r-lib.org/&gt;) to force all conflicts to become errors"
   },
   {
-    "objectID": "about.html",
-    "href": "about.html",
-    "title": "About",
-    "section": "",
-    "text": "About this blog"
-  },
-  {
     "objectID": "analizler/post-with-code/index.html",
     "href": "analizler/post-with-code/index.html",
     "title": "Post With Code",
@@ -53,7 +39,7 @@
     "href": "analizler.html",
     "title": "Analizler",
     "section": "",
-    "text": "Bu sayfada tüm yazılarımı bulabilirsiniz. Yazıları kategorilere göre filtreleyebilir veya tarih sırasına göre sıralayabilirsiniz.\n\n\n\n\n\n\n   \n     \n     \n       Order By\n       Default\n         \n          Title\n        \n         \n          Date - Oldest\n        \n         \n          Date - Newest\n        \n         \n          Author\n        \n     \n  \n    \n      \n      \n    \n\n\n\n\n\n\n\n\n\n\nMy new post\n\n\n\n\n\n\nnews\n\n\ncode\n\n\naraştırma\n\n\n\n\n\n\n\n\n\nJul 27, 2025\n\n\nHarlow Malloc\n\n\n\n\n\n\n\n\n\n\n\n\nPost With Code\n\n\n\n\n\n\nnews\n\n\ncode\n\n\nanalysis\n\n\n\n\n\n\n\n\n\nJul 27, 2025\n\n\nHarlow Malloc\n\n\n\n\n\n\n\n\n\n\n\n\nWelcome To My Blog\n\n\n\n\n\n\nnews\n\n\n\n\n\n\n\n\n\nJul 24, 2025\n\n\nTristan O’Malley\n\n\n\n\n\n\nNo matching items"
+    "text": "Bu sayfada tüm yazılarımı bulabilirsiniz. Yazıları kategorilere göre filtreleyebilir veya tarih sırasına göre sıralayabilirsiniz.\n\n\n\n\n\n\n   \n     \n     \n       Order By\n       Default\n         \n          Date - Oldest\n        \n         \n          Date - Newest\n        \n         \n          Title\n        \n         \n          Author\n        \n     \n  \n    \n      \n      \n    \n\n\n\n\n\nDate\n\n\nTitle\n\n\nAuthor\n\n\n\n\n\n\nJul 27, 2025\n\n\nMy new post\n\n\nHarlow Malloc\n\n\n\n\nJul 27, 2025\n\n\nPost With Code\n\n\nHarlow Malloc\n\n\n\n\nJul 24, 2025\n\n\nWelcome To My Blog\n\n\nTristan O’Malley\n\n\n\n\n\nNo matching items"
   },
   {
     "objectID": "blog.html",
@@ -61,5 +47,24 @@
     "title": "Blog",
     "section": "",
     "text": "Bu sayfada kişisel blog yazılarımı ve yorumlarımı bulabilirsiniz.\n\n\n\n\n\n\n   \n     \n     \n       Order By\n       Default\n         \n          Title\n        \n         \n          Date - Oldest\n        \n         \n          Date - Newest\n        \n         \n          Author\n        \n     \n  \n    \n      \n      \n    \n\n\n\n\n\n\n\n\n\n\nYeni\n\n\n\n\n\n\nnews\n\n\n\n\n\n\n\n\n\nJul 24, 2025\n\n\nTristan O’Malley\n\n\n\n\n\n\nNo matching items"
+  },
+  {
+    "objectID": "katki.html",
+    "href": "katki.html",
+    "title": "About",
+    "section": "",
+    "text": "About this blog"
+  },
+  {
+    "objectID": "research/index.html",
+    "href": "research/index.html",
+    "title": "Neden Araştırma Yöntemi Önemli",
+    "section": "",
+    "text": "Hayatın her alanında elde ettiğimiz bilginin doğrulu oldukça kıymetlidir. İsterseniz bilgiye inanın isterseniz bilin ama bir başkasına bildiğinizi ikna etmek istiyorsanız bir yönteminiz olması gerekir. İnsanlar size neden inansın. Bu bilgiye nasıl eriştiğimiz genel kabul gören bazı paradigmaları vardır. Bu derste bu yöntemleri öğrenmeye çalışacağız.",
+    "crumbs": [
+      "Araştırma Yöntemleri",
+      "Genel Giriş",
+      "Neden Araştırma Yöntemi Önemli"
+    ]
   }
 ]
