@@ -9,4 +9,24 @@ listing:
   filter-ui: true
 ---
 
-Bu sayfada kişisel blog yazılarımı ve yorumlarımı bulabilirsiniz.
+> *“Veritatis simplex oratio est” – Hakikatin dili basittir.*
+
+Rapor Blog, karmaşık akademik çalışmaların, ileri düzey tabloların ve kapsamlı görsellerin özünü alıp, veriye dayalı analizleri ve araştırma yöntemlerini herkesin anlayabileceği bir dille sunmayı amaçlar. Uzman ekibimiz akademik deneyimini toplumsal bir üslupla harmanlayarak, derinlemesine incelemeleri sıkıcı jargonlardan arındırır ve okuyucuya en güncel verileri kolay okunabilir içerikler halinde sunar.
+
+## Derin Analizden Gündelik Bilgiye
+
+Web sitemizin “[Analiz](https://kaansevim.github.io/rapor/analizler.html)" ve "[Veri Görsel](https://kaansevim.github.io/rapor/verigorsel.html)” bölümleri, sosyal bilimcilere yönelik ileri düzey analizler, istatistiksel modeller ve görselleştirme yöntemleri sunmayı amaçlarken. Blog sayfamızda bu bilgileri bilen ve özümseyen akademisyenlerimizin sosyal bilim alanında önemli makaleleri hem Türkçeleştirir hem de sade bir magazin formatına dönüştürür.
+
+## Herkes İçin Erişilebilir İçerik
+
+Bu blog sayfası ileri düzey analizlerle yapılmış karmaşık sosyal bilim makalelerini alıp, toplumsal dil ile basitleştirilmiş hâle dönüştürür ve akademik jargonları sadeleştirerek:
+
+-   **Önemli Bulguları** net başlıklarla vurgular,\
+-   **Kavramları** günlük hayattan örneklerle açıklar,\
+-   **Görsellerle sadeleştirerek** kolay kavranır kılar.
+
+## Hedefimiz
+
+Sosyal bilim akademisyenleri başta olmak üzere; bilime meraklı ve ilgi duyan tüm okuyucularımıza açık bir platform sunmaktır. Bilginin hiyerarşisini yıkarak “hakikatin dili”ni basitleştirmek ve böylece bilimsel bakış kültürünü toplumun her kesimine yaymayı amaçlıyoruz.
+
+Rapor Blog’da sizi güncel veriler, iyi tasarlanmış görseller ve net kılavuzlarla dolu bir bilgi yolculuğu bekliyor. Herkes için erişilebilir, her bakışa ilham veren paylaşımlarımıza göz atın!
