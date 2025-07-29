@@ -2,8 +2,14 @@ project:
   type: website
   output-dir: docs
   
+lang: tr
+  
 execute:
     freeze: auto
+    
+comments:
+  giscus:
+    repo: "kaansevim/rapor"
 
 website:
   title: "Rapor"

@@ -13,6 +13,7 @@ about:
     - icon: github
       text: Github
       href: https://github.com/kaansevim/rapor
+comments: false
 ---
 
 Kaan Sevim, [İstanbul Sabahattin Zaim Üniversitesi](https://www.izu.edu.tr/)'nde [Sosyal Hizmet bölümünde](https://www.izu.edu.tr/akademik/fakulteler/saglik-bilimleri-fakultesi/bolumler/sosyal-hizmet/bolum-tanitimi) Dr. Öğretim Üyesi olarak görev yapmaktadır. Uzmanlık alanları arasında göç, yaşlılık, damgalanma, hesaplamalı sosyal bilimler, toplumsal dışlanma ve davranışsal bağımlılık araştırmaları bulunuyor. Ayrıca lisansüstü programlarda ileri düzey araştırma teknikleri ve veri analizi eğitimi vermekte. Uluslararası Göç Örgütü (IOM) ve Uluslararası Göç Politikaları Geliştirme Merkezi (ICMPD) gibi uluslararası kuruluşlarla iş birliği ile göçmenlere yönelik projelerde yer almaktadır. Güncel araştırmaları; ülkesine dönen göçmenlerin motivasyon ve kararlılıklarının analizini yapmak ve nicel verilerle göçmen hareketlerinin dinamiklerini anlamaya yoğunlaşıyor. Hacettepe Üniversitesinde sosyal hizmet lisans, İstanbul Üniversitesinde sosyal hizmet yüksek lisans, İstanbul Üniversitesi-Cerrahpaşa sosyal hizmet doktora derecesine sahip. Ayrıca [Sosyal Çalışma Dergisi](https://dergipark.org.tr/en/pub/scd)’nin baş editörü olarak görev yapmaktadır.

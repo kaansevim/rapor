@@ -7,6 +7,7 @@ listing:
   categories: true
   sort-ui: true
   filter-ui: true
+comments: false
 ---
 
 > *“Veritatis simplex oratio est” – Hakikatin dili basittir.*
@@ -15,7 +16,7 @@ Rapor Blog, karmaşık akademik çalışmaların, ileri düzey tabloların ve ka
 
 ## Derin Analizden Gündelik Bilgiye
 
-Web sitemizin “[Analiz](https://kaansevim.github.io/rapor/analizler.html)" ve "[Veri Görsel](https://kaansevim.github.io/rapor/verigorsel.html)” bölümleri, sosyal bilimcilere yönelik ileri düzey analizler, istatistiksel modeller ve görselleştirme yöntemleri sunmayı amaçlarken. Blog sayfamızda bu bilgileri bilen ve özümseyen akademisyenlerimizin sosyal bilim alanında önemli makaleleri hem Türkçeleştirir hem de sade bir magazin formatına dönüştürür.
+Web sitemizin “[Analiz](https://kaansevim.github.io/rapor/analizler.html)" ve "[Veri Görsel](https://kaansevim.github.io/rapor/verigorsel.html)” bölümleri, sosyal bilimcilere yönelik ileri düzey analizler, istatistiksel modeller ve görselleştirme yöntemleri sunmayı amaçlarken. Blog sayfamızda bu bilgileri bilen ve özümseyen akademisyenlerimiz sosyal bilim alanında önemli makaleleri hem Türkçeleştirir hem de sade bir magazin formatına dönüştürür.
 
 ## Herkes İçin Erişilebilir İçerik
 
@@ -27,6 +28,8 @@ Bu blog sayfası ileri düzey analizlerle yapılmış karmaşık sosyal bilim ma
 
 ## Hedefimiz
 
-Sosyal bilim akademisyenleri başta olmak üzere; bilime meraklı ve ilgi duyan tüm okuyucularımıza açık bir platform sunmaktır. Bilginin hiyerarşisini yıkarak “hakikatin dili”ni basitleştirmek ve böylece bilimsel bakış kültürünü toplumun her kesimine yaymayı amaçlıyoruz.
+Sosyal bilim akademisyenleri başta olmak üzere; bilime meraklı ve ilgi duyan tüm okuyucularımıza açık bir platform sunmaktır. Bilginin hiyerarşisini yıkarak “hakikatin dili”ni basitleştirmek ve böylece bilimsel bakış kültürünü toplumun her kesimine yaymayı amaçlamaktadır.
 
 Rapor Blog’da sizi güncel veriler, iyi tasarlanmış görseller ve net kılavuzlarla dolu bir bilgi yolculuğu bekliyor. Herkes için erişilebilir, her bakışa ilham veren paylaşımlarımıza göz atın!
+
+Eğer bir sosyal bilimciyseniz ve çalışmanızı herkesin anlayabileceği bir dille anlatmak istiyorsanız, sizin yazılarınıza da blogumuzda yer vermekten memnuniyet duyarız.

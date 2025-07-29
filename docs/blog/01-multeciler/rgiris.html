@@ -57,17 +57,17 @@ ul.task-list li input[type="checkbox"] {
   ],
   "show-item-context": false,
   "language": {
-    "search-no-results-text": "Sonuç yok",
+    "search-no-results-text": "Sonuç bulunamadı",
     "search-matching-documents-text": "eşleşen belgeler",
-    "search-copy-link-title": "Aramak için bağlantıyı kopyalayın",
+    "search-copy-link-title": "Arama bağlantısını kopyala",
     "search-hide-matches-text": "Ek eşleşmeleri gizle",
     "search-more-match-text": "bu belgede daha fazla eşleşme",
-    "search-more-matches-text": "bu belgede daha fazla eşleşmeler",
+    "search-more-matches-text": "bu belgede daha fazla eşleşme",
     "search-clear-button-title": "Temizle",
-    "search-text-placeholder": "",
-    "search-detached-cancel-button-title": "İptal et",
-    "search-submit-button-title": "Göndermek",
-    "search-label": "Aramak"
+    "search-text-placeholder": "Ara...",
+    "search-detached-cancel-button-title": "İptal",
+    "search-submit-button-title": "Gönder",
+    "search-label": "Ara"
   }
 }</script>
 
@@ -86,8 +86,8 @@ ul.task-list li input[type="checkbox"] {
     <span class="navbar-title">Rapor</span>
     </a>
   </div>
-            <div id="quarto-search" class="" title="Aramak"></div>
-          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" role="menu" aria-expanded="false" aria-label="Gezinmeyi değiştir" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
+            <div id="quarto-search" class="" title="Ara"></div>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" role="menu" aria-expanded="false" aria-label="Gezintiyi Aç/Kapa" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
   <span class="navbar-toggler-icon"></span>
 </button>
           <div class="collapse navbar-collapse" id="navbarCollapse">
@@ -138,7 +138,7 @@ ul.task-list li input[type="checkbox"] {
 </ul>
           </div> <!-- /navcollapse -->
             <div class="quarto-navbar-tools">
-  <a href="" class="quarto-color-scheme-toggle quarto-navigation-tool  px-1" onclick="window.quartoToggleColorScheme(); return false;" title="Karanlık modu değiştir"><i class="bi"></i></a>
+  <a href="" class="quarto-color-scheme-toggle quarto-navigation-tool  px-1" onclick="window.quartoToggleColorScheme(); return false;" title="Karanlık modu Aç/Kapa"><i class="bi"></i></a>
 </div>
       </div> <!-- /container-fluid -->
     </nav>
@@ -175,7 +175,7 @@ ul.task-list li input[type="checkbox"] {
   </div>
     
     <div>
-    <div class="quarto-title-meta-heading">Yayın Tarihi</div>
+    <div class="quarto-title-meta-heading">Tarih</div>
     <div class="quarto-title-meta-contents">
       <p class="date">24 Temmuz 2025</p>
     </div>
@@ -405,12 +405,12 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
     // flash "checked"
     button.classList.add('code-copy-button-checked');
     var currentTitle = button.getAttribute("title");
-    button.setAttribute("title", "Kopyalandı");
+    button.setAttribute("title", "Kopyalandı!");
     let tooltip;
     if (window.bootstrap) {
       button.setAttribute("data-bs-toggle", "tooltip");
       button.setAttribute("data-bs-placement", "left");
-      button.setAttribute("data-bs-title", "Kopyalandı");
+      button.setAttribute("data-bs-title", "Kopyalandı!");
       tooltip = new bootstrap.Tooltip(button, 
         { trigger: "manual", 
           customClass: "code-copy-button-tooltip",
@@ -782,6 +782,10 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
   }
 });
 </script>
+<script src="https://giscus.app/client.js" data-repo="kaansevim/rapor" data-repo-id="R_kgDOPT95Nw" data-category="General" data-category-id="DIC_kwDOPT95N84CtjTn" data-mapping="title" data-reactions-enabled="1" data-emit-metadata="0" data-input-position="top" data-theme="light" data-lang="en" crossorigin="anonymous" async="">
+</script>
+<input type="hidden" id="giscus-base-theme" value="light">
+<input type="hidden" id="giscus-alt-theme" value="dark">
 </div> <!-- /content -->
 <footer class="footer">
   <div class="nav-footer">

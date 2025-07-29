@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="tr" xml:lang="tr"><head>
 
 <meta charset="utf-8">
 <meta name="generator" content="quarto-1.5.57">
@@ -55,17 +55,17 @@ ul.task-list li input[type="checkbox"] {
   ],
   "show-item-context": false,
   "language": {
-    "search-no-results-text": "No results",
-    "search-matching-documents-text": "matching documents",
-    "search-copy-link-title": "Copy link to search",
-    "search-hide-matches-text": "Hide additional matches",
-    "search-more-match-text": "more match in this document",
-    "search-more-matches-text": "more matches in this document",
-    "search-clear-button-title": "Clear",
-    "search-text-placeholder": "",
-    "search-detached-cancel-button-title": "Cancel",
-    "search-submit-button-title": "Submit",
-    "search-label": "Search"
+    "search-no-results-text": "Sonuç bulunamadı",
+    "search-matching-documents-text": "eşleşen belgeler",
+    "search-copy-link-title": "Arama bağlantısını kopyala",
+    "search-hide-matches-text": "Ek eşleşmeleri gizle",
+    "search-more-match-text": "bu belgede daha fazla eşleşme",
+    "search-more-matches-text": "bu belgede daha fazla eşleşme",
+    "search-clear-button-title": "Temizle",
+    "search-text-placeholder": "Ara...",
+    "search-detached-cancel-button-title": "İptal",
+    "search-submit-button-title": "Gönder",
+    "search-label": "Ara"
   }
 }</script>
 
@@ -84,8 +84,8 @@ ul.task-list li input[type="checkbox"] {
     <span class="navbar-title">Rapor</span>
     </a>
   </div>
-            <div id="quarto-search" class="" title="Search"></div>
-          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" role="menu" aria-expanded="false" aria-label="Toggle navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
+            <div id="quarto-search" class="" title="Ara"></div>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" role="menu" aria-expanded="false" aria-label="Gezintiyi Aç/Kapa" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
   <span class="navbar-toggler-icon"></span>
 </button>
           <div class="collapse navbar-collapse" id="navbarCollapse">
@@ -136,7 +136,7 @@ ul.task-list li input[type="checkbox"] {
 </ul>
           </div> <!-- /navcollapse -->
             <div class="quarto-navbar-tools">
-  <a href="" class="quarto-color-scheme-toggle quarto-navigation-tool  px-1" onclick="window.quartoToggleColorScheme(); return false;" title="Toggle dark mode"><i class="bi"></i></a>
+  <a href="" class="quarto-color-scheme-toggle quarto-navigation-tool  px-1" onclick="window.quartoToggleColorScheme(); return false;" title="Karanlık modu Aç/Kapa"><i class="bi"></i></a>
 </div>
       </div> <!-- /container-fluid -->
     </nav>
@@ -145,11 +145,17 @@ ul.task-list li input[type="checkbox"] {
 <div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-full page-navbar">
 <!-- sidebar -->
 <!-- margin-sidebar -->
-    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar zindex-bottom">
-        
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
+        <nav id="TOC" role="doc-toc" class="toc-active">
+    <h2 id="toc-title">Bu sayfada</h2>
+   
+  <ul>
+  <li><a href="#neden-r-programlama-dili" id="toc-neden-r-programlama-dili" class="nav-link active" data-scroll-target="#neden-r-programlama-dili">Neden R Programlama Dili</a></li>
+  </ul>
+</nav>
     </div>
 <!-- main -->
-<main class="content column-page" id="quarto-document-content">
+<main class="content column-page-left" id="quarto-document-content">
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
@@ -158,7 +164,7 @@ ul.task-list li input[type="checkbox"] {
 
 
 
-<div class="quarto-title-meta column-page">
+<div class="quarto-title-meta column-page-left">
 
     
   
@@ -171,23 +177,24 @@ ul.task-list li input[type="checkbox"] {
 
 
 <p>Merhaba, Rapor sitesi sosyal bilimlerde veriyle düşünen, üreten ve paylaşan herkes için açık bir öğrenme alanı olması için tasarlanmıştır.</p>
-<p>R programlama dili, istatistiksel analizlerin ötesinde; görselleştirme, raporlama, içerik analizi ve etkileşimli dashboard üretiminde ve daha pek çok alanda güçlü ve <strong>ücretsiz</strong> bir araç olarak sosyal bilimcilerin vazgeçilmezi haline gelmiştir.</p>
-<p>Türkiye’de, özellikle sosyal bilimlerde veri analizi çoğunlukla SPSS gibi paket programlara yürütülmektedir. Elbetteki SPSS oldukça güçlü bir yapısı ve nispeten kolay bir arayüzü bulunmaktadır. Ama ileri düzey analizler yapmak istediğinizde veya verinizi iyi bir şekilde görselleştirmek istediğinizde veya analiz öncesi formül girmeniz gerektiğinde zorlayıcı olabilmektedir. Bunların da ötesinde R tek bir kodla tüm Tablo veya Görselinizi verebilmektedir. Yani farklı analiz türlerinde etkili olduğu kadar aynı zamanda da size hız katmaktadır. Hız katmaktan da daha güzel bir şey varsa o da sonrasında yapıtğınız tüm analizleri okyabilmeniz ve başklarının yapıtğı analizleri açık kaynak takip edebilmenizdir. Yani bir SPSS analizi yaparken dönüp dönüp Youtube videosundan bakmak yerine hazır kodlarınız ve dökümanlarınızı düzenli bir şekilde kullanabilirsiniz. Günümüz dünyasında artık veri daha karmaşık, sorular daha derin ve cevaplar daha çok yönlü. Bu noktada <strong>R dili</strong>, bize yepyeni kapılar açıyor:<br>
-</p>
+<p>Bu sitenin 4 temel amacı bulunmaktadır. Sosyal bilimcilerin ortak olarak kullanabileceği bir <a href="https://kaansevim.github.io/rapor/analizler.html"><code>Analiz</code></a> içeriği oluşturabilmek; makalelerini daha etkili sunuma dönüştürebilecek <a href="https://kaansevim.github.io/rapor/verigorsel.html"><code>Veri Görsel</code></a> içeriği oluşturabilmek; yayınlanan önemli makalelelerin içeriğini günlük dil ile tüm okuyuculara sunabilecek bir <a href="https://kaansevim.github.io/rapor/blog.html"><code>Blog</code></a> içeriği oluşturabilmek; ve son olarak da R programı temelinde tüm Türkiye’de kullanılabilecek kaliteli bir <a href="https://kaansevim.github.io/rapor/research/"><code>Araştırma Yöntemi</code></a> içeriği oluşturabillmektir.</p>
+<section id="neden-r-programlama-dili" class="level2">
+<h2 data-anchor-id="neden-r-programlama-dili">Neden R Programlama Dili</h2>
+<p>R programlama dili, istatistiksel analizlerin ötesinde; görselleştirme, raporlama, içerik analizi, etkileşimli dashboardlar, blog ve websitesi üretiminde ve daha pek çok alanda güçlü ve <strong>ücretsiz</strong> bir araç olarak sosyal bilimcilerin vazgeçilmezi haline gelmiştir.</p>
+<p>Türkiye’de, özellikle sosyal bilimlerde veri analizi çoğunlukla SPSS gibi paket programlara yürütülmektedir. Elbetteki SPSS oldukça güçlü bir yapısı ve nispeten kolay bir arayüzü bulunmaktadır. Ama hem paralıdır hem de ileri düzey analizler yapmak istediğinizde veya verinizi iyi bir şekilde görselleştirmek istediğinizde veya analiz öncesi formül girmeniz gerektiğinde zorlayıcı olabilmektedir. Bunların da ötesinde R tek bir kodla tüm Tablo veya Görselinizi verebilmektedir. Yani farklı analiz türlerinde etkili olduğu kadar aynı zamanda da size hız katmaktadır. Hız katmaktan da daha güzel bir şey varsa o da sonrasında yapıtğınız tüm analizleri okyabilmeniz ve başklarının yapıtğı analizleri açık kaynak takip edebilmenizdir. Yani bir SPSS analizi yaparken dönüp dönüp Youtube videosundan bakmak yerine hazır kodlarınız ve dökümanlarınızı düzenli bir şekilde kullanabilirsiniz. Günümüz dünyasında artık veri daha karmaşık, sorular daha derin ve cevaplar daha çok yönlü. Bu noktada <strong>R dili</strong>, bize yepyeni kapılar açıyor:</p>
 <ul>
 <li><p><strong>Kod temelli analizlerin tekrarlanabilirliği</strong>,</p></li>
 <li><p><strong>Daha gelişmiş modelleme olanakları</strong>,</p></li>
 <li><p><strong>Etkileyici grafikler ve interaktif raporlar</strong>,</p></li>
-<li><p>Ve en önemlisi: <strong>paylaşılabilir, şeffaf bilimsel üretim</strong>.</p></li>
+<li><p>Ve en önemlisi: <strong>paylaşılabilir, şeffaf, açık erişim bilimsel üretim</strong>.</p></li>
 </ul>
-<p>Bu blogda hem kendi yazılarımı hem de sizlerden gelecek içerikleri paylaşmayı amaçlıyorum. Amacımız; sosyal bilimler alanında R ile çalışan, çalışmak isteyen ya da sadece merak eden herkes için bir kaynak oluşturmak. Düzenli olarak içeriklerin düzenlenmesi ve güncel güvenilir bir içerik üretebilmek için bu sayfayı geliştirmek adına Github üzerinden destek olmak isterseniz benimle iletişime geçmekten çekinmeyin lütfen.</p>
-<p>📢 Eğer sizin de R ile yaptığınız analizler, geliştirdiğiniz görselleştirmeler veya öğrenecek-öğretecek fikirleriniz varsa, katkılarınızı <strong>memnuniyetle yayınlamak isterim</strong>.</p>
-<p>Birlikte öğrenelim, birlikte üretelim!<br>
-💻📊📚</p>
-<p>Yazılar için <a href="./analizler.html">Analizler</a> bölümüne göz atabilirsiniz.</p>
+<p>Bu blogda hem kendi yazılarımızı hem de sizlerden gelecek içerikleri paylaşmayı amaçlıyoruz. Amacımız; sosyal bilimler alanında R ile çalışan, çalışmak isteyen ya da sadece merak eden herkes için bir kaynak oluşturmaktır. Düzenli olarak içeriklerin düzenlenmesi ve güncel güvenilir bir içerik üretebilmek için bu sayfayı geliştirmek adına Github üzerinden destek olmak isterseniz bizlerle iletişime geçmekten asla çekinmeyin Lütfen…</p>
+<p>📢 Eğer sizin de R ile yaptığınız analizler, geliştirdiğiniz görselleştirmeler veya öğrenecek-öğretecek fikirleriniz varsa, katkılarınızı <strong>memnuniyetle yayınlamak isteriz</strong>.</p>
+<p>Birlikte öğrenelim, birlikte üretelim!</p>
 <p><img src="logo.png" class="img-fluid" width="84"></p>
 
 
+</section>
 
 </main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
@@ -370,12 +377,12 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
     // flash "checked"
     button.classList.add('code-copy-button-checked');
     var currentTitle = button.getAttribute("title");
-    button.setAttribute("title", "Copied!");
+    button.setAttribute("title", "Kopyalandı!");
     let tooltip;
     if (window.bootstrap) {
       button.setAttribute("data-bs-toggle", "tooltip");
       button.setAttribute("data-bs-placement", "left");
-      button.setAttribute("data-bs-title", "Copied!");
+      button.setAttribute("data-bs-title", "Kopyalandı!");
       tooltip = new bootstrap.Tooltip(button, 
         { trigger: "manual", 
           customClass: "code-copy-button-tooltip",

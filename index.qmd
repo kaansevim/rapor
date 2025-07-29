@@ -5,13 +5,26 @@ title-block-banner: false
 format:
   html:
     anchor-sections: false
+comments: false
 ---
 
 Merhaba, Rapor sitesi sosyal bilimlerde veriyle düşünen, üreten ve paylaşan herkes için açık bir öğrenme alanı olması için tasarlanmıştır.
 
-R programlama dili, istatistiksel analizlerin ötesinde; görselleştirme, raporlama, içerik analizi ve etkileşimli dashboard üretiminde ve daha pek çok alanda güçlü ve **ücretsiz** bir araç olarak sosyal bilimcilerin vazgeçilmezi haline gelmiştir.
+Bu sitenin 4 temel amacı bulunmaktadır:
 
-Türkiye’de, özellikle sosyal bilimlerde veri analizi çoğunlukla SPSS gibi paket programlara yürütülmektedir. Elbetteki SPSS oldukça güçlü bir yapısı ve nispeten kolay bir arayüzü bulunmaktadır. Ama ileri düzey analizler yapmak istediğinizde veya verinizi iyi bir şekilde görselleştirmek istediğinizde veya analiz öncesi formül girmeniz gerektiğinde zorlayıcı olabilmektedir. Bunların da ötesinde R tek bir kodla tüm Tablo veya Görselinizi verebilmektedir. Yani farklı analiz türlerinde etkili olduğu kadar aynı zamanda da size hız katmaktadır. Hız katmaktan da daha güzel bir şey varsa o da sonrasında yapıtğınız tüm analizleri okyabilmeniz ve başklarının yapıtğı analizleri açık kaynak takip edebilmenizdir. Yani bir SPSS analizi yaparken dönüp dönüp Youtube videosundan bakmak yerine hazır kodlarınız ve dökümanlarınızı düzenli bir şekilde kullanabilirsiniz. Günümüz dünyasında artık veri daha karmaşık, sorular daha derin ve cevaplar daha çok yönlü. Bu noktada **R dili**, bize yepyeni kapılar açıyor:\
+i.  Sosyal bilimcilerin ortak olarak kullanabileceği bir [`Analiz`](https://kaansevim.github.io/rapor/analizler.html) içeriği oluşturabilmek;
+
+ii. Makalelerini daha etkili sunuma dönüştürebilecek [`Veri Görsel`](https://kaansevim.github.io/rapor/verigorsel.html) içeriği oluşturabilmek;
+
+iii. Yayınlanan önemli makalelelerin içeriğini günlük dil ile tüm okuyuculara sunabilecek bir [`Blog`](https://kaansevim.github.io/rapor/blog.html) içeriği oluşturabilmek;
+
+iv. Ve son olarak da R programı temelinde tüm Türkiye'de kullanılabilecek kaliteli bir [`Araştırma Yöntemi`](https://kaansevim.github.io/rapor/research/) içeriği oluşturabillmektir.
+
+## Neden R Programlama Dili
+
+R programlama dili, istatistiksel analizlerin ötesinde; görselleştirme, raporlama, içerik analizi, etkileşimli dashboardlar, blog ve websitesi üretiminde ve daha pek çok alanda güçlü ve **ücretsiz** bir araç olarak sosyal bilimcilerin vazgeçilmezi haline gelmiştir.
+
+Türkiye’de, özellikle sosyal bilimlerde veri analizi çoğunlukla SPSS gibi paket programlara yürütülmektedir. Elbetteki SPSS oldukça güçlü bir yapısı ve nispeten kolay bir arayüzü bulunmaktadır. Ama hem paralıdır hem de ileri düzey analizler yapmak istediğinizde veya verinizi iyi bir şekilde görselleştirmek istediğinizde veya analiz öncesi formül girmeniz gerektiğinde zorlayıcı olabilmektedir. Bunların da ötesinde R tek bir kodla tüm Tablo veya Görselinizi verebilmektedir. Yani farklı analiz türlerinde etkili olduğu kadar aynı zamanda da size hız katmaktadır. Hız katmaktan da daha güzel bir şey varsa o da sonrasında yapıtğınız tüm analizleri okyabilmeniz ve başklarının yapıtğı analizleri açık kaynak takip edebilmenizdir. Yani bir SPSS analizi yaparken dönüp dönüp Youtube videosundan bakmak yerine hazır kodlarınız ve dökümanlarınızı düzenli bir şekilde kullanabilirsiniz. Günümüz dünyasında artık veri daha karmaşık, sorular daha derin ve cevaplar daha çok yönlü. Bu noktada **R dili**, bize yepyeni kapılar açıyor:
 
 -   **Kod temelli analizlerin tekrarlanabilirliği**,
 
@@ -19,15 +32,12 @@ Türkiye’de, özellikle sosyal bilimlerde veri analizi çoğunlukla SPSS gibi 
 
 -   **Etkileyici grafikler ve interaktif raporlar**,
 
--   Ve en önemlisi: **paylaşılabilir, şeffaf bilimsel üretim**.
+-   Ve en önemlisi: **paylaşılabilir, şeffaf, açık erişim bilimsel üretim**.
 
-Bu blogda hem kendi yazılarımı hem de sizlerden gelecek içerikleri paylaşmayı amaçlıyorum. Amacımız; sosyal bilimler alanında R ile çalışan, çalışmak isteyen ya da sadece merak eden herkes için bir kaynak oluşturmak. Düzenli olarak içeriklerin düzenlenmesi ve güncel güvenilir bir içerik üretebilmek için bu sayfayı geliştirmek adına Github üzerinden destek olmak isterseniz benimle iletişime geçmekten çekinmeyin lütfen.
+Bu blogda hem kendi yazılarımızı hem de sizlerden gelecek içerikleri paylaşmayı amaçlıyoruz. Amacımız; sosyal bilimler alanında R ile çalışan, çalışmak isteyen ya da sadece merak eden herkes için bir kaynak oluşturmaktır. Düzenli olarak içeriklerin düzenlenmesi ve güncel güvenilir bir içerik üretebilmek için bu sayfayı geliştirmek adına Github üzerinden destek olmak isterseniz bizlerle iletişime geçmekten asla çekinmeyin Lütfen...
 
-📢 Eğer sizin de R ile yaptığınız analizler, geliştirdiğiniz görselleştirmeler veya öğrenecek-öğretecek fikirleriniz varsa, katkılarınızı **memnuniyetle yayınlamak isterim**.
+📢 Eğer sizin de R ile yaptığınız analizler, geliştirdiğiniz görselleştirmeler veya öğrenecek-öğretecek fikirleriniz varsa, katkılarınızı **memnuniyetle yayınlamak isteriz**.
 
-Birlikte öğrenelim, birlikte üretelim!\
-💻📊📚
-
-Yazılar için [Analizler](analizler.qmd) bölümüne göz atabilirsiniz.
+Birlikte öğrenelim, birlikte üretelim!
 
 ![](logo.png){width="84"}

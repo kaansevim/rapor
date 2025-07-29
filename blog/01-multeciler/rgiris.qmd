@@ -1,14 +1,6 @@
 ---
 title: "Mültecilik Tüm Toplumların Sorunu Mu?"
 lang: tr
-language:
-  # Başlık bloklarındaki yazar ve yayınlandığı tarih etiketleri
-  title-block-author-single: "Yazar"
-  title-block-author-plural: "Yazarlar"
-  title-block-published: "Yayın Tarihi"
-  # Listeleme sayfalarında görünen alan etiketleri
-  listing-author: "Yazar"
-  listing-date: "Tarih"
 author: "Dr. Kaan Sevim"
 date: "2025-07-24"
 categories: [mülteci, sınırlar, sosyal uyum]
