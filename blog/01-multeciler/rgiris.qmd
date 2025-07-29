@@ -4,16 +4,17 @@ lang: tr
 author: "Dr. Kaan Sevim"
 date: "2025-07-24"
 categories: [mülteci, sınırlar, sosyal uyum]
+bibliography: references.bib
 ---
 
-Dünya’da mülteci sayısının artmasıyla beraber hep negatif algıların ortaya çıktığı neredeyse tartışılmaz bir gerçek haline gelmiştir. Her ne olursa olsun yerel halk ile çatışma çıkaracakları, uyum sorunu yaşayacakları ya da yerel toplumun ekonomisini oldukça kötü etkileyeceğinden dolayı toplumsal bir nefret objesine de dönüştükleri görülmektedir. İklim krizleri, siyasi olaylar, savaşlar ve daha pek çok sebeplerle insanlar zorla yerinden edilmek zorunda kalmaktadır. Bu da çevre ülkelerde veya gelişmiş ülkeler üzerinde bir korku ve stres yaratmaya ve sınırları daha fazla kalınlaştırarak her yere duvarlar örnemeye itmiştir. Hatta belki de trajikomiktir Berlin duvarı (1989) yıkıldıktan sonra dünyanın küreselleşmeye doğru gidildiği söylenirken o tarihlerde dünyada yalnızca 6 tane duvar varmış. Fakat o tarihten bugüne duvar sayıları sürekli artarak devam etmiş 2018 yılında 63 günümüzde ise 70’i aşmış durumda ve hala artarak devam etmekte.
+Dünya’da mülteci sayısının artmasıyla beraber hep negatif algıların ortaya çıktığı neredeyse tartışılmaz bir gerçek haline gelmiştir. Her ne olursa olsun yerel halk ile çatışma çıkaracakları, uyum sorunu yaşayacakları ya da yerel toplumun ekonomisini oldukça kötü etkileyeceğinden dolayı toplumsal bir nefret objesine de dönüştükleri görülmektedir. İklim krizleri, siyasi olaylar, savaşlar ve daha pek çok sebeplerle insanlar zorla yerinden edilmek zorunda kalmaktadır. Bu da çevre ülkelerde veya gelişmiş ülkeler üzerinde bir korku ve stres yaratmaya ve sınırları daha fazla kalınlaştırarak her yere duvarlar örnemeye itmiştir. Hatta belki de trajikomiktir Berlin duvarı (1989) yıkıldıktan sonra dünyanın küreselleşmeye doğru gidildiği söylenirken o tarihlerde dünyada yalnızca 6 tane duvar varmış. Fakat o tarihten bugüne duvar sayıları sürekli artarak devam etmiş 2018 yılında 63 günümüzde ise 70’i aşmış durumda ve hala artarak devam etmekte [@ruiz2018].
 
 ```{r}
 #| echo: false
 #| results: hide
 #| message: false
 #| warning: false
-#| fig-cap: "Şekil 1 Dünyadaki Sınır Duvarları"
+#| fig-cap: "Şekil 1. Dünyadaki Sınır Duvarları"
 library(readxl)
 library(dplyr)
 library(ggplot2)
@@ -65,7 +66,7 @@ ggplot(walls_cum, aes(x = Year, y = Cumulative)) +
 
 Yani anlaşıldığı üzere dünyada herkes daha çok kendi kabuğuna çekilme ve daha fazla yabancıdan korkmaya başlamıştır. Fakat bu durum gerçekten dünyanın her bölgesinde ve her kesiminde aynı bakış açısıyla mı değerlendiriliyor?
 
-Tam bu noktada Zhou, Grossman ve Ge (2023) bu konuda gerçekten güzel bir çalışma ortaya koymuşlar.
+Tam bu noktada Zhou, Grossman ve Ge (2023) bu konuda gerçekten güzel bir çalışma ortaya koymuşlar [@zhou2023].
 
 Bu çalışma, mülteci akınlarının farklı gelir gruplarındaki ülkelerde nasıl farklı yansımaları olabileceğine ışık tutuyor. Yüksek ve üst‑orta gelirli ülkelerde (HMIC’ler), mülteci varlığı genellikle kısıtlayıcı sığınma politikalarına desteği ve aşırı sağ partilere yönelimi artırıyor. Yani bir anlamda toplum daha fazla konsolide oluyor ve yabancılara karşı dışlayıcı tutum sergileyebiliyor.
 
