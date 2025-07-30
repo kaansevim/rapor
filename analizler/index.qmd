@@ -1,7 +1,7 @@
 ---
 title: "Analizler"
 listing:
-  contents: analizler
+  contents: post
   sort: "date desc"
   type: table
   categories: true

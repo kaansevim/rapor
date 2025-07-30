@@ -40,4 +40,4 @@ Bu blogda hem kendi yazılarımızı hem de sizlerden gelecek içerikleri payla�
 
 Birlikte öğrenelim, birlikte üretelim!
 
-![](logo.png){width="84"}
+![](images/logo.png){width="84"}

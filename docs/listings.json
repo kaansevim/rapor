@@ -1,16 +1,16 @@
 [
   {
-    "listing": "/blog.html",
+    "listing": "/analizler/index.html",
     "items": [
-      "/blog/01-multeciler/rgiris.html"
+      "/analizler/post/01-one-sample/index.html",
+      "/analizler/post/post-with-code/index.html",
+      "/analizler/post/welcome/index.html"
     ]
   },
   {
-    "listing": "/analizler.html",
+    "listing": "/blog/index.html",
     "items": [
-      "/analizler/my-new-post/index.html",
-      "/analizler/post-with-code/index.html",
-      "/analizler/welcome/index.html"
+      "/blog/01-multeciler/rgiris.html"
     ]
   }
 ]

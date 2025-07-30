@@ -5,3 +5,17 @@ comments: false
 ---
 
 Verileri daha iyi anlayabilmek ve onları sunabilmek için verileri iyi bir şekilde görselleştirmekte oldukça önemli hale gelmeye başlamıştır. Bu noktoda veri görselleştirmesi için kolay ve hızlı uyarlanabilir veri paketleri burada blog yazısı olarak ele alınacaktır.
+
+::: columns
+::: column
+[![](/images/logo2.png){width="50%" title="Bar Chart"}](post/01-boxplot.html){title="Bar Chart"}
+:::
+
+::: column
+[![](/images/logo2.png){width="50%" title="Line Chart"}](line-chart.html){title="Line Chart"}
+:::
+
+::: column
+[![](/images/logo2.png){width="25%" title="Pie Chart"}](pie-chart.html){title="Pie Chart"}
+:::
+:::

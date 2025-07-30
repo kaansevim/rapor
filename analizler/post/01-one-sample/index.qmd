@@ -1,6 +1,6 @@
 ---
 title: "My new post"
-author: "Harlow Malloc"
+author: "Kaan Sevim"
 date: "2025-07-27"
 categories: [news, code, araştırma]
 image: "image.jpg"

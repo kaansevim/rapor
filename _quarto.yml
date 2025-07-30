@@ -22,11 +22,11 @@ website:
       - text: "Ana Sayfa"
         href: index.qmd
       - text: "Analizler"
-        href: analizler.qmd
+        file: analizler/index.qmd
       - text: "Veri Görsel"
-        href: verigorsel.qmd
+        file: verigorsel/index.qmd
       - text: "Blog"
-        href: blog.qmd
+        file: blog/index.qmd
       - text: "Araştırma Yöntemleri"
         file: research/index.qmd
       - text: "Katkı"
