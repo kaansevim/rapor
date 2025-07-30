@@ -1,0 +1,8 @@
+---
+title: "Lollipop Chart"
+lang: tr
+author: "Dr. Kaan Sevim"
+date: "2025-07-24"
+categories: [Sıralama]
+image: "../images/rankimages/lollipop_icon.svg"
+---

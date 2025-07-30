@@ -1,0 +1,9 @@
+---
+title: "Ordered Column Chart"
+lang: tr
+author: "Kaan Sevim"
+date: "2025-07-24"
+categories: [Sıralama]
+image: "../images/rankimages/column_ordered_icon.svg"
+---
+

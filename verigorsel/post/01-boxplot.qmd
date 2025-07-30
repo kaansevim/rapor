@@ -1,5 +1,0 @@
----
-title: "Kutu Grafikleri"
-format: html
----
-

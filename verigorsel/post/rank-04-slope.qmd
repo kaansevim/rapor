@@ -1,0 +1,9 @@
+---
+title: "Slope Chart"
+lang: tr
+author: "Kaan Sevim"
+date: "2025-07-24"
+categories: [Sıralama]
+image: "../images/rankimages/slope_icon.svg"
+---
+

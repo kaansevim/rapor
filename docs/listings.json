@@ -1,16 +1,25 @@
 [
   {
-    "listing": "/analizler/index.html",
+    "listing": "/verigorsel/index.html",
     "items": [
-      "/analizler/post/01-one-sample/index.html",
-      "/analizler/post/post-with-code/index.html",
-      "/analizler/post/welcome/index.html"
+      "/verigorsel/post/rank-01-lollipop.html",
+      "/verigorsel/post/rank-02-ordered.html",
+      "/verigorsel/post/rank-03-ordered-column.html",
+      "/verigorsel/post/rank-04-slope.html"
     ]
   },
   {
     "listing": "/blog/index.html",
     "items": [
       "/blog/01-multeciler/rgiris.html"
+    ]
+  },
+  {
+    "listing": "/analizler/index.html",
+    "items": [
+      "/analizler/post/01-one-sample/index.html",
+      "/analizler/post/post-with-code/index.html",
+      "/analizler/post/welcome/index.html"
     ]
   }
 ]
