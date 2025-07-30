@@ -12,11 +12,11 @@ Merhaba, Rapor sitesi sosyal bilimlerde veriyle düşünen, üreten ve paylaşan
 
 Bu sitenin 4 temel amacı bulunmaktadır:
 
-i.  Sosyal bilimcilerin ortak olarak kullanabileceği bir [`Analiz`](https://kaansevim.github.io/rapor/analizler.html) içeriği oluşturabilmek;
+i.  Sosyal bilimcilerin ortak olarak kullanabileceği bir [`Analiz`](https://kaansevim.github.io/rapor/analizler/) içeriği oluşturabilmek;
 
-ii. Makalelerini daha etkili sunuma dönüştürebilecek [`Veri Görsel`](https://kaansevim.github.io/rapor/verigorsel.html) içeriği oluşturabilmek;
+ii. Makalelerini daha etkili sunuma dönüştürebilecek [`Veri Görsel`](https://kaansevim.github.io/rapor/verigorsel/) içeriği oluşturabilmek;
 
-iii. Yayınlanan önemli makalelelerin içeriğini günlük dil ile tüm okuyuculara sunabilecek bir [`Blog`](https://kaansevim.github.io/rapor/blog.html) içeriği oluşturabilmek;
+iii. Yayınlanan önemli makalelelerin içeriğini günlük dil ile tüm okuyuculara sunabilecek bir [`Blog`](https://kaansevim.github.io/rapor/blog/) içeriği oluşturabilmek;
 
 iv. Ve son olarak da R programı temelinde tüm Türkiye'de kullanılabilecek kaliteli bir [`Araştırma Yöntemi`](https://kaansevim.github.io/rapor/research/) içeriği oluşturabillmektir.
 
@@ -24,7 +24,7 @@ iv. Ve son olarak da R programı temelinde tüm Türkiye'de kullanılabilecek ka
 
 R programlama dili, istatistiksel analizlerin ötesinde; görselleştirme, raporlama, içerik analizi, etkileşimli dashboardlar, blog ve websitesi üretiminde ve daha pek çok alanda güçlü ve **ücretsiz** bir araç olarak sosyal bilimcilerin vazgeçilmezi haline gelmiştir.
 
-Türkiye’de, özellikle sosyal bilimlerde veri analizi çoğunlukla SPSS gibi paket programlara yürütülmektedir. Elbetteki SPSS oldukça güçlü bir yapısı ve nispeten kolay bir arayüzü bulunmaktadır. Ama hem paralıdır hem de ileri düzey analizler yapmak istediğinizde veya verinizi iyi bir şekilde görselleştirmek istediğinizde veya analiz öncesi formül girmeniz gerektiğinde zorlayıcı olabilmektedir. Bunların da ötesinde R tek bir kodla tüm Tablo veya Görselinizi verebilmektedir. Yani farklı analiz türlerinde etkili olduğu kadar aynı zamanda da size hız katmaktadır. Hız katmaktan da daha güzel bir şey varsa o da sonrasında yapıtğınız tüm analizleri okyabilmeniz ve başklarının yapıtğı analizleri açık kaynak takip edebilmenizdir. Yani bir SPSS analizi yaparken dönüp dönüp Youtube videosundan bakmak yerine hazır kodlarınız ve dökümanlarınızı düzenli bir şekilde kullanabilirsiniz. Günümüz dünyasında artık veri daha karmaşık, sorular daha derin ve cevaplar daha çok yönlü. Bu noktada **R dili**, bize yepyeni kapılar açıyor:
+Türkiye’de, özellikle sosyal bilimlerde veri analizi çoğunlukla SPSS gibi paket programlara yürütülmektedir. Elbetteki SPSS oldukça güçlü bir yapısı ve nispeten kolay bir arayüzü bulunmaktadır. Ama hem paralıdır hem de ileri düzey analizler yapmak istediğinizde veya verinizi iyi bir şekilde görselleştirmek istediğinizde veya analiz öncesi formül girmeniz gerektiğinde zorlayıcı olabilmektedir. Bunların da ötesinde R tek bir kodla tüm Tablo veya Görselinizi verebilmektedir. Yani farklı analiz türlerinde etkili olduğu kadar aynı zamanda da size hız katmaktadır. Hız katmaktan da daha güzel bir şey varsa o da sonrasında yapıtğınız tüm analizleri okuyabilmeniz ve başklarının yapıtğı analizleri açık kaynak takip edebilmenizdir. Yani bir SPSS analizi yaparken dönüp dönüp Youtube videosundan bakmak yerine hazır kodlarınız ve dökümanlarınızı düzenli bir şekilde kullanabilirsiniz. Günümüz dünyasında artık veri daha karmaşık, sorular daha derin ve cevaplar daha çok yönlü. Bu noktada **R dili**, bize yepyeni kapılar açıyor:
 
 -   **Kod temelli analizlerin tekrarlanabilirliği**,
 

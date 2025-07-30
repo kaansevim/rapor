@@ -1,7 +1,7 @@
 ---
 title: "Ordered Bar Chart"
 lang: tr
-author: "Dr. Kaan Sevim"
+author: "Kaan Sevim"
 date: "2025-07-24"
 categories: [Sıralama]
 image: "../images/rankimages/bar_ordered_icon.svg"
