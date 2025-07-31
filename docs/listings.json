@@ -2,6 +2,10 @@
   {
     "listing": "/verigorsel/index.html",
     "items": [
+      "/verigorsel/post/cor-01-bubble.html",
+      "/verigorsel/post/cor-02-heatmap.html",
+      "/verigorsel/post/cor-03-scatterplot-connect.html",
+      "/verigorsel/post/cor-04-scatter.html",
       "/verigorsel/post/rank-01-lollipop.html",
       "/verigorsel/post/rank-02-ordered.html",
       "/verigorsel/post/rank-03-ordered-column.html",

@@ -63,3 +63,19 @@ iframe.slide-deck {
   padding: 0.15em 0.5em;
   border-radius: 2px;
 }
+
+/* 1. Kartın üst kısmındaki img kapsayıcısını flex konteyner yap */
+.quarto-grid-item p.card-img-top {
+  height: 160px;               /* Front-matter’daki image-height ile eşleşebilir */
+  display: flex;               
+  justify-content: center;     /* Yatay ortala */
+  align-items: center;         /* Dikey ortala */
+}
+
+/* 2. İkonu kapsayıcıya orantılı sığdır */
+.quarto-grid-item p.card-img-top > img {
+  max-height: 80%;            /* Kapsayıcı yüksekliğini aşma */
+  width: auto;                 /* Oran korunsun */
+  object-fit: contain;         /* Kırpma yerine sığdır */
+  object-position: center;     /* Nesnenin kendisi de tam ortalanmış olsun */ 
+}

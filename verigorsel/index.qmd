@@ -1,5 +1,5 @@
 ---
-title: "Analizler"
+title: "Veri Görselleştirme"
 listing:
   contents: post
   sort: "date desc"
@@ -7,6 +7,8 @@ listing:
   categories: true
   sort-ui: true
   filter-ui: true
+  grid-columns: 4
+  grid-item-align: center
 comments: false
 toc-title: Temalar
 ---

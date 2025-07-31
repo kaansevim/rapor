@@ -7,7 +7,7 @@ categories: [mülteci, sınırlar, sosyal uyum]
 bibliography: references.bib
 ---
 
-Dünya’da mülteci sayısının artmasıyla beraber hep negatif algıların ortaya çıktığı neredeyse tartışılmaz bir gerçek haline gelmiştir. Her ne olursa olsun yerel halk ile çatışma çıkaracakları, uyum sorunu yaşayacakları ya da yerel toplumun ekonomisini oldukça kötü etkileyeceğinden dolayı toplumsal bir nefret objesine de dönüştükleri görülmektedir. İklim krizleri, siyasi olaylar, savaşlar ve daha pek çok sebeplerle insanlar zorla yerinden edilmek zorunda kalmaktadır. Bu da çevre ülkelerde veya gelişmiş ülkeler üzerinde bir korku ve stres yaratmaya ve sınırları daha fazla kalınlaştırarak her yere duvarlar örnemeye itmiştir. Hatta belki de trajikomiktir Berlin duvarı (1989) yıkıldıktan sonra dünyanın küreselleşmeye doğru gidildiği söylenirken o tarihlerde dünyada yalnızca 6 tane duvar varmış. Fakat o tarihten bugüne duvar sayıları sürekli artarak devam etmiş 2018 yılında 63 günümüzde ise 70’i aşmış durumda ve hala artarak devam etmekte [@ruiz2018].
+Dünya’da mülteci sayısının artmasıyla beraber hep negatif algıların ortaya çıktığı neredeyse tartışılmaz bir gerçek haline gelmiştir. Her ne olursa olsun yerel halk ile çatışma çıkaracakları, uyum sorunu yaşayacakları ya da yerel toplumun ekonomisini oldukça kötü etkileyeceğinden dolayı toplumsal bir nefret objesine de dönüştükleri görülmektedir. İklim krizleri, siyasi olaylar, savaşlar ve daha pek çok sebeplerle insanlar zorla yerinden edilmek zorunda kalmaktadır. Bu da çevre ülkelerde veya daha doğrusu gelişmiş ülkeler üzerinde bir korku ve stres yaratmaya ve sınırlarıa daha fazla duvar örmeye itmiştir. Hatta trajikomik bir durum, Berlin duvarı (1989) yıkıldıktan sonra herkes küreselleşmeden dem vururken, o zamanlar dünyada yalnızca 6 tane duvar bulunmaktaydı, 2018' bu sayı 63'e bugün ise 70’in üzerinde çıktı ve hala artarak devam ediyor [@ruiz2018].
 
 ```{r}
 #| echo: false
@@ -64,26 +64,26 @@ ggplot(walls_cum, aes(x = Year, y = Cumulative)) +
   )
 ```
 
-Yani anlaşıldığı üzere dünyada herkes daha çok kendi kabuğuna çekilme ve daha fazla yabancıdan korkmaya başlamıştır. Fakat bu durum gerçekten dünyanın her bölgesinde ve her kesiminde aynı bakış açısıyla mı değerlendiriliyor?
+Yani artık herkes kendi kabuğuna çekiliyor ve yabancılardan daha fazla korkuyor gibi; peki bu durum gerçekten dünyanın her coğrafyasında ve her toplumsal kesiminde aynı bakış açısıyla mı ele alınıyor?
 
 Tam bu noktada Zhou, Grossman ve Ge (2023) bu konuda gerçekten güzel bir çalışma ortaya koymuşlar [@zhou2023].
 
-Bu çalışma, mülteci akınlarının farklı gelir gruplarındaki ülkelerde nasıl farklı yansımaları olabileceğine ışık tutuyor. Yüksek ve üst‑orta gelirli ülkelerde (HMIC’ler), mülteci varlığı genellikle kısıtlayıcı sığınma politikalarına desteği ve aşırı sağ partilere yönelimi artırıyor. Yani bir anlamda toplum daha fazla konsolide oluyor ve yabancılara karşı dışlayıcı tutum sergileyebiliyor.
+Bu çalışma, mülteci akınlarının ülkenin gelir düzeyine göre bambaşka tepkiler doğurduğunu gösteriyor. Mesela yüksek ve üst-orta gelirli ülkelerde (HMIC’ler), mülteci sayısının artması genellikle sert sığınma tedbirlerine destek ve aşırı sağ partilere yönelimi beraberinde getiriyor. Yani toplumsal olarak kenetlenme havaları eserken, bir yandan da yabancılara karşı daha dışlayıcı bir tutum söz konusu olabiliyor.
 
-Fakat diğer yandan, düşük gelirli ülkelerde—özellikle Uganda gibi bağlayıcı kültürel ve coğrafi yakınlık, sınırlı sosyal yardım sistemleri ve daha farklı siyasi dinamikler nedeniyle—mülteci varlığına karşı kitlesel bir geri tepme gözlemlenmiyor; aksine, yapılan insani ve kalkınma yatırımları hem sığınmacılara hem ev sahibi topluluğa somut faydalar sağlıyor.
+Ama bir yandan düşük gelirli ülkelerde—özellikle Uganda’da, güçlü kültürel bağlar, coğrafi yakınlık, sınırlı sosyal yardım sistemleri ve farklı siyasi dinamikler sayesinde—mülteciler karşısında kitlesel bir tepki oluşmuyor; tam tersine, yapılan insani ve kalkınma yatırımları hem sığınmacılara hem de ev sahibi topluluklara somut yararlar sağlıyor.
 
-Daha da ötesi mülteci varlığını “yük” olarak algılanmak yerine, insani yardım ve kalkınma yatırımlarıyla nasıl bir fırsata dönüşebileceğini gösteriyor. Uganda’nın “açık kapı” politikası ve mültecilere tanınan yaşam hakları, yalnızca gelen kişilere değil; kamusal hizmetlere erişimde öncelikli destek sağlayarak yerel toplulukların da refahını artırmış durumda.
+Dahası, mültecileri “yük” olarak görmek yerine insani yardım ve kalkınma yatırımlarıyla nasıl bir fırsata dönüştürebileceğimizi ortaya koyuyor. Uganda’nın “açık kapı” politikası ve mültecilere tanınan temel yaşam hakları, sadece gelenlere değil ev sahibi toplulukların refahına da katkı sağlıyor.
 
 Araştırmanın genel çıktılarını şu şekilde özetleyebiliriz:
 
 -   **Altyapıda somut kazanımlar**: Mülteci kamplarına yakın okulların, sağlık merkezlerinin ve yolların kalitesi, kampların açıldığı tarihten sonra ortalamanın çok üzerinde iyileşti.
 
--   **Toplum desteği pekişti**: Halkın göçmen politikalarına bakışı, ‘daha fazla kısıtlama’ değil, birlikte gelişme yönünde şekillendi.
+-   **Toplumsal desteğin artması**: Halkın göçmen politikalarına bakışı, ‘daha fazla kısıtlama’ değil, birlikte gelişme yönünde şekillendi.
 
 -   **Genel bir kazan-kazan modeli**: Hizmet dağıtımı ve kaynak planlaması mültecilerle ev sahibi toplumun ihtiyaçlarını birlikte gözettiğinde, çatışma değil uyum sağlanıyor.
 
 Bu sonuçlar, mülteci krizine yaklaşımda, özellikle az gelişmiş toplumlarda, “sadece geçici yardım” yerine “kalkınma odaklı entegrasyon” stratejisinin önemini vurgulamaktadır. Yani yerel halkı dahil eden, onlara da fayda sağlayan politikalar, hem sosyal uyumu hem de ekonomik büyümeyi daha fazla desteklemektedir.
 
-Göründüğü gibi mülteci krizlerinin her ne kadar gelişmiş dediğimiz toplumlarda var olan gelir ve zenginliği dağıttığı için istenmeyen bir durum yaratsa da az gelişmiş toplumlarda dış kaynağın doğru kullanılmasıyla mültecilere yönelik bakışı da olumlu etkiler olmuştur. Tabii burada yabancı düşmanlığını sadece gelir ve zenginliğe dayandırmak oldukça sığ bir bakış açısı olur ama ekonomik sıkıntıların olduğu bir dönemde yabancı karşıtlığının popülerleşmesinden dolayı bu şekilde ifade ettim.
+Görünüşe bakılırsa, gelişmiş ülkelerde mülteci krizleri var olan gelir ve servetin yeniden dağılımı nedeniyle tepki toplarken; az gelişmiş ülkelerde dış kaynakların doğru yönetimi, mültecilere yönelik tutumları olumlu yönde etkileyebiliyor. Elbette yabancı düşmanlığını yalnızca ekonomik faktörlere indirgemek yüzeysel bir bakış olur; ancak ekonomik sıkıntıların yoğun olduğu dönemlerde göçmen karşıtlığının popülerleşmesi göz önünde bulundurularak bu ifadeyi tercih ettim.
 
-Tabii ki bu çalışmanın içeriğinde, Batı ülkelerinin izlediği güvenlik stratejilerine de değinmek gerekiyor. Bu ülkeler, mültecilerin kendi sınırlarına ulaşmasını engellemek yerine, doğrudan mülteci veren ülkelere yardım ederek "uzaktan" bir güvenlik mekanizması kurma eğilimindedir. Ancak dünyada giderek artan belirsizlikler ve ekonomik krizler, bu yaklaşımın sürdürülebilirliğini sorgulatmaktadır. Gelecek yıllarda bu yardımlar ne kadar etkili olacak? Güvenlik önlemleri daha ne kadar artacak? Bu soruların cevabı şimdilik belirsizliğini koruyor.
+Elbette, bu çalışmada Batı ülkelerinin “uzaktan güvenlik” stratejilerine de değinmek gerekiyor: Bu ülkeler, mültecilerin kendi sınırlarına ulaşmasını engellemektense, doğrudan mülteci veren ülkelere kaynak aktarıp “uzaktan” bir güvenlik duvarı örme yolunu tercih ediyor. Ancak artan belirsizlikler ve derinleşen ekonomik krizler, bu yaklaşımın ne kadar sürdürülebilir olduğunu tartışmaya açıyor. Gelecek yıllarda bu yardımlar gerçekten etkili olabilecek mi, yoksa güvenlik önlemleri daha da mı sıkılaşacak? Şimdilik bu soruların yanıtı belirsizliğini koruyor.

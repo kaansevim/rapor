@@ -1,0 +1,8 @@
+---
+title: "HScatter Plot"
+lang: tr
+author: "Kaan Sevim"
+date: "2025-07-24"
+categories: [Korelasyon]
+image: "../images/correlation/scatterplot_icon.svg"
+---
