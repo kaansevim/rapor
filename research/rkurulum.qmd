@@ -1,0 +1,41 @@
+---
+title: "R ve R Studio Kurulumu"
+format: html
+---
+
+# R Nedir ve Ne İşe Yarar?
+
+R, istatistiksel analiz, veri modelleme, veri görselleştirme ve istatistiksel hesaplamalar için kullanılan açık kaynaklı bir programlama dilidir. Akademik araştırmalar, veri bilimi uygulamaları ve endüstriyel analizler için yaygın olarak tercih edilmektedir. Kullanıcılar tarafından geliştirilen paketlerle çok geniş bir kullanım alanına sahiptir.
+
+# RStudio Nedir ve Ne İşe Yarar?
+
+RStudio, R programlama dilini kullanmayı kolaylaştıran ve daha verimli hale getiren bütünleşik bir geliştirme ortamıdır (IDE). Kullanıcı dostu arayüzü sayesinde kod yazma, hata ayıklama, sonuçları görselleştirme ve paket yönetimini basitleştirir. Özellikle yeni başlayanlar için tavsiye edilir.
+
+## R Programının ve RStudio'nun Kurulumu
+
+-   İndirme Bağlantısı: [RStudio Desktop indirme sayfası](https://posit.co/download/rstudio-desktop/) aşağıda yer alan görselde de göründüğü gibi sitenin içerisinde hem R hem de RStudioyu indireceğiniz butonlar bulunmaktadır.
+
+    ![](images/Screenshot_1-01.png)
+
+-   Öncelikle R'ı indirmek için Windows kullanıyorsanız: [Download R for Windows](https://cran.r-project.org/bin/windows/) seçeneğini seçebilirsiniz -\> sonrasında `base` seçeneğini seçerek en üstte yer alan dosyayı indirebilirsiniz.
+
+-   İndirdiğiniz dosyayı çalıştırarak standart kurulum adımlarını takip edin.
+
+-   RStudio'ya için ise doğrudan `Download R Studio` dediğinizde doğrudan bilgisayarınıza inecektir ve standart kurulum adımlarıyla kurulumu gerçekleştirebilirsiniz.
+
+-   Hepsi bu kadar.
+
+## Kurulum Sonrası Kontrol
+
+-   RStudio'yu açın.
+
+-   Konsola aşağıdaki komutu yazarak R sürümünüzü kontrol edebilirsiniz:
+
+```{r}
+#| message: false
+#| warning: false
+#| results: hide
+version
+```
+
+-   Bu adımları tamamladıktan sonra R ve RStudio kullanıma hazır olacaktır.

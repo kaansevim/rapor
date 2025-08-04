@@ -1,0 +1,15 @@
+{
+  "hash": "cbd8e9e47271737a199e1f42cf7070c4",
+  "result": {
+    "engine": "knitr",
+    "markdown": "---\ntitle: \"R ve R Studio Kurulumu\"\nauthor: Dr. Kaan Sevim\n---\n\n\n\n\n## R ve RStudio Nasıl Kurulur?\n\n-   **İndirme Bağlantısı:** [RStudio Desktop indirme sayfası](https://posit.co/download/rstudio-desktop/) aşağıda yer alan görselde de göründüğü gibi sitenin içerisinde hem R hem de RStudioyu indireceğiniz butonlar bulunmaktadır.\n\n    ![](images/Screenshot_1.png)\n\n-   Öncelikle R'ı indirmek için Windows kullanıyorsanız: [Download R for Windows](https://cran.r-project.org/bin/windows/) seçeneğini seçebilirsiniz -\\> sonrasında `base` seçeneğini seçerek en üstte yer alan dosyayı indirebilirsiniz.\n\n-   İndirdiğiniz dosyayı çalıştırarak standart kurulum adımlarını takip edin.\n\n-   RStudio'ya için ise doğrudan `Download R Studio` dediğinizde doğrudan bilgisayarınıza inecektir ve standart kurulum adımlarıyla kurulumu gerçekleştirebilirsiniz.\n\n-   Hepsi bu kadar.\n\n## Kurulum Sonrası Kontrol\n\n-   RStudio'yu açın.\n\n-   Konsola aşağıdaki komutu yazarak R sürümünüzü kontrol edebilirsiniz:\n\n\n\n\n    ::: {.cell}\n    \n    ```{.r .cell-code}\n    version\n    ```\n    :::\n\n\n\n\nBu adımları tamamladıktan sonra R ve RStudio kullanıma hazır olacaktır.\n",
+    "supporting": [],
+    "filters": [
+      "rmarkdown/pagebreak.lua"
+    ],
+    "includes": {},
+    "engineDependencies": {},
+    "preserve": {},
+    "postProcess": true
+  }
+}

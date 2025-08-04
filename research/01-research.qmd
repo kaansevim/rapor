@@ -1,5 +1,128 @@
 ---
-title: "01-research"
+title: "Betimsel ve Çıkarımsal İstatistikler"
 format: html
+author: Dr. Kaan Sevim
 ---
 
+Betimsel istatistik, çıkarımsal istatistik ve keşifsel istatistik, istatistiğin temel alanlarını oluşturur.
+
+-   **Betimsel istatistik**, eldeki verileri özetlemek ve tanımlamak için araçlar sunar; böylece örneklem hakkında net bir tablo ortaya konur.
+
+-   **Çıkarımsal istatistik** ise, örneklemden yola çıkarak daha geniş genellemelere ulaşmamıza veya tüm evren hakkında tahminlerde bulunmamıza olanak tanır.
+
+Bu sayede örneklemde elde edilen bulgular, daha büyük bir evreni anlamak için kullanılabilir.
+
+![](images/orneklem.png){width="615"}
+
+### **Betimsel İstatistik vs. Çıkarımsal İstatistik**
+
+İstatistiğin temel amaçlarından biri, bir evren (popülasyon) hakkında çıkarımda bulunmaktır. Ancak çoğu durumda, evrenin tamamına ait verilere ulaşmak mümkün değildir. Bu nedenle, evreni temsil eden bir örneklem seçilir.
+
+Bu örneklem, daha sonra **betimsel istatistik** kullanılarak analiz edilir. Betimsel istatistik, örneklemin ortalaması ve değişkenliği gibi temel özelliklerini özetlemeye yardımcı olur.
+
+Ancak yalnızca örneklemi betimlemek, tüm evren (popülasyon) hakkında fikir vermez; bu noktada **çıkarımsal istatistik** devreye girer. Çıkarımsal istatistik, örneklemden yola çıkarak evren hakkında sonuçlar çıkarmayı amaçlar ve örneklemin bilinen özelliklerine dayanarak evrenin bilinmeyen parametrelerini tahmin etmeye çalışır.
+
+Bu nedenle, çıkarımsal istatistik mevcut verilerin ötesine geçerek genellemelere ulaşmayı hedefler. Bunu gerçekleştirmek için **t-testi** ya da **varyans analizi (ANOVA)** gibi hipotez testleri kullanılır.
+
+### **Betimsel İstatistik (Descriptive Statistics)**
+
+Veriler toplandıktan sonra yapılacak ilk işlemlerden biri, bu verilerin grafikle gösterilmesi, ortalamanın hesaplanması ve dağılımların genel bir görünümünün elde edilmesidir. Bu, **betimsel istatistiklerin** görevidir.
+
+Dolayısıyla, betimsel ististiklerin amacı, veri setlerinin dağılımı hakkında genel bir bakış sağlamaktır. Betimsel istatistik, veri setlerini **tanımlamak ve görselleştirmek** için kullanılır.
+
+> **Betimsel istatistik** terimi, verilerin istatistiksel özellikler, grafikler, tablolar veya diyagramlar yoluyla tanımlanmasına yönelik yöntemleri kapsar.
+
+Burada önemli olan nokta, yalnızca **ilgili örneklemin özelliklerinin** tanımlanması ve değerlendirilmesidir. Ancak bu aşamada **farklı zaman noktalarına veya evrene (popülasyona)** dair herhangi bir çıkarım yapılmaz. Bu, **çıkarımsal istatistiğin** (ya da sonuçlayıcı istatistiğin) alanına girer.
+
+**Betimsel istatistiğin alt başlıkları** genel olarak şu şekilde özetlenebilir:
+
+-   Merkezi eğilim ölçüleri (ortalama, medyan, mod)
+
+-   Dağılım ölçüleri (standart sapma, varyans, çeyrekler arası aralık)
+
+-   Frekans tabloları
+
+-   Grafiksel gösterimler (histogramlar, kutu grafikleri vb.)
+
+![](images/Resim3-01.png)
+
+Hangi sorunun sorulduğuna ve hangi ölçme düzeyinin kullanıldığına bağlı olarak, **değerlendirme için farklı temel ölçütler, tablolar ve grafikler** kullanılır. Bunlar arasında en bilinenleri şunlardır:
+
+-   **Konum (merkezi eğilim) ölçütleri:** Aritmetik ortalama, medyan, mod, toplam
+
+-   **Dağılım ölçütleri:** Standart sapma, varyans, açıklık (range)
+
+-   **Tablolar:** Mutlak (kesin) frekans, bağıl (göreli) frekans ve kümülatif (birikimli) frekans tabloları
+
+-   **Grafikler:** Histogramlar, çubuk grafikler, kutu grafikleri (boxplot), saçılım (scatter) grafikleri, matris grafikler
+
+**Betimsel istatistiğin ilk grubu**, ortalama ve mod gibi **konum (merkezi eğilim) ölçütleridir**. Bu ölçütler, veri setinin **merkezi eğilimini ifade etmek** için kullanılır. Yani örneklemin merkezinin nerede olduğunu ya da örneklemin büyük bir kısmının hangi değerler etrafında toplandığını gösterirler.
+
+![](images/3resim.PNG){width="711"}
+
+İkinci grup ise **dağılım ölçütleridir**. Bu ölçütler, bir örneklemdeki değişkenin değerlerinin **birbirinden ne kadar farklılaştığı** hakkında bilgi verir. Yani, bir değişkenin değerlerinin ortalamadan **ne kadar sapma gösterdiğini** açıklar:
+
+-   Değerler birbirine **yakınsa**, yani benzerse, dağılım düşüktür.
+
+-   Değerler birbirinden **uzaksa**, yani çok farklıysa, dağılım yüksektir.
+
+Bu durumu açıklamak için **klasik bir örnek**: **standart sapmadır.** Standart sapma, veri değerlerinin ortalama etrafında ne kadar yayıldığını gösteren temel bir dağılım ölçüsüdür.
+
+![](images/2resim.PNG){width="737"}
+
+Verileri tanımlamak için hangi **merkezî eğilim** (location) ya da **dağılım** (dispersion) ölçütlerinin uygun olduğu, değişkenin **ölçme düzeyine** bağlıdır. Bu noktada, değişkenin ölçüm düzeyine göre üç ana kategoriye ayrım yapılır:
+
+-   **Metrik ölçek** (*sayısal*)
+
+-   **Sıralı** (*ordinal*) **ölçek**
+
+-   **Nominal** (*isimsel*) **ölçek**
+
+::: {#tbl-panel layout-ncol=2}
+
+```{r ornek_cinsiyet_boy}
+#| echo: false
+#| message: false
+#| warning: false
+#| label: tbl-cinsiyet-boy
+#| tbl-cap: Cinsiyet ve boy tablosu
+
+# Örnek veri çerçevesi
+df <- data.frame(
+  Cinsiyet = c("Erkek", "Kadın", "Erkek", "Kadın"),
+  Boy      = c(170, 160, 180, 165)
+)
+
+# Tabloyu ekrana bas
+knitr::kable(df, col.names = c("Cinsiyet", "Boy (cm)"))
+```
+
+| Cinsiyet | n   | \%  |
+|----------|-----|-----|
+| Kadın    | 106 | 48  |
+| Erkek    | 109 | 52  |
+
+: Frekans dağılımları {#tbl-frekans}
+
+Frekans Tabloları
+
+:::
+
+Çoğu zaman bir frekans tablosunu @tbl-frekans akademik makalelerde genelde bu şekilde görebilirsiniz.
+
+---
+
+Boy dağılımlarını basit bir şekilde plot grafiğini (@fig-cinsiyet-boy) çizecek olursak da aşağıdaki gibi görselleştirebiliriz.
+
+```{r plot}
+#| echo: false
+#| message: false
+#| warning: false
+#| label: fig-cinsiyet-boy
+#| fig-cap: Boy dağılımı
+
+plot(df$Boy, 
+     main = "Boy Dağılımı", 
+     ylab = "Boy (cm)", 
+     xlab = "Gozlem")
+```

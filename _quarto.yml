@@ -48,11 +48,13 @@ website:
       contents:
       - section: "Genel Giriş"
         contents:
-          - text: "Giriş"
-          - file: research/index.qmd
-      - section: "Haftalık Konu Başlıkları"
+          - text: "R Programlama İle Araştırma Analizleri"
+            file: research/index.qmd
+          - text: "R ve RStudio Kurulumu"
+            file: research/rkurulumm.qmd
+      - section: "I. Bölüm"
         contents:
-          - text: "1: Araştırma Süreci ve Temel Kavramlar"
+          - text: "1: Temel R Kodlarının Kullanımı"
             file: research/01-research.qmd
           - text: "2: Araştırma Türleri ve Tasarımları"
             file: research/02-research.qmd
@@ -66,6 +68,8 @@ website:
             file: research/06-research.qmd
           - text: "7: Örneklem Seçimi ve Örneklem Büyüklüğü"
             file: research/07-research.qmd
+      - section: "II. Bölüm"
+        contents:
           - text: "8: Veri Toplama Teknikleri"
             file: research/08-research.qmd
           - text: "9: Nitel Araştırma Yöntemleri"

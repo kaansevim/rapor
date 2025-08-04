@@ -1,0 +1,33 @@
+---
+title: "R ve R Studio Kurulumu"
+author: Dr. Kaan Sevim
+---
+
+## R ve RStudio Nasıl Kurulur?
+
+-   **İndirme Bağlantısı:** [RStudio Desktop indirme sayfası](https://posit.co/download/rstudio-desktop/) aşağıda yer alan görselde de göründüğü gibi sitenin içerisinde hem R hem de RStudioyu indireceğiniz butonlar bulunmaktadır.
+
+    ![](images/Screenshot_1.png)
+
+-   Öncelikle R'ı indirmek için Windows kullanıyorsanız: [Download R for Windows](https://cran.r-project.org/bin/windows/) seçeneğini seçebilirsiniz -\> sonrasında `base` seçeneğini seçerek en üstte yer alan dosyayı indirebilirsiniz.
+
+-   İndirdiğiniz dosyayı çalıştırarak standart kurulum adımlarını takip edin.
+
+-   RStudio'ya için ise doğrudan `Download R Studio` dediğinizde doğrudan bilgisayarınıza inecektir ve standart kurulum adımlarıyla kurulumu gerçekleştirebilirsiniz.
+
+-   Hepsi bu kadar.
+
+## Kurulum Sonrası Kontrol
+
+-   RStudio'yu açın.
+
+-   Konsola aşağıdaki komutu yazarak R sürümünüzü kontrol edebilirsiniz:
+
+    ```{r}
+    #| message: false
+    #| warning: false
+    #| results: hide
+    version
+    ```
+
+Bu adımları tamamladıktan sonra R ve RStudio kullanıma hazır olacaktır.

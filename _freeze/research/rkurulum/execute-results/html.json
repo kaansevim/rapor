@@ -1,0 +1,15 @@
+{
+  "hash": "5e73d324de4d6536667c169f7e0511e1",
+  "result": {
+    "engine": "knitr",
+    "markdown": "---\ntitle: \"R ve R Studio Kurulumu\"\nformat: html\n---\n\n\n\n\n# R Nedir ve Ne İşe Yarar?\n\nR, istatistiksel analiz, veri modelleme, veri görselleştirme ve istatistiksel hesaplamalar için kullanılan açık kaynaklı bir programlama dilidir. Akademik araştırmalar, veri bilimi uygulamaları ve endüstriyel analizler için yaygın olarak tercih edilmektedir. Kullanıcılar tarafından geliştirilen paketlerle çok geniş bir kullanım alanına sahiptir.\n\n# RStudio Nedir ve Ne İşe Yarar?\n\nRStudio, R programlama dilini kullanmayı kolaylaştıran ve daha verimli hale getiren bütünleşik bir geliştirme ortamıdır (IDE). Kullanıcı dostu arayüzü sayesinde kod yazma, hata ayıklama, sonuçları görselleştirme ve paket yönetimini basitleştirir. Özellikle yeni başlayanlar için tavsiye edilir.\n\n## R Programının ve RStudio'nun Kurulumu\n\n-   İndirme Bağlantısı: [RStudio Desktop indirme sayfası](https://posit.co/download/rstudio-desktop/) aşağıda yer alan görselde de göründüğü gibi sitenin içerisinde hem R hem de RStudioyu indireceğiniz butonlar bulunmaktadır.\n\n    ![](images/Screenshot_1-01.png)\n\n-   Öncelikle R'ı indirmek için Windows kullanıyorsanız: [Download R for Windows](https://cran.r-project.org/bin/windows/) seçeneğini seçebilirsiniz -\\> sonrasında `base` seçeneğini seçerek en üstte yer alan dosyayı indirebilirsiniz.\n\n-   İndirdiğiniz dosyayı çalıştırarak standart kurulum adımlarını takip edin.\n\n-   RStudio'ya için ise doğrudan `Download R Studio` dediğinizde doğrudan bilgisayarınıza inecektir ve standart kurulum adımlarıyla kurulumu gerçekleştirebilirsiniz.\n\n-   Hepsi bu kadar.\n\n## Kurulum Sonrası Kontrol\n\n-   RStudio'yu açın.\n\n-   Konsola aşağıdaki komutu yazarak R sürümünüzü kontrol edebilirsiniz:\n\n\n\n\n::: {.cell}\n\n```{.r .cell-code}\nversion\n```\n:::\n\n\n\n\n-   Bu adımları tamamladıktan sonra R ve RStudio kullanıma hazır olacaktır.\n",
+    "supporting": [],
+    "filters": [
+      "rmarkdown/pagebreak.lua"
+    ],
+    "includes": {},
+    "engineDependencies": {},
+    "preserve": {},
+    "postProcess": true
+  }
+}
