@@ -6,6 +6,7 @@
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
+<meta name="author" content="Dr.&nbsp;Kaan Sevim">
 
 <title>Neden Araştırma Yöntemleri Kritik Öneme Sahiptir – Rapor</title>
 <style>
@@ -19,6 +20,40 @@ ul.task-list li input[type="checkbox"] {
   width: 0.8em;
   margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
   vertical-align: middle;
+}
+/* CSS for syntax highlighting */
+pre > code.sourceCode { white-space: pre; position: relative; }
+pre > code.sourceCode > span { line-height: 1.25; }
+pre > code.sourceCode > span:empty { height: 1.2em; }
+.sourceCode { overflow: visible; }
+code.sourceCode > span { color: inherit; text-decoration: inherit; }
+div.sourceCode { margin: 1em 0; }
+pre.sourceCode { margin: 0; }
+@media screen {
+div.sourceCode { overflow: auto; }
+}
+@media print {
+pre > code.sourceCode { white-space: pre-wrap; }
+pre > code.sourceCode > span { display: inline-block; text-indent: -5em; padding-left: 5em; }
+}
+pre.numberSource code
+  { counter-reset: source-line 0; }
+pre.numberSource code > span
+  { position: relative; left: -4em; counter-increment: source-line; }
+pre.numberSource code > span > a:first-child::before
+  { content: counter(source-line);
+    position: relative; left: -1em; text-align: right; vertical-align: baseline;
+    border: none; display: inline-block;
+    -webkit-touch-callout: none; -webkit-user-select: none;
+    -khtml-user-select: none; -moz-user-select: none;
+    -ms-user-select: none; user-select: none;
+    padding: 0 4px; width: 4em;
+  }
+pre.numberSource { margin-left: 3em;  padding-left: 4px; }
+div.sourceCode
+  {   }
+@media screen {
+pre > code.sourceCode > span > a:first-child::before { text-decoration: underline; }
 }
 </style>
 
@@ -284,8 +319,20 @@ ul.task-list li input[type="checkbox"] {
 </nav>
 <div id="quarto-sidebar-glass" class="quarto-sidebar-collapse-item" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item"></div>
 <!-- margin-sidebar -->
-    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar zindex-bottom">
-        
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
+        <nav id="TOC" role="doc-toc" class="toc-active">
+    <h2 id="toc-title">Bu sayfada</h2>
+   
+  <ul>
+  <li><a href="#r-nedir-ve-ne-işe-yarar" id="toc-r-nedir-ve-ne-işe-yarar" class="nav-link active" data-scroll-target="#r-nedir-ve-ne-işe-yarar">R Nedir ve Ne İşe Yarar?</a></li>
+  <li><a href="#rstudio-nedir-ve-ne-işe-yarar" id="toc-rstudio-nedir-ve-ne-işe-yarar" class="nav-link" data-scroll-target="#rstudio-nedir-ve-ne-işe-yarar">RStudio Nedir ve Ne İşe Yarar?</a></li>
+  <li><a href="#r-ve-rstudio-nasıl-kurulur" id="toc-r-ve-rstudio-nasıl-kurulur" class="nav-link" data-scroll-target="#r-ve-rstudio-nasıl-kurulur">R ve RStudio Nasıl Kurulur?</a>
+  <ul class="collapse">
+  <li><a href="#r-programının-ve-rstudionun-kurulumu" id="toc-r-programının-ve-rstudionun-kurulumu" class="nav-link" data-scroll-target="#r-programının-ve-rstudionun-kurulumu">R Programının ve RStudio’nun Kurulumu</a></li>
+  </ul></li>
+  <li><a href="#kurulum-sonrası-kontrol" id="toc-kurulum-sonrası-kontrol" class="nav-link" data-scroll-target="#kurulum-sonrası-kontrol">Kurulum Sonrası Kontrol</a></li>
+  </ul>
+</nav>
     </div>
 <!-- main -->
 <main class="content" id="quarto-document-content">
@@ -299,6 +346,12 @@ ul.task-list li input[type="checkbox"] {
 
 <div class="quarto-title-meta">
 
+    <div>
+    <div class="quarto-title-meta-heading">Yazar</div>
+    <div class="quarto-title-meta-contents">
+             <p>Dr.&nbsp;Kaan Sevim </p>
+          </div>
+  </div>
     
   
     
@@ -310,8 +363,44 @@ ul.task-list li input[type="checkbox"] {
 
 
 <p>Günlük yaşamın her alanında üretilen bilginin <strong>güvenirliği</strong>, kullanılan araştırma yöntemlerinin doğruluğu ve geçerliliği ile doğrudan ilişkilidir. Elde ettiğimiz verileri başkalarına sunarken ya da bilimsel tartışmalara katılırken, benimsediğimiz metodolojik yaklaşımın şeffaflığı ve sistematikliği, bilginin kabul görmesini sağlar. Bu bağlamda, araştırma sürecinde veri toplama, analiz ve yorumlama aşamalarında, alanında kabul görmüş paradigmaların rehberliğine ihtiyaç duyulur. Bu derste, araştırma yöntemlerinin temellerini, çeşitli yöntemlerin avantaj ve sınırlılıklarını ve bu yöntemlerin bilimsel bilgi üretimine katkılarını akademik bir bakış açısıyla ele alacağız.</p>
+<p>Bilimsel araştırmalarda kullanılan bir çok program bulunmaktadır. Yaygın olarak kullanılan programlar şu şekildedir; SPSS, Stata, Jamovi, Excell, SAS, Minitab, Amos, SmartPLS, R vb.</p>
+<p>Bu programlardan bazıları kısıtlı araştırma ve analizlere izin verirken bazıları daha kapsamlı istatistiksel arka planı bulunmaktadır. R da bu programlama dillerinin başında gelmektedir. Fakat R sadece bir istatistiksel analiz yapan bir programlama dili değildir. Burada; veri görselleştirme, makine öğrenmesi ve yapay zeka uygulamaları, metin madenciliği, web uygulamaları geliştirme (Shiny ile), interaktif raporlar veya blog sitesi oluşturma (R Markdown ve Quarto ile), veri madenciliği ve büyük veri analizi gibi geniş bir yelpazede gelişmiş ve esnek uygulamalar gerçekleştirmek mümkündür.</p>
+<p>Bu yönüyle R çok fonksiyonlu bir dildir. İçinde yer alan paketlerle amacınıza uygun kullanımlar yapılabilmektedir.</p>
+<section id="r-nedir-ve-ne-işe-yarar" class="level2">
+<h2 class="anchored" data-anchor-id="r-nedir-ve-ne-işe-yarar">R Nedir ve Ne İşe Yarar?</h2>
+<p>R, istatistiksel analiz, veri modelleme, veri görselleştirme ve istatistiksel hesaplamalar için kullanılan açık kaynaklı bir programlama dilidir. Akademik araştırmalar, veri bilimi uygulamaları ve endüstriyel analizler için yaygın olarak tercih edilmektedir. Kullanıcılar tarafından geliştirilen paketlerle çok geniş bir kullanım alanına sahiptir.</p>
+</section>
+<section id="rstudio-nedir-ve-ne-işe-yarar" class="level2">
+<h2 class="anchored" data-anchor-id="rstudio-nedir-ve-ne-işe-yarar">RStudio Nedir ve Ne İşe Yarar?</h2>
+<p>RStudio, R programlama dilini kullanmayı kolaylaştıran ve daha verimli hale getiren bütünleşik bir geliştirme ortamıdır (IDE). Kullanıcı dostu arayüzü sayesinde kod yazma, hata ayıklama, sonuçları görselleştirme ve paket yönetimini basitleştirir. Özellikle yeni başlayanlar için tavsiye edilir.</p>
+</section>
+<section id="r-ve-rstudio-nasıl-kurulur" class="level2">
+<h2 class="anchored" data-anchor-id="r-ve-rstudio-nasıl-kurulur">R ve RStudio Nasıl Kurulur?</h2>
+<section id="r-programının-ve-rstudionun-kurulumu" class="level3">
+<h3 class="anchored" data-anchor-id="r-programının-ve-rstudionun-kurulumu">R Programının ve RStudio’nun Kurulumu</h3>
+<ul>
+<li><p><strong>İndirme Bağlantısı:</strong> <a href="https://posit.co/download/rstudio-desktop/">RStudio Desktop indirme sayfası</a> aşağıda yer alan görselde de göründüğü gibi sitenin içerisinde hem R hem de RStudioyu indireceğiniz butonlar bulunmaktadır.</p>
+<p><img src="images/Screenshot_1.png" class="img-fluid"></p></li>
+<li><p>Öncelikle R’ı indirmek için Windows kullanıyorsanız: <a href="https://cran.r-project.org/bin/windows/">Download R for Windows</a> seçeneğini seçebilirsiniz -&gt; sonrasında <code>base</code> seçeneğini seçerek en üstte yer alan dosyayı indirebilirsiniz.</p></li>
+<li><p>İndirdiğiniz dosyayı çalıştırarak standart kurulum adımlarını takip edin.</p></li>
+<li><p>RStudio’ya için ise doğrudan <code>Download R Studio</code> dediğinizde doğrudan bilgisayarınıza inecektir ve standart kurulum adımlarıyla kurulumu gerçekleştirebilirsiniz.</p></li>
+<li><p>Hepsi bu kadar.</p></li>
+</ul>
+</section>
+</section>
+<section id="kurulum-sonrası-kontrol" class="level2">
+<h2 class="anchored" data-anchor-id="kurulum-sonrası-kontrol">Kurulum Sonrası Kontrol</h2>
+<ul>
+<li><p>RStudio’yu açın.</p></li>
+<li><p>Konsola aşağıdaki komutu yazarak R sürümünüzü kontrol edebilirsiniz:</p>
+<div class="cell">
+<div class="sourceCode cell-code" id="cb1"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb1-1"><a href="#cb1-1" aria-hidden="true" tabindex="-1"></a>version</span></code><button title="Panoya Kopyala" class="code-copy-button"><i class="bi"></i></button></pre></div>
+</div></li>
+</ul>
+<p>Bu adımları tamamladıktan sonra R ve RStudio kullanıma hazır olacaktır.</p>
 
 
+</section>
 
 </main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">

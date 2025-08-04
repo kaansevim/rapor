@@ -21,9 +21,7 @@
   {
     "listing": "/analizler/index.html",
     "items": [
-      "/analizler/post/01-one-sample/index.html",
-      "/analizler/post/post-with-code/index.html",
-      "/analizler/post/welcome/index.html"
+      "/analizler/post/01-one-sample/01-one-sample.html"
     ]
   }
 ]
