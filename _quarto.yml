@@ -54,7 +54,7 @@ website:
             file: research/rkurulumm.qmd
       - section: "I. Bölüm"
         contents:
-          - text: "1: Temel R Kodlarının Kullanımı"
+          - text: "1: Betimsel ve Çıkarımsal İstatistikler"
             file: research/01-research.qmd
           - text: "2: Araştırma Türleri ve Tasarımları"
             file: research/02-research.qmd

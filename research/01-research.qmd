@@ -6,11 +6,13 @@ author: Dr. Kaan Sevim
 
 Betimsel istatistik, çıkarımsal istatistik ve keşifsel istatistik, istatistiğin temel alanlarını oluşturur.
 
--   **Betimsel istatistik**, eldeki verileri özetlemek ve tanımlamak için araçlar sunar; böylece örneklem hakkında net bir tablo ortaya konur.
+-   **Betimsel (Descriptive) istatistik**, eldeki verileri özetlemek ve tanımlamak için araçlar sunar; böylece örneklem hakkında net bir tablo ortaya konur. Örneğin; "*Bir sınıftaki öğrencilerin yaş ortalaması 21.4’tür*."
 
--   **Çıkarımsal istatistik** ise, örneklemden yola çıkarak daha geniş genellemelere ulaşmamıza veya tüm evren hakkında tahminlerde bulunmamıza olanak tanır.
+-   **Çıkarımsal (Inferential) istatistik**, örneklemden yola çıkarak daha geniş genellemelere ulaşmamıza veya tüm evren hakkında tahminlerde bulunmamıza olanak tanır. Örneğin; "*Bir sınıfın yaş ortalamasına bakarak tüm üniversite öğrencilerinin yaş ortalamasını tahmin etmek.*"
 
-Bu sayede örneklemde elde edilen bulgular, daha büyük bir evreni anlamak için kullanılabilir.
+-   Keşifsel istatistik (Exploratory) ise veri hakkında ön bilgi edinmek, desenleri ve ilişkileri keşfetmeye yarar. Hipotez kurmadan önce veriyi keşfetmek gibi düşünülebilir. Değişkenler arası ilişkileri sezgisel olarak ortaya koyar (korelasyon matrisleri, scatter plot vb.). Örneğin; "*Bir veri setinde hangi değişkenler arasında ilişki olabilir, anlamlı desenler var mı*?"
+
+Çıkarımsal istatistik sayesinde örneklemden elde edilen bulgular, daha büyük bir evreni anlamak için kullanılabilir.
 
 ![](images/orneklem.png){width="615"}
 
@@ -22,7 +24,7 @@ Bu örneklem, daha sonra **betimsel istatistik** kullanılarak analiz edilir. Be
 
 Ancak yalnızca örneklemi betimlemek, tüm evren (popülasyon) hakkında fikir vermez; bu noktada **çıkarımsal istatistik** devreye girer. Çıkarımsal istatistik, örneklemden yola çıkarak evren hakkında sonuçlar çıkarmayı amaçlar ve örneklemin bilinen özelliklerine dayanarak evrenin bilinmeyen parametrelerini tahmin etmeye çalışır.
 
-Bu nedenle, çıkarımsal istatistik mevcut verilerin ötesine geçerek genellemelere ulaşmayı hedefler. Bunu gerçekleştirmek için **t-testi** ya da **varyans analizi (ANOVA)** gibi hipotez testleri kullanılır.
+Bu nedenle, çıkarımsal istatistik mevcut verilerin ötesine geçerek genellemelere ulaşmayı hedefler. Bunu gerçekleştirmek için **t-testi** , **varyans analizi (ANOVA) veya regresyon** gibi hipotez testleri kullanılır.
 
 ### **Betimsel İstatistik (Descriptive Statistics)**
 
@@ -32,7 +34,7 @@ Dolayısıyla, betimsel ististiklerin amacı, veri setlerinin dağılımı hakk�
 
 > **Betimsel istatistik** terimi, verilerin istatistiksel özellikler, grafikler, tablolar veya diyagramlar yoluyla tanımlanmasına yönelik yöntemleri kapsar.
 
-Burada önemli olan nokta, yalnızca **ilgili örneklemin özelliklerinin** tanımlanması ve değerlendirilmesidir. Ancak bu aşamada **farklı zaman noktalarına veya evrene (popülasyona)** dair herhangi bir çıkarım yapılmaz. Bu, **çıkarımsal istatistiğin** (ya da sonuçlayıcı istatistiğin) alanına girer.
+Burada önemli olan nokta, yalnızca **ilgili örneklemin özelliklerinin** tanımlanması ve değerlendirilmesidir. Ancak bu aşamada **farklı zaman noktalarına veya evrene (popülasyona)** dair herhangi bir çıkarım yapılmaz. Bu, **çıkarımsal istatistiğin** alanına girer.
 
 **Betimsel istatistiğin alt başlıkları** genel olarak şu şekilde özetlenebilir:
 
@@ -46,7 +48,7 @@ Burada önemli olan nokta, yalnızca **ilgili örneklemin özelliklerinin** tan�
 
 ![](images/Resim3-01.png)
 
-Hangi sorunun sorulduğuna ve hangi ölçme düzeyinin kullanıldığına bağlı olarak, **değerlendirme için farklı temel ölçütler, tablolar ve grafikler** kullanılır. Bunlar arasında en bilinenleri şunlardır:
+Betimsel istatistik, hangi sorunun sorulduğuna ve hangi ölçme düzeyinin kullanıldığına bağlı olarak, **tablolar ve grafikler** kullanılır. Bunlar arasında en bilinenleri şunlardır:
 
 -   **Konum (merkezi eğilim) ölçütleri:** Aritmetik ortalama, medyan, mod, toplam
 
@@ -70,7 +72,7 @@ Bu durumu açıklamak için **klasik bir örnek**: **standart sapmadır.** Stand
 
 ![](images/2resim.PNG){width="737"}
 
-Verileri tanımlamak için hangi **merkezî eğilim** (location) ya da **dağılım** (dispersion) ölçütlerinin uygun olduğu, değişkenin **ölçme düzeyine** bağlıdır. Bu noktada, değişkenin ölçüm düzeyine göre üç ana kategoriye ayrım yapılır:
+Verileri tanımlamak için hangi **merkezî eğilim** (location) ya da **dağılım** (dispersion) ölçütlerinin uygun olduğu, değişkenin **ölçme düzeyine** bağlıdır. Bu noktada, değişkenin ölçüm düzeyine göre üç ana kategoriye ayrım yapabiliriz:
 
 -   **Metrik ölçek** (*sayısal*)
 
@@ -78,8 +80,7 @@ Verileri tanımlamak için hangi **merkezî eğilim** (location) ya da **dağıl
 
 -   **Nominal** (*isimsel*) **ölçek**
 
-::: {#tbl-panel layout-ncol=2}
-
+::: {#tbl-panel layout-ncol="2"}
 ```{r ornek_cinsiyet_boy}
 #| echo: false
 #| message: false
@@ -105,12 +106,11 @@ knitr::kable(df, col.names = c("Cinsiyet", "Boy (cm)"))
 : Frekans dağılımları {#tbl-frekans}
 
 Frekans Tabloları
-
 :::
 
 Çoğu zaman bir frekans tablosunu @tbl-frekans akademik makalelerde genelde bu şekilde görebilirsiniz.
 
----
+------------------------------------------------------------------------
 
 Boy dağılımlarını basit bir şekilde plot grafiğini (@fig-cinsiyet-boy) çizecek olursak da aşağıdaki gibi görselleştirebiliriz.
 
@@ -126,3 +126,121 @@ plot(df$Boy,
      ylab = "Boy (cm)", 
      xlab = "Gozlem")
 ```
+
+```{r}
+#| echo: false
+#| warning: false
+#| message: false
+
+# Paket yükleme
+library(gtsummary)
+library(dplyr)
+library(psych)
+
+# Tanımlayıcı tablo
+desc <- describeBy(df$Boy, group = df$Cinsiyet, mat = TRUE)
+
+```
+
+Cinsiyetlere göre tanımlayıcı istatistikleri daha daha da detaylandırırsak örneklem hakkında daha fazla bilgiye sahip olabiliriz. Bu aşama bize hipotez testlerinden önce verimizi keşfetmemizi sağlıyor. Aşağıdaki @tbl-frekans2 'de kadın ve erkeklerin boy ortalamaları, standart sapmaları, minimum ve maksimum değerleri, ve aralıkları verilmiştir.
+
+```{r}
+#| label: tbl-frekans2
+#| echo: false
+#| warning: false
+#| message: true
+#| tbl-cap: "Cinsiyet ve Boy Değişkeni Tanımlayıcı İstatistikleri"
+desc2 <- data.frame(
+  Grup     = desc$group1,
+  N        = desc$n,
+  Ortalama = desc$mean,
+  S = desc$sd,
+  Medyan   = desc$median,
+  Min      = desc$min,
+  Maks     = desc$max,
+  Aralik   = desc$range
+)
+desc2
+```
+
+### **Çıkarımsal İstatistik (Inferential Statistics)**
+
+Çıkarımsal istatistik nedir?\
+Betimsel istatistiğin aksine, çıkarımsal istatistik **tüm evren (popülasyon) hakkında bir çıkarımda bulunmak** ister. Ancak çoğu durumda tüm popülasyonu incelemek neredeyse imkânsızdır. Bu nedenle popülasyonu temsil eden **bir örneklem** (yani popülasyondan alınan küçük bir veri seti) kullanılır. Bu örneklem aracılığıyla popülasyon hakkında istatistiksel bir yorum yapılabilir.
+
+Örneğin, **tüm Türkiye vatandaşlarından oluşan** bir popülasyondan **1.000 kişilik bir örneklem** alındığında, bu örneklem üzerinden tüm Türkiye vatandaşları hakkında çıkarım yapılabilir.
+
+![](images/Resim6.png){width="462"}
+
+Popülasyon hakkında hangi türde bir çıkarım yapılmak istendiğine ya da hangi soruya cevap aranacağına bağlı olarak, farklı istatistiksel yöntemler veya hipotez testleri kullanılır.
+
+En bilinenler arasında, **gruplar arası farkların test edilmesini sağlayan hipotez testleri** yer alır. Örneğin:
+
+-   **t-testi**
+
+-   **Ki-kare testi (chi-square test)**
+
+-   **Varyans analizi (ANOVA)**
+
+Bunların yanında, **değişkenler arasındaki ilişkilerin test edilmesini sağlayan hipotez testleri** de vardır. Örneğin:
+
+-   **Korelasyon analizi**
+
+-   **Regresyon analizi**
+
+Bu testler, popülasyon hakkında çıkarım yapmak için örneklemden elde edilen verilere dayalı istatistiksel analizler sunar.
+
+![](images/Resim7.png){width="414"}
+
+#### **Çıkarımsal İstatistik Örneği**
+
+Yukarıdaki örneğin 10 basketbolcudan oluşan bir örneklem olduğunu düşünelim. Önceki verdiğimiz bilgiler **betimsel istatistiğin** görevidir.
+
+Ancak eğer tüm popülasyon hakkında bir çıkarım yapmak istiyorsanız, o zaman **çıkarımsal istatistik** devreye girer.
+
+Örneğin şu soru ilgi çekici olabilir:
+
+> “Basketbolcular, genel erkek nüfusuna kıyasla daha uzun mu?”
+
+Bu hipotezi test etmek için **t-testi** uygulanır.\
+**t-testi**, örneklemin ortalamasını, popülasyonun ortalamasıyla karşılaştırır.\
+Bu sayede, gözlemlenen farkın istatistiksel olarak anlamlı olup olmadığı belirlenebilir.
+
+::: {#fig-population layout-ncol="2"}
+![Tek Örneklem](images/Resim8.png){#fig-tek}
+
+![İki Örneklem](images/Resim9.png){#fig-iki}
+
+T-Testler
+:::
+
+Genel olarak tek örnekleminiz olduğunda ve önceden değerleri bilinen bir evrenle karşılaştırma yapıldığında (@fig-tek), **tek örneklem t-testi** (one-sample t-test) kullanılır. Öte yandan iki örneklemli grup karşılaştırıldığında (@fig-iki), **bağımsız örneklemler t-testi** (independent-samples t-test) uygulanır.
+
+Ayrıca bağımsız örneklem t-testi için de şu soru sorulabilir:
+
+> “Basketbolcular, futbolculardan daha mı uzundur?”
+
+Bu amaçla bir grup futbolcudan oluşan bir **örneklem** alınır ve ardından basketbolcuların ortalama boyu ile futbolcuların ortalama boyu karşılaştırılır. Bu karşılaştırma, **bağımsız örneklemler için t-testi (independent t-test)** kullanılarak yapılır.
+
+Bu test sayesinde artık şu türden bir çıkarımda bulunmak mümkündür:
+
+> “Basketbolcular, popülasyon düzeyinde futbolculardan daha uzun mudur, değil midir?”
+
+Ancak bu çıkarım yalnızca **örneklemlere** dayanılarak yapılmaktadır.\
+Dolayısıyla, sadece bu örneklemde basketbolcuların daha uzun çıkması **tamamen bir rastlantı** da olabilir.
+
+Bu nedenle, yapılan çıkarım **belirli bir olasılık düzeyinde** (örneğin %95 güvenle) desteklenebilir ya da reddedilebilir; ama **kesin** bir yargıya varmak mümkün değildir.
+
+### **Betimsel ve Çıkarımsal İstatistik Örneği** 
+
+Bir sosyal hizmet kurumu, **madde bağımlılığıyla mücadele eden bireylerin çok fazla depresyona maruz kaldığını tespit etmiş ve bu grup için yeni bir danışmanlık programı** geliştirmiştir. Programın etkili olup olmadığını değerlendirmek amacıyla **200 danışan** programa katılmış ve müdahale öncesi ile sonrası **depresyon düzeyleri ölçülmüştür**.
+
+**Betimsel istatistik** kapsamında, danışanların programdan önceki ve sonraki depresyon puanları arasındaki ortalama fark hesaplanmış, **ortalama düşüş 15 puan**, **standart sapma ise 5 puan** olarak bulunmuştur. Ayrıca, katılımcıların depresyon puanlarındaki değişim düzeylerini görselleştirmek için bir **frekans dağılım grafiği** hazırlanmıştır. Bu analizler, örneklem grubundaki iyileşmenin genel bir görünümünü sunar fakat anlamlı bir azalıştan bahsetmez.
+
+**Çıkarımsal istatistik** kapsamında ise bu değişimin tesadüfi olup olmadığını test etmek için **bağımlı örneklemler t-testi (paired samples t-test)** uygulanmıştır. Çünkü burada aynı bireylerin müdahale öncesi ve sonrası ölçümleri karşılaştırılmaktadır.
+
+> Alternatif olarak, eğer müdahale programına katılan grup ile katılmayan ayrı bir kontrol grubu karşılaştırılmış olsaydı, o zaman **bağımsız örneklemler t-testi (independent samples t-test)** kullanılacaktı.
+
+Yapılan analiz sonucunda, gözlenen 15 puanlık düşüşün **istatistiksel olarak anlamlı olduğu** belirlenmiş ve **%95 güven aralığı 13–17 puan** arasında hesaplanmıştır. Bu da, programın yalnızca bu örneklemde değil, **genel danışan popülasyonu için de etkili olabileceği** yönünde bir çıkarım yapılmasına imkân tanımaktadır.
+
+Buradaki gruba hem müdahaleden önce test yapılmış hem de müdahaleden sonra test yapıldığı için aynı gruptur. Yani bunlar bağımsız gruplar değildir. Bundan dolayı bağımlı grup t-testi gerçekleştirilmiştir. Eğer kontrol grubu yani hiçbir müdahale yapmadığımız bir grup ile kıyaslasaydık o zaman bağımsız örneklem t-testi gerçekleştirecektik.

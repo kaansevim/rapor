@@ -147,7 +147,7 @@ ul.task-list li input[type="checkbox"] {
       <button type="button" class="quarto-btn-toggle btn" data-bs-toggle="collapse" role="button" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Kenar çubuğu gezintisini Aç/Kapa" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
         <i class="bi bi-layout-text-sidebar-reverse"></i>
       </button>
-        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="../research/01-research.html">I. Bölüm</a></li><li class="breadcrumb-item"><a href="../research/01-research.html">1: Temel R Kodlarının Kullanımı</a></li></ol></nav>
+        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="../research/01-research.html">I. Bölüm</a></li><li class="breadcrumb-item"><a href="../research/01-research.html">1: Betimsel ve Çıkarımsal İstatistikler</a></li></ol></nav>
         <a class="flex-grow-1" role="navigation" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Kenar çubuğu gezintisini Aç/Kapa" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">      
         </a>
     </div>
@@ -194,7 +194,7 @@ ul.task-list li input[type="checkbox"] {
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="../research/01-research.html" class="sidebar-item-text sidebar-link active">
- <span class="menu-text">1: Temel R Kodlarının Kullanımı</span></a>
+ <span class="menu-text">1: Betimsel ve Çıkarımsal İstatistikler</span></a>
   </div>
 </li>
           <li class="sidebar-item">
@@ -306,13 +306,15 @@ ul.task-list li input[type="checkbox"] {
   <ul>
   <li><a href="#betimsel-istatistik-vs.-çıkarımsal-istatistik" id="toc-betimsel-istatistik-vs.-çıkarımsal-istatistik" class="nav-link active" data-scroll-target="#betimsel-istatistik-vs.-çıkarımsal-istatistik"><strong>Betimsel İstatistik vs.&nbsp;Çıkarımsal İstatistik</strong></a></li>
   <li><a href="#betimsel-istatistik-descriptive-statistics" id="toc-betimsel-istatistik-descriptive-statistics" class="nav-link" data-scroll-target="#betimsel-istatistik-descriptive-statistics"><strong>Betimsel İstatistik (Descriptive Statistics)</strong></a></li>
+  <li><a href="#çıkarımsal-istatistik-inferential-statistics" id="toc-çıkarımsal-istatistik-inferential-statistics" class="nav-link" data-scroll-target="#çıkarımsal-istatistik-inferential-statistics"><strong>Çıkarımsal İstatistik (Inferential Statistics)</strong></a></li>
+  <li><a href="#betimsel-ve-çıkarımsal-istatistik-örneği" id="toc-betimsel-ve-çıkarımsal-istatistik-örneği" class="nav-link" data-scroll-target="#betimsel-ve-çıkarımsal-istatistik-örneği"><strong>Betimsel ve Çıkarımsal İstatistik Örneği</strong></a></li>
   </ul>
 </nav>
     </div>
 <!-- main -->
 <main class="content" id="quarto-document-content">
 
-<header id="title-block-header" class="quarto-title-block default"><nav class="quarto-page-breadcrumbs quarto-title-breadcrumbs d-none d-lg-block" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="../research/01-research.html">I. Bölüm</a></li><li class="breadcrumb-item"><a href="../research/01-research.html">1: Temel R Kodlarının Kullanımı</a></li></ol></nav>
+<header id="title-block-header" class="quarto-title-block default"><nav class="quarto-page-breadcrumbs quarto-title-breadcrumbs d-none d-lg-block" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="../research/01-research.html">I. Bölüm</a></li><li class="breadcrumb-item"><a href="../research/01-research.html">1: Betimsel ve Çıkarımsal İstatistikler</a></li></ol></nav>
 <div class="quarto-title">
 <h1 class="title">Betimsel ve Çıkarımsal İstatistikler</h1>
 </div>
@@ -339,17 +341,18 @@ ul.task-list li input[type="checkbox"] {
 
 <p>Betimsel istatistik, çıkarımsal istatistik ve keşifsel istatistik, istatistiğin temel alanlarını oluşturur.</p>
 <ul>
-<li><p><strong>Betimsel istatistik</strong>, eldeki verileri özetlemek ve tanımlamak için araçlar sunar; böylece örneklem hakkında net bir tablo ortaya konur.</p></li>
-<li><p><strong>Çıkarımsal istatistik</strong> ise, örneklemden yola çıkarak daha geniş genellemelere ulaşmamıza veya tüm evren hakkında tahminlerde bulunmamıza olanak tanır.</p></li>
+<li><p><strong>Betimsel (Descriptive) istatistik</strong>, eldeki verileri özetlemek ve tanımlamak için araçlar sunar; böylece örneklem hakkında net bir tablo ortaya konur. Örneğin; “<em>Bir sınıftaki öğrencilerin yaş ortalaması 21.4’tür</em>.”</p></li>
+<li><p><strong>Çıkarımsal (Inferential) istatistik</strong>, örneklemden yola çıkarak daha geniş genellemelere ulaşmamıza veya tüm evren hakkında tahminlerde bulunmamıza olanak tanır. Örneğin; “<em>Bir sınıfın yaş ortalamasına bakarak tüm üniversite öğrencilerinin yaş ortalamasını tahmin etmek.</em>”</p></li>
+<li><p>Keşifsel istatistik (Exploratory) ise veri hakkında ön bilgi edinmek, desenleri ve ilişkileri keşfetmeye yarar. Hipotez kurmadan önce veriyi keşfetmek gibi düşünülebilir. Değişkenler arası ilişkileri sezgisel olarak ortaya koyar (korelasyon matrisleri, scatter plot vb.). Örneğin; “<em>Bir veri setinde hangi değişkenler arasında ilişki olabilir, anlamlı desenler var mı</em>?”</p></li>
 </ul>
-<p>Bu sayede örneklemde elde edilen bulgular, daha büyük bir evreni anlamak için kullanılabilir.</p>
+<p>Çıkarımsal istatistik sayesinde örneklemden elde edilen bulgular, daha büyük bir evreni anlamak için kullanılabilir.</p>
 <p><img src="images/orneklem.png" class="img-fluid" width="615"></p>
 <section id="betimsel-istatistik-vs.-çıkarımsal-istatistik" class="level3">
 <h3 class="anchored" data-anchor-id="betimsel-istatistik-vs.-çıkarımsal-istatistik"><strong>Betimsel İstatistik vs.&nbsp;Çıkarımsal İstatistik</strong></h3>
 <p>İstatistiğin temel amaçlarından biri, bir evren (popülasyon) hakkında çıkarımda bulunmaktır. Ancak çoğu durumda, evrenin tamamına ait verilere ulaşmak mümkün değildir. Bu nedenle, evreni temsil eden bir örneklem seçilir.</p>
 <p>Bu örneklem, daha sonra <strong>betimsel istatistik</strong> kullanılarak analiz edilir. Betimsel istatistik, örneklemin ortalaması ve değişkenliği gibi temel özelliklerini özetlemeye yardımcı olur.</p>
 <p>Ancak yalnızca örneklemi betimlemek, tüm evren (popülasyon) hakkında fikir vermez; bu noktada <strong>çıkarımsal istatistik</strong> devreye girer. Çıkarımsal istatistik, örneklemden yola çıkarak evren hakkında sonuçlar çıkarmayı amaçlar ve örneklemin bilinen özelliklerine dayanarak evrenin bilinmeyen parametrelerini tahmin etmeye çalışır.</p>
-<p>Bu nedenle, çıkarımsal istatistik mevcut verilerin ötesine geçerek genellemelere ulaşmayı hedefler. Bunu gerçekleştirmek için <strong>t-testi</strong> ya da <strong>varyans analizi (ANOVA)</strong> gibi hipotez testleri kullanılır.</p>
+<p>Bu nedenle, çıkarımsal istatistik mevcut verilerin ötesine geçerek genellemelere ulaşmayı hedefler. Bunu gerçekleştirmek için <strong>t-testi</strong> , <strong>varyans analizi (ANOVA) veya regresyon</strong> gibi hipotez testleri kullanılır.</p>
 </section>
 <section id="betimsel-istatistik-descriptive-statistics" class="level3">
 <h3 class="anchored" data-anchor-id="betimsel-istatistik-descriptive-statistics"><strong>Betimsel İstatistik (Descriptive Statistics)</strong></h3>
@@ -358,7 +361,7 @@ ul.task-list li input[type="checkbox"] {
 <blockquote class="blockquote">
 <p><strong>Betimsel istatistik</strong> terimi, verilerin istatistiksel özellikler, grafikler, tablolar veya diyagramlar yoluyla tanımlanmasına yönelik yöntemleri kapsar.</p>
 </blockquote>
-<p>Burada önemli olan nokta, yalnızca <strong>ilgili örneklemin özelliklerinin</strong> tanımlanması ve değerlendirilmesidir. Ancak bu aşamada <strong>farklı zaman noktalarına veya evrene (popülasyona)</strong> dair herhangi bir çıkarım yapılmaz. Bu, <strong>çıkarımsal istatistiğin</strong> (ya da sonuçlayıcı istatistiğin) alanına girer.</p>
+<p>Burada önemli olan nokta, yalnızca <strong>ilgili örneklemin özelliklerinin</strong> tanımlanması ve değerlendirilmesidir. Ancak bu aşamada <strong>farklı zaman noktalarına veya evrene (popülasyona)</strong> dair herhangi bir çıkarım yapılmaz. Bu, <strong>çıkarımsal istatistiğin</strong> alanına girer.</p>
 <p><strong>Betimsel istatistiğin alt başlıkları</strong> genel olarak şu şekilde özetlenebilir:</p>
 <ul>
 <li><p>Merkezi eğilim ölçüleri (ortalama, medyan, mod)</p></li>
@@ -367,7 +370,7 @@ ul.task-list li input[type="checkbox"] {
 <li><p>Grafiksel gösterimler (histogramlar, kutu grafikleri vb.)</p></li>
 </ul>
 <p><img src="images/Resim3-01.png" class="img-fluid"></p>
-<p>Hangi sorunun sorulduğuna ve hangi ölçme düzeyinin kullanıldığına bağlı olarak, <strong>değerlendirme için farklı temel ölçütler, tablolar ve grafikler</strong> kullanılır. Bunlar arasında en bilinenleri şunlardır:</p>
+<p>Betimsel istatistik, hangi sorunun sorulduğuna ve hangi ölçme düzeyinin kullanıldığına bağlı olarak, <strong>tablolar ve grafikler</strong> kullanılır. Bunlar arasında en bilinenleri şunlardır:</p>
 <ul>
 <li><p><strong>Konum (merkezi eğilim) ölçütleri:</strong> Aritmetik ortalama, medyan, mod, toplam</p></li>
 <li><p><strong>Dağılım ölçütleri:</strong> Standart sapma, varyans, açıklık (range)</p></li>
@@ -383,7 +386,7 @@ ul.task-list li input[type="checkbox"] {
 </ul>
 <p>Bu durumu açıklamak için <strong>klasik bir örnek</strong>: <strong>standart sapmadır.</strong> Standart sapma, veri değerlerinin ortalama etrafında ne kadar yayıldığını gösteren temel bir dağılım ölçüsüdür.</p>
 <p><img src="images/2resim.PNG" class="img-fluid" width="737"></p>
-<p>Verileri tanımlamak için hangi <strong>merkezî eğilim</strong> (location) ya da <strong>dağılım</strong> (dispersion) ölçütlerinin uygun olduğu, değişkenin <strong>ölçme düzeyine</strong> bağlıdır. Bu noktada, değişkenin ölçüm düzeyine göre üç ana kategoriye ayrım yapılır:</p>
+<p>Verileri tanımlamak için hangi <strong>merkezî eğilim</strong> (location) ya da <strong>dağılım</strong> (dispersion) ölçütlerinin uygun olduğu, değişkenin <strong>ölçme düzeyine</strong> bağlıdır. Bu noktada, değişkenin ölçüm düzeyine göre üç ana kategoriye ayrım yapabiliriz:</p>
 <ul>
 <li><p><strong>Metrik ölçek</strong> (<em>sayısal</em>)</p></li>
 <li><p><strong>Sıralı</strong> (<em>ordinal</em>) <strong>ölçek</strong></p></li>
@@ -488,6 +491,113 @@ Tablo&nbsp;1: Frekans Tabloları
 </div>
 </div>
 </div>
+<p>Cinsiyetlere göre tanımlayıcı istatistikleri daha daha da detaylandırırsak örneklem hakkında daha fazla bilgiye sahip olabiliriz. Bu aşama bize hipotez testlerinden önce verimizi keşfetmemizi sağlıyor. Aşağıdaki <a href="#tbl-frekans2" class="quarto-xref">Tablo&nbsp;2</a> ’de kadın ve erkeklerin boy ortalamaları, standart sapmaları, minimum ve maksimum değerleri, ve aralıkları verilmiştir.</p>
+<div id="tbl-frekans2" class="cell quarto-float quarto-figure quarto-figure-center anchored">
+<figure class="quarto-float quarto-float-tbl figure">
+<figcaption class="quarto-float-caption-top quarto-float-caption quarto-float-tbl" id="tbl-frekans2-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+Tablo&nbsp;2: Cinsiyet ve Boy Değişkeni Tanımlayıcı İstatistikleri
+</figcaption>
+<div aria-describedby="tbl-frekans2-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+<div class="cell-output cell-output-stdout">
+<pre><code>   Grup N Ortalama        S Medyan Min Maks Aralik
+1 Erkek 2    175.0 7.071068  175.0 170  180     10
+2 Kadın 2    162.5 3.535534  162.5 160  165      5</code></pre>
+</div>
+</div>
+</figure>
+</div>
+</section>
+<section id="çıkarımsal-istatistik-inferential-statistics" class="level3">
+<h3 class="anchored" data-anchor-id="çıkarımsal-istatistik-inferential-statistics"><strong>Çıkarımsal İstatistik (Inferential Statistics)</strong></h3>
+<p>Çıkarımsal istatistik nedir?<br>
+Betimsel istatistiğin aksine, çıkarımsal istatistik <strong>tüm evren (popülasyon) hakkında bir çıkarımda bulunmak</strong> ister. Ancak çoğu durumda tüm popülasyonu incelemek neredeyse imkânsızdır. Bu nedenle popülasyonu temsil eden <strong>bir örneklem</strong> (yani popülasyondan alınan küçük bir veri seti) kullanılır. Bu örneklem aracılığıyla popülasyon hakkında istatistiksel bir yorum yapılabilir.</p>
+<p>Örneğin, <strong>tüm Türkiye vatandaşlarından oluşan</strong> bir popülasyondan <strong>1.000 kişilik bir örneklem</strong> alındığında, bu örneklem üzerinden tüm Türkiye vatandaşları hakkında çıkarım yapılabilir.</p>
+<p><img src="images/Resim6.png" class="img-fluid" width="462"></p>
+<p>Popülasyon hakkında hangi türde bir çıkarım yapılmak istendiğine ya da hangi soruya cevap aranacağına bağlı olarak, farklı istatistiksel yöntemler veya hipotez testleri kullanılır.</p>
+<p>En bilinenler arasında, <strong>gruplar arası farkların test edilmesini sağlayan hipotez testleri</strong> yer alır. Örneğin:</p>
+<ul>
+<li><p><strong>t-testi</strong></p></li>
+<li><p><strong>Ki-kare testi (chi-square test)</strong></p></li>
+<li><p><strong>Varyans analizi (ANOVA)</strong></p></li>
+</ul>
+<p>Bunların yanında, <strong>değişkenler arasındaki ilişkilerin test edilmesini sağlayan hipotez testleri</strong> de vardır. Örneğin:</p>
+<ul>
+<li><p><strong>Korelasyon analizi</strong></p></li>
+<li><p><strong>Regresyon analizi</strong></p></li>
+</ul>
+<p>Bu testler, popülasyon hakkında çıkarım yapmak için örneklemden elde edilen verilere dayalı istatistiksel analizler sunar.</p>
+<p><img src="images/Resim7.png" class="img-fluid" width="414"></p>
+<section id="çıkarımsal-istatistik-örneği" class="level4">
+<h4 class="anchored" data-anchor-id="çıkarımsal-istatistik-örneği"><strong>Çıkarımsal İstatistik Örneği</strong></h4>
+<p>Yukarıdaki örneğin 10 basketbolcudan oluşan bir örneklem olduğunu düşünelim. Önceki verdiğimiz bilgiler <strong>betimsel istatistiğin</strong> görevidir.</p>
+<p>Ancak eğer tüm popülasyon hakkında bir çıkarım yapmak istiyorsanız, o zaman <strong>çıkarımsal istatistik</strong> devreye girer.</p>
+<p>Örneğin şu soru ilgi çekici olabilir:</p>
+<blockquote class="blockquote">
+<p>“Basketbolcular, genel erkek nüfusuna kıyasla daha uzun mu?”</p>
+</blockquote>
+<p>Bu hipotezi test etmek için <strong>t-testi</strong> uygulanır.<br>
+<strong>t-testi</strong>, örneklemin ortalamasını, popülasyonun ortalamasıyla karşılaştırır.<br>
+Bu sayede, gözlemlenen farkın istatistiksel olarak anlamlı olup olmadığı belirlenebilir.</p>
+<div id="fig-population" class="quarto-layout-panel">
+<figure class="quarto-float quarto-float-fig figure">
+<div aria-describedby="fig-population-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+<div class="quarto-layout-row">
+<div class="quarto-layout-cell-subref quarto-layout-cell" data-ref-parent="fig-population" style="flex-basis: 50.0%;justify-content: flex-start;">
+<div id="fig-tek" class="quarto-float quarto-figure quarto-figure-center anchored">
+<figure class="quarto-float quarto-subfloat-fig figure">
+<div aria-describedby="fig-tek-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+<img src="images/Resim8.png" class="img-fluid figure-img" data-ref-parent="fig-population">
+</div>
+<figcaption class="quarto-float-caption-bottom quarto-subfloat-caption quarto-subfloat-fig" id="fig-tek-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+(a) Tek Örneklem
+</figcaption>
+</figure>
+</div>
+</div>
+<div class="quarto-layout-cell-subref quarto-layout-cell" data-ref-parent="fig-population" style="flex-basis: 50.0%;justify-content: flex-start;">
+<div id="fig-iki" class="quarto-float quarto-figure quarto-figure-center anchored">
+<figure class="quarto-float quarto-subfloat-fig figure">
+<div aria-describedby="fig-iki-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+<img src="images/Resim9.png" class="img-fluid figure-img" data-ref-parent="fig-population">
+</div>
+<figcaption class="quarto-float-caption-bottom quarto-subfloat-caption quarto-subfloat-fig" id="fig-iki-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+(b) İki Örneklem
+</figcaption>
+</figure>
+</div>
+</div>
+</div>
+</div>
+<figcaption class="quarto-float-caption-bottom quarto-float-caption quarto-float-fig" id="fig-population-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+Şekil&nbsp;2: T-Testler
+</figcaption>
+</figure>
+</div>
+<p>Genel olarak tek örnekleminiz olduğunda ve önceden değerleri bilinen bir evrenle karşılaştırma yapıldığında (<a href="#fig-tek" class="quarto-xref">Şekil&nbsp;2 (a)</a>), <strong>tek örneklem t-testi</strong> (one-sample t-test) kullanılır. Öte yandan iki örneklemli grup karşılaştırıldığında (<a href="#fig-iki" class="quarto-xref">Şekil&nbsp;2 (b)</a>), <strong>bağımsız örneklemler t-testi</strong> (independent-samples t-test) uygulanır.</p>
+<p>Ayrıca bağımsız örneklem t-testi için de şu soru sorulabilir:</p>
+<blockquote class="blockquote">
+<p>“Basketbolcular, futbolculardan daha mı uzundur?”</p>
+</blockquote>
+<p>Bu amaçla bir grup futbolcudan oluşan bir <strong>örneklem</strong> alınır ve ardından basketbolcuların ortalama boyu ile futbolcuların ortalama boyu karşılaştırılır. Bu karşılaştırma, <strong>bağımsız örneklemler için t-testi (independent t-test)</strong> kullanılarak yapılır.</p>
+<p>Bu test sayesinde artık şu türden bir çıkarımda bulunmak mümkündür:</p>
+<blockquote class="blockquote">
+<p>“Basketbolcular, popülasyon düzeyinde futbolculardan daha uzun mudur, değil midir?”</p>
+</blockquote>
+<p>Ancak bu çıkarım yalnızca <strong>örneklemlere</strong> dayanılarak yapılmaktadır.<br>
+Dolayısıyla, sadece bu örneklemde basketbolcuların daha uzun çıkması <strong>tamamen bir rastlantı</strong> da olabilir.</p>
+<p>Bu nedenle, yapılan çıkarım <strong>belirli bir olasılık düzeyinde</strong> (örneğin %95 güvenle) desteklenebilir ya da reddedilebilir; ama <strong>kesin</strong> bir yargıya varmak mümkün değildir.</p>
+</section>
+</section>
+<section id="betimsel-ve-çıkarımsal-istatistik-örneği" class="level3">
+<h3 class="anchored" data-anchor-id="betimsel-ve-çıkarımsal-istatistik-örneği"><strong>Betimsel ve Çıkarımsal İstatistik Örneği</strong></h3>
+<p>Bir sosyal hizmet kurumu, <strong>madde bağımlılığıyla mücadele eden bireylerin çok fazla depresyona maruz kaldığını tespit etmiş ve bu grup için yeni bir danışmanlık programı</strong> geliştirmiştir. Programın etkili olup olmadığını değerlendirmek amacıyla <strong>200 danışan</strong> programa katılmış ve müdahale öncesi ile sonrası <strong>depresyon düzeyleri ölçülmüştür</strong>.</p>
+<p><strong>Betimsel istatistik</strong> kapsamında, danışanların programdan önceki ve sonraki depresyon puanları arasındaki ortalama fark hesaplanmış, <strong>ortalama düşüş 15 puan</strong>, <strong>standart sapma ise 5 puan</strong> olarak bulunmuştur. Ayrıca, katılımcıların depresyon puanlarındaki değişim düzeylerini görselleştirmek için bir <strong>frekans dağılım grafiği</strong> hazırlanmıştır. Bu analizler, örneklem grubundaki iyileşmenin genel bir görünümünü sunar fakat anlamlı bir azalıştan bahsetmez.</p>
+<p><strong>Çıkarımsal istatistik</strong> kapsamında ise bu değişimin tesadüfi olup olmadığını test etmek için <strong>bağımlı örneklemler t-testi (paired samples t-test)</strong> uygulanmıştır. Çünkü burada aynı bireylerin müdahale öncesi ve sonrası ölçümleri karşılaştırılmaktadır.</p>
+<blockquote class="blockquote">
+<p>Alternatif olarak, eğer müdahale programına katılan grup ile katılmayan ayrı bir kontrol grubu karşılaştırılmış olsaydı, o zaman <strong>bağımsız örneklemler t-testi (independent samples t-test)</strong> kullanılacaktı.</p>
+</blockquote>
+<p>Yapılan analiz sonucunda, gözlenen 15 puanlık düşüşün <strong>istatistiksel olarak anlamlı olduğu</strong> belirlenmiş ve <strong>%95 güven aralığı 13–17 puan</strong> arasında hesaplanmıştır. Bu da, programın yalnızca bu örneklemde değil, <strong>genel danışan popülasyonu için de etkili olabileceği</strong> yönünde bir çıkarım yapılmasına imkân tanımaktadır.</p>
+<p>Buradaki gruba hem müdahaleden önce test yapılmış hem de müdahaleden sonra test yapıldığı için aynı gruptur. Yani bunlar bağımsız gruplar değildir. Bundan dolayı bağımlı grup t-testi gerçekleştirilmiştir. Eğer kontrol grubu yani hiçbir müdahale yapmadığımız bir grup ile kıyaslasaydık o zaman bağımsız örneklem t-testi gerçekleştirecektik.</p>
 
 
 </section>
