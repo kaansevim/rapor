@@ -13,15 +13,15 @@
     ]
   },
   {
-    "listing": "/blog/index.html",
-    "items": [
-      "/blog/01-multeciler/rgiris.html"
-    ]
-  },
-  {
     "listing": "/analizler/index.html",
     "items": [
       "/analizler/post/01-one-sample/01-one-sample.html"
+    ]
+  },
+  {
+    "listing": "/blog/index.html",
+    "items": [
+      "/blog/01-multeciler/rgiris.html"
     ]
   }
 ]

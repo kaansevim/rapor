@@ -8,6 +8,7 @@ listing:
   sort-ui: true
   filter-ui: true
 comments: false
+repo-actions: false
 ---
 
 > *“Veritatis simplex oratio est” – Hakikatin dili basittir.*

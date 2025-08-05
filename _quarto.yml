@@ -16,6 +16,10 @@ website:
   
   favicon: "images/logo3.png"
   
+  repo-url:    https://github.com/kaansevim/rapor
+  repo-branch: main
+  repo-actions: [edit, issue]
+  
   navbar:
     background: primary
     right:
@@ -88,7 +92,7 @@ website:
             file: research/15-research.qmd
       
   page-footer: "Copyright 2025 &copy; Kaan Sevim"
-  repo-url: https://kaansevim.github.io/rapor/
+  site-url: https://kaansevim.github.io/rapor/
 
 format:
   html:

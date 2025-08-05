@@ -563,7 +563,7 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
   }
     var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
     var mailtoRegex = new RegExp(/^mailto:/);
-      var filterRegex = new RegExp('/' + window.location.host + '/');
+      var filterRegex = new RegExp("https:\/\/kaansevim\.github\.io\/rapor\/");
     var isInternal = (href) => {
         return filterRegex.test(href) || localhostRegex.test(href) || mailtoRegex.test(href);
     }
@@ -903,7 +903,7 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
     </div>   
     <div class="nav-footer-center">
 <p>Copyright 2025 © Kaan Sevim</p>
-</div>
+<div class="toc-actions"><ul><li><a href="https://github.com/kaansevim/rapor/edit/main/research/03-research.qmd" class="toc-action"><i class="bi bi-github"></i>Bu sayfayı düzenle</a></li><li><a href="https://github.com/kaansevim/rapor/issues/new" class="toc-action"><i class="bi empty"></i>Sorun bildir</a></li></ul></div></div>
     <div class="nav-footer-right">
       &nbsp;
     </div>

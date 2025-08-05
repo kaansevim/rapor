@@ -191,7 +191,7 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
   <li><a href="#içerik-hazırlama-kuralları" id="toc-içerik-hazırlama-kuralları" class="nav-link" data-scroll-target="#içerik-hazırlama-kuralları">İçerik Hazırlama Kuralları</a></li>
   <li><a href="#sorular-ve-destek" id="toc-sorular-ve-destek" class="nav-link" data-scroll-target="#sorular-ve-destek">Sorular ve Destek</a></li>
   </ul>
-</nav>
+<div class="toc-actions"><ul><li><a href="https://github.com/kaansevim/rapor/edit/main/katkı.qmd" class="toc-action"><i class="bi bi-github"></i>Bu sayfayı düzenle</a></li><li><a href="https://github.com/kaansevim/rapor/issues/new" class="toc-action"><i class="bi empty"></i>Sorun bildir</a></li></ul></div></nav>
     </div>
 <!-- main -->
 <main class="content" id="quarto-document-content">
@@ -545,7 +545,7 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
   }
     var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
     var mailtoRegex = new RegExp(/^mailto:/);
-      var filterRegex = new RegExp('/' + window.location.host + '/');
+      var filterRegex = new RegExp("https:\/\/kaansevim\.github\.io\/rapor\/");
     var isInternal = (href) => {
         return filterRegex.test(href) || localhostRegex.test(href) || mailtoRegex.test(href);
     }
@@ -885,7 +885,7 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
     </div>   
     <div class="nav-footer-center">
 <p>Copyright 2025 © Kaan Sevim</p>
-</div>
+<div class="toc-actions d-sm-block d-md-none"><ul><li><a href="https://github.com/kaansevim/rapor/edit/main/katkı.qmd" class="toc-action"><i class="bi bi-github"></i>Bu sayfayı düzenle</a></li><li><a href="https://github.com/kaansevim/rapor/issues/new" class="toc-action"><i class="bi empty"></i>Sorun bildir</a></li></ul></div></div>
     <div class="nav-footer-right">
       &nbsp;
     </div>

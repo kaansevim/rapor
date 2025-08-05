@@ -1,6 +1,7 @@
 ---
 title: "R Programı ile Araştırma Analizleri"
 author: Dr. Kaan Sevim
+repo-actions: false
 ---
 
 Günlük yaşamın her alanında üretilen bilginin **güvenirliği**, kullanılan araştırma yöntemlerinin doğruluğu ve geçerliliği ile doğrudan ilişkilidir. Elde ettiğimiz verileri başkalarına sunarken ya da bilimsel tartışmalara katılırken, benimsediğimiz metodolojik yaklaşımın şeffaflığı ve sistematikliği, bilginin kabul görmesini sağlar. Bu bağlamda, araştırma sürecinde veri toplama, analiz ve yorumlama aşamalarında, alanında kabul görmüş paradigmaların rehberliğine ihtiyaç duyulur. Bu derste, araştırma yöntemlerinin temellerini, çeşitli yöntemlerin avantaj ve sınırlılıklarını ve bu yöntemlerin bilimsel bilgi üretimine katkılarını akademik bir bakış açısıyla ele alacağız.

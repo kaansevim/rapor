@@ -8,6 +8,7 @@ listing:
   sort-ui: true
   filter-ui: true
 comments: false
+repo-actions: false
 ---
 
 Bu sayfada tüm yazılarımı bulabilirsiniz. Yazıları kategorilere göre filtreleyebilir veya tarih sırasına göre sıralayabilirsiniz.

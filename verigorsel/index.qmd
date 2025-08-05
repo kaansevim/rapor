@@ -10,6 +10,7 @@ listing:
   grid-columns: 4
   grid-item-align: center
 comments: false
+repo-actions: false
 toc-title: Temalar
 ---
 

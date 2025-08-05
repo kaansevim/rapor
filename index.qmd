@@ -6,6 +6,7 @@ format:
   html:
     anchor-sections: false
 comments: false
+repo-actions: false
 ---
 
 Merhaba, Rapor sitesi sosyal bilimlerde veriyle düşünen, üreten ve paylaşan herkes için açık bir öğrenme platformu olması için tasarlanmıştır.
