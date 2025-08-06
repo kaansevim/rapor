@@ -13,8 +13,10 @@ comments:
 
 website:
   title: "Rapor"
-  
+  image: "images/logo3.png"
   favicon: "images/logo3.png"
+  
+  reader-mode: true
   
   repo-url:    https://github.com/kaansevim/rapor
   repo-branch: main
@@ -91,8 +93,25 @@ website:
           - text: "15: Etik Kurallar ve Araştırma Yazımı"
             file: research/15-research.qmd
       
-  page-footer: "Copyright 2025 &copy; Kaan Sevim"
+  page-footer:
+    background: light
+    left: |
+      [![](/images/logo3.png){width=20px .light-content}](https://kaansevim.github.io/rapor/)
+      &copy; Rapor.tr
+    center: 
+      - text: Hakkımızda
+        href: index.qmd
+      - text: Lisans
+        href: https://github.com/kaansevim/rapor/tree/master?tab=MIT-1-ov-file#readme
+      - text: İletişim
+        href: iletişim.qmd
+    right: 
+      - icon: github
+        href: https://github.com/kaansevim/rapor
+    
+
   site-url: https://kaansevim.github.io/rapor/
+
 
 format:
   html:

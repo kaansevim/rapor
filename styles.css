@@ -79,3 +79,27 @@ iframe.slide-deck {
   object-fit: contain;         /* Kırpma yerine sığdır */
   object-position: center;     /* Nesnenin kendisi de tam ortalanmış olsun */ 
 }
+
+
+
+.footer-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;      /* Dar ekranlarda alta kayma için */
+  gap: 1em;             /* Elemanlar arası boşluk */
+  padding: 1em 2em;     /* İsteğe bağlı iç boşluk */
+  font-size: 0.9em;     /* Yazı boyutunu küçültmek isterseniz */
+}
+
+.footer-left,
+.footer-right {
+  display: flex;
+  align-items: center;
+  gap: 0.5em;           /* İçlerindeki linkler-arası boşluk */
+}
+
+.cc-icon {
+  max-width: 1em;
+  max-height: 1em;
+}
