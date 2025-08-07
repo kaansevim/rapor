@@ -1,6 +1,14 @@
 ---
 title: "R ve R Studio Kurulumu"
 author: Dr. Kaan Sevim
+format:
+  html: default
+  pdf: default
+format-links:
+  - html                   # HTML linkini de görmek isterseniz
+  - format: pdf            # PDF formatı için
+    text: PDF indir        # Görünecek yazı
+    icon: file-pdf 
 ---
 
 ## R ve RStudio Nasıl Kurulur?

@@ -1,14 +1,16 @@
 <!DOCTYPE html>
-<html xmlns="http://www.w3.org/1999/xhtml" lang="tr" xml:lang="tr"><head>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="tr" xml:lang="tr">
 
-<meta charset="utf-8">
-<meta name="generator" content="quarto-1.5.57">
+<head>
 
-<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+<meta charset="utf-8" />
+<meta name="generator" content="quarto-1.5.57" />
 
-<meta name="author" content="Kaan Sevim">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes" />
 
-<title>Ordered Column Chart – Rapor</title>
+<meta name="author" content="Dr. Kaan Sevim" />
+
+<title>R ve R Studio Kurulumu – Rapor</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -21,28 +23,43 @@ ul.task-list li input[type="checkbox"] {
   margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
   vertical-align: middle;
 }
+/* CSS for syntax highlighting */
+pre > code.sourceCode { white-space: pre; position: relative; }
+pre > code.sourceCode > span { line-height: 1.25; }
+pre > code.sourceCode > span:empty { height: 1.2em; }
+.sourceCode { overflow: visible; }
+code.sourceCode > span { color: inherit; text-decoration: inherit; }
+div.sourceCode { margin: 1em 0; }
+pre.sourceCode { margin: 0; }
+@media screen {
+div.sourceCode { overflow: auto; }
+}
+@media print {
+pre > code.sourceCode { white-space: pre-wrap; }
+pre > code.sourceCode > span { display: inline-block; text-indent: -5em; padding-left: 5em; }
+}
+pre.numberSource code
+  { counter-reset: source-line 0; }
+pre.numberSource code > span
+  { position: relative; left: -4em; counter-increment: source-line; }
+pre.numberSource code > span > a:first-child::before
+  { content: counter(source-line);
+    position: relative; left: -1em; text-align: right; vertical-align: baseline;
+    border: none; display: inline-block;
+    -webkit-touch-callout: none; -webkit-user-select: none;
+    -khtml-user-select: none; -moz-user-select: none;
+    -ms-user-select: none; user-select: none;
+    padding: 0 4px; width: 4em;
+  }
+pre.numberSource { margin-left: 3em;  padding-left: 4px; }
+div.sourceCode
+  {   }
+@media screen {
+pre > code.sourceCode > span > a:first-child::before { text-decoration: underline; }
+}
 </style>
 
-
-<script src="../../site_libs/quarto-nav/quarto-nav.js"></script>
-<script src="../../site_libs/quarto-nav/headroom.min.js"></script>
-<script src="../../site_libs/clipboard/clipboard.min.js"></script>
-<script src="../../site_libs/quarto-search/autocomplete.umd.js"></script>
-<script src="../../site_libs/quarto-search/fuse.min.js"></script>
-<script src="../../site_libs/quarto-search/quarto-search.js"></script>
-<meta name="quarto:offset" content="../../">
-<link href="../../images/logo3.png" rel="icon" type="image/png">
-<script src="../../site_libs/quarto-html/quarto.js"></script>
-<script src="../../site_libs/quarto-html/popper.min.js"></script>
-<script src="../../site_libs/quarto-html/tippy.umd.min.js"></script>
-<script src="../../site_libs/quarto-html/anchor.min.js"></script>
-<link href="../../site_libs/quarto-html/tippy.css" rel="stylesheet">
-<link href="../../site_libs/quarto-html/quarto-syntax-highlighting.css" rel="stylesheet" class="quarto-color-scheme" id="quarto-text-highlighting-styles">
-<link href="../../site_libs/quarto-html/quarto-syntax-highlighting-dark.css" rel="prefetch" class="quarto-color-scheme quarto-color-alternate" id="quarto-text-highlighting-styles">
-<script src="../../site_libs/bootstrap/bootstrap.min.js"></script>
-<link href="../../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="../../site_libs/bootstrap/bootstrap.min.css" rel="stylesheet" class="quarto-color-scheme" id="quarto-bootstrap" data-mode="light">
-<link href="../../site_libs/bootstrap/bootstrap-dark.min.css" rel="prefetch" class="quarto-color-scheme quarto-color-alternate" id="quarto-bootstrap" data-mode="dark">
+<!-- htmldependencies:E3FAD763 -->
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": false,
@@ -72,66 +89,77 @@ ul.task-list li input[type="checkbox"] {
 }</script>
 
 
-<link rel="stylesheet" href="../../styles.css">
+<link rel="stylesheet" href="../styles.css" />
 </head>
 
-<body class="nav-fixed">
+<body>
 
 <div id="quarto-search-results"></div>
   <header id="quarto-header" class="headroom fixed-top">
     <nav class="navbar navbar-expand-lg " data-bs-theme="dark">
       <div class="navbar-container container-fluid">
       <div class="navbar-brand-container mx-auto">
-    <a class="navbar-brand" href="../../index.html">
+    <a class="navbar-brand" href="/index.html">
     <span class="navbar-title">Rapor</span>
     </a>
   </div>
             <div id="quarto-search" class="" title="Ara"></div>
-          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" role="menu" aria-expanded="false" aria-label="Gezintiyi Aç/Kapa" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse"
+  aria-controls="navbarCollapse" role="menu" aria-expanded="false" aria-label="Gezintiyi Aç/Kapa"
+  onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
   <span class="navbar-toggler-icon"></span>
 </button>
           <div class="collapse navbar-collapse" id="navbarCollapse">
             <ul class="navbar-nav navbar-nav-scroll ms-auto">
   <li class="nav-item">
-    <a class="nav-link" href="../../index.html"> 
+    <a class="nav-link" href="/index.html"> 
 <span class="menu-text">Ana Sayfa</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="../../analizler/index.html"> 
+    <a class="nav-link" href="/analizler/index.html"> 
 <span class="menu-text">Analizler</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="../../verigorsel/index.html"> 
+    <a class="nav-link" href="/verigorsel/index.html"> 
 <span class="menu-text">Veri Görsel</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="../../blog/index.html"> 
+    <a class="nav-link" href="/blog/index.html"> 
 <span class="menu-text">Blog</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="../../research/index.html"> 
+    <a class="nav-link" href="/research/index.html"> 
 <span class="menu-text">Araştırma Yöntemleri</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="../../katkı.html"> 
+    <a class="nav-link" href="/katkı.html"> 
 <span class="menu-text">Katkı</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="../../iletişim.html"> 
+    <a class="nav-link" href="/iletişim.html"> 
 <span class="menu-text">İletişim</span></a>
   </li>  
   <li class="nav-item compact">
-    <a class="nav-link" href="https://github.com/kaansevim/rapor"> <i class="bi bi-github" role="img">
+    <a class="nav-link" href="https://github.com/kaansevim/rapor"> <i 
+  class="bi bi-github" 
+  role="img" 
+>
 </i> 
 <span class="menu-text"></span></a>
   </li>  
   <li class="nav-item compact">
-    <a class="nav-link" href="https://x.com/kaanswm"> <i class="bi bi-twitter" role="img">
+    <a class="nav-link" href="https://x.com/kaanswm"> <i 
+  class="bi bi-twitter" 
+  role="img" 
+>
 </i> 
 <span class="menu-text"></span></a>
   </li>  
   <li class="nav-item compact">
-    <a class="nav-link" href="https://www.linkedin.com/in/kaan-sevim-43043875/"> <i class="bi bi-linkedin" role="img">
+    <a class="nav-link" href="https://www.linkedin.com/in/kaan-sevim-43043875/"> <i 
+  class="bi bi-linkedin" 
+  role="img" 
+>
 </i> 
 <span class="menu-text"></span></a>
   </li>  
@@ -147,24 +175,178 @@ ul.task-list li input[type="checkbox"] {
 </div>
       </div> <!-- /container-fluid -->
     </nav>
+  <nav class="quarto-secondary-nav">
+    <div class="container-fluid d-flex">
+      <button type="button" class="quarto-btn-toggle btn"
+      data-bs-toggle="collapse" role="button" data-bs-target=".quarto-sidebar-collapse-item" 
+      aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Kenar çubuğu gezintisini Aç/Kapa"
+      onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
+        <i class="bi bi-layout-text-sidebar-reverse"></i>
+      </button>
+        <h1 class="quarto-secondary-nav-title no-breadcrumbs"></h1>
+        <a class="flex-grow-1" role="navigation" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item" role="link"
+        aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Kenar çubuğu gezintisini Aç/Kapa"
+        onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">      
+        </a>
+    </div>
+  </nav>
 </header>
 <!-- content -->
 <div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
 <!-- sidebar -->
+  <nav id="quarto-sidebar" class="sidebar collapse collapse-horizontal quarto-sidebar-collapse-item sidebar-navigation docked overflow-auto">
+    <div class="sidebar-menu-container"> 
+    <ul class="list-unstyled mt-1">
+        <li class="sidebar-item sidebar-item-section">
+      <div class="sidebar-item-container"> 
+            <a class="sidebar-item-text sidebar-link text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-1"  role="navigation" aria-expanded="true">
+ <span class="menu-text">Genel Giriş</span></a>
+          <a class="sidebar-item-toggle text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-1" role="navigation" aria-expanded="true" aria-label="Bölümü Aç/Kapa">
+            <i class="bi bi-chevron-right ms-2"></i>
+          </a> 
+      </div>
+      <ul id="quarto-sidebar-section-1" class="collapse list-unstyled sidebar-section depth1 show">  
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="/research/index.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">R Programlama İle Araştırma Analizleri</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="/research/rkurulumm.html" class="sidebar-item-text sidebar-link active">
+ <span class="menu-text">R ve RStudio Kurulumu</span></a>
+  </div>
+</li>
+      </ul>
+  </li>
+        <li class="sidebar-item sidebar-item-section">
+      <div class="sidebar-item-container"> 
+            <a class="sidebar-item-text sidebar-link text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-2"  role="navigation" aria-expanded="true">
+ <span class="menu-text">I. Bölüm</span></a>
+          <a class="sidebar-item-toggle text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-2" role="navigation" aria-expanded="true" aria-label="Bölümü Aç/Kapa">
+            <i class="bi bi-chevron-right ms-2"></i>
+          </a> 
+      </div>
+      <ul id="quarto-sidebar-section-2" class="collapse list-unstyled sidebar-section depth1 show">  
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="/research/01-research.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">1: Betimsel ve Çıkarımsal İstatistikler</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="/research/02-research.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">2: Araştırma Türleri ve Tasarımları</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="/research/03-research.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">3: Betimleyici Araştırma Yöntemleri</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="/research/04-research.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">4: Deneysel Araştırma Yöntemleri</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="/research/05-research.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">5: Ölçme Araçları ve Anket Tasarımı</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="/research/06-research.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">6: Ölçek Geliştirme ve Geçerlilik</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="/research/07-research.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">7: Örneklem Seçimi ve Örneklem Büyüklüğü</span></a>
+  </div>
+</li>
+      </ul>
+  </li>
+        <li class="sidebar-item sidebar-item-section">
+      <div class="sidebar-item-container"> 
+            <a class="sidebar-item-text sidebar-link text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-3"  role="navigation" aria-expanded="true">
+ <span class="menu-text">II. Bölüm</span></a>
+          <a class="sidebar-item-toggle text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-3" role="navigation" aria-expanded="true" aria-label="Bölümü Aç/Kapa">
+            <i class="bi bi-chevron-right ms-2"></i>
+          </a> 
+      </div>
+      <ul id="quarto-sidebar-section-3" class="collapse list-unstyled sidebar-section depth1 show">  
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="/research/08-research.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">8: Veri Toplama Teknikleri</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="/research/09-research.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">9: Nitel Araştırma Yöntemleri</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="/research/10-research.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">10: İçerik Analizi ve Tematik Kodlama</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="/research/11-research.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">11: Durum Çalışması ve Etnografi</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="/research/12-research.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">12: Değişkenler Arası İlişkilerin Analizi</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="/research/13-research.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">13: SPSS ve R ile Veri Analizi Temelleri</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="/research/14-research.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">14: Bulguların Yorumlanması ve Raporlama</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="/research/15-research.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">15: Etik Kurallar ve Araştırma Yazımı</span></a>
+  </div>
+</li>
+      </ul>
+  </li>
+    </ul>
+    </div>
+</nav>
+<div id="quarto-sidebar-glass" class="quarto-sidebar-collapse-item" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item" ></div>
 <!-- margin-sidebar -->
-    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar zindex-bottom">
-        
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
+        <div id="quarto-toc-target"></div>
     </div>
 <!-- main -->
 <main class="content" id="quarto-document-content">
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title">Ordered Column Chart</h1>
-  <div class="quarto-categories">
-    <div class="quarto-category">Sıralama</div>
-  </div>
-  </div>
+<h1 class="title">R ve R Studio Kurulumu</h1>
+</div>
 
 
 
@@ -173,16 +355,10 @@ ul.task-list li input[type="checkbox"] {
     <div>
     <div class="quarto-title-meta-heading">Yazar</div>
     <div class="quarto-title-meta-contents">
-             <p>Kaan Sevim </p>
+             <p>Dr. Kaan Sevim </p>
           </div>
   </div>
     
-    <div>
-    <div class="quarto-title-meta-heading">Tarih</div>
-    <div class="quarto-title-meta-contents">
-      <p class="date">24 Temmuz 2025</p>
-    </div>
-  </div>
   
     
   </div>
@@ -191,12 +367,61 @@ ul.task-list li input[type="checkbox"] {
 
 </header>
 
-
-
-
+<nav id="TOC" role="doc-toc">
+    <h2 id="toc-title">Bu sayfada</h2>
+   
+  <ul>
+  <li><a href="#r-ve-rstudio-nasıl-kurulur" id="toc-r-ve-rstudio-nasıl-kurulur">R ve RStudio Nasıl Kurulur?</a></li>
+  <li><a href="#kurulum-sonrası-kontrol" id="toc-kurulum-sonrası-kontrol">Kurulum Sonrası Kontrol</a></li>
+  </ul>
+</nav>
+<section id="r-ve-rstudio-nasıl-kurulur" class="level2">
+<h2>R ve RStudio Nasıl Kurulur?</h2>
+<ul>
+<li><p><strong>İndirme Bağlantısı:</strong> <a href="https://posit.co/download/rstudio-desktop/">RStudio Desktop indirme sayfası</a> aşağıda yer alan görselde de göründüğü gibi sitenin içerisinde hem R hem de RStudioyu indireceğiniz butonlar bulunmaktadır.</p>
+<p><img src="images/Screenshot_1.png" class="img-fluid" /></p></li>
+<li><p>Öncelikle R’ı indirmek için Windows kullanıyorsanız: <a href="https://cran.r-project.org/bin/windows/">Download R for Windows</a> seçeneğini seçebilirsiniz -&gt; sonrasında <code>base</code> seçeneğini seçerek en üstte yer alan dosyayı indirebilirsiniz.</p></li>
+<li><p>İndirdiğiniz dosyayı çalıştırarak standart kurulum adımlarını takip edin.</p></li>
+<li><p>RStudio’ya için ise doğrudan <code>Download R Studio</code> dediğinizde doğrudan bilgisayarınıza inecektir ve standart kurulum adımlarıyla kurulumu gerçekleştirebilirsiniz.</p></li>
+<li><p>Hepsi bu kadar.</p></li>
+</ul>
+</section>
+<section id="kurulum-sonrası-kontrol" class="level2">
+<h2>Kurulum Sonrası Kontrol</h2>
+<ul>
+<li><p>RStudio’yu açın.</p></li>
+<li><p>Konsola aşağıdaki komutu yazarak R sürümünüzü kontrol edebilirsiniz:</p>
+<div class="cell">
+<div class="sourceCode" id="cb1"><pre class="sourceCode r cell-code"><code class="sourceCode r"><span id="cb1-1"><a href="#cb1-1" aria-hidden="true" tabindex="-1"></a>version</span></code></pre></div>
+</div></li>
+</ul>
+<p>Bu adımları tamamladıktan sonra R ve RStudio kullanıma hazır olacaktır.</p>
+<div id="quarto-navigation-envelope" class="hidden">
+<p><span class="hidden quarto-markdown-envelope-contents" data-render-id="quarto-int-sidebar-title">Araştırma Yöntemleri</span> <span class="hidden quarto-markdown-envelope-contents" data-render-id="quarto-int-navbar-title">Rapor</span> <span class="hidden quarto-markdown-envelope-contents" data-render-id="quarto-int-next">1: Betimsel ve Çıkarımsal İstatistikler</span> <span class="hidden quarto-markdown-envelope-contents" data-render-id="quarto-int-prev">R Programlama İle Araştırma Analizleri</span> <span class="hidden quarto-markdown-envelope-contents" data-render-id="quarto-int-sidebar:quarto-sidebar-section-1">Genel Giriş</span> <span class="hidden quarto-markdown-envelope-contents" data-render-id="quarto-int-sidebar:/research/index.htmlR-Programlama-İle-Araştırma-Analizleri">R Programlama İle Araştırma Analizleri</span> <span class="hidden quarto-markdown-envelope-contents" data-render-id="quarto-int-sidebar:/research/rkurulumm.htmlR-ve-RStudio-Kurulumu">R ve RStudio Kurulumu</span> <span class="hidden quarto-markdown-envelope-contents" data-render-id="quarto-int-sidebar:quarto-sidebar-section-2">I. Bölüm</span> <span class="hidden quarto-markdown-envelope-contents" data-render-id="quarto-int-sidebar:/research/01-research.html1:-Betimsel-ve-Çıkarımsal-İstatistikler">1: Betimsel ve Çıkarımsal İstatistikler</span> <span class="hidden quarto-markdown-envelope-contents" data-render-id="quarto-int-sidebar:/research/02-research.html2:-Araştırma-Türleri-ve-Tasarımları">2: Araştırma Türleri ve Tasarımları</span> <span class="hidden quarto-markdown-envelope-contents" data-render-id="quarto-int-sidebar:/research/03-research.html3:-Betimleyici-Araştırma-Yöntemleri">3: Betimleyici Araştırma Yöntemleri</span> <span class="hidden quarto-markdown-envelope-contents" data-render-id="quarto-int-sidebar:/research/04-research.html4:-Deneysel-Araştırma-Yöntemleri">4: Deneysel Araştırma Yöntemleri</span> <span class="hidden quarto-markdown-envelope-contents" data-render-id="quarto-int-sidebar:/research/05-research.html5:-Ölçme-Araçları-ve-Anket-Tasarımı">5: Ölçme Araçları ve Anket Tasarımı</span> <span class="hidden quarto-markdown-envelope-contents" data-render-id="quarto-int-sidebar:/research/06-research.html6:-Ölçek-Geliştirme-ve-Geçerlilik">6: Ölçek Geliştirme ve Geçerlilik</span> <span class="hidden quarto-markdown-envelope-contents" data-render-id="quarto-int-sidebar:/research/07-research.html7:-Örneklem-Seçimi-ve-Örneklem-Büyüklüğü">7: Örneklem Seçimi ve Örneklem Büyüklüğü</span> <span class="hidden quarto-markdown-envelope-contents" data-render-id="quarto-int-sidebar:quarto-sidebar-section-3">II. Bölüm</span> <span class="hidden quarto-markdown-envelope-contents" data-render-id="quarto-int-sidebar:/research/08-research.html8:-Veri-Toplama-Teknikleri">8: Veri Toplama Teknikleri</span> <span class="hidden quarto-markdown-envelope-contents" data-render-id="quarto-int-sidebar:/research/09-research.html9:-Nitel-Araştırma-Yöntemleri">9: Nitel Araştırma Yöntemleri</span> <span class="hidden quarto-markdown-envelope-contents" data-render-id="quarto-int-sidebar:/research/10-research.html10:-İçerik-Analizi-ve-Tematik-Kodlama">10: İçerik Analizi ve Tematik Kodlama</span> <span class="hidden quarto-markdown-envelope-contents" data-render-id="quarto-int-sidebar:/research/11-research.html11:-Durum-Çalışması-ve-Etnografi">11: Durum Çalışması ve Etnografi</span> <span class="hidden quarto-markdown-envelope-contents" data-render-id="quarto-int-sidebar:/research/12-research.html12:-Değişkenler-Arası-İlişkilerin-Analizi">12: Değişkenler Arası İlişkilerin Analizi</span> <span class="hidden quarto-markdown-envelope-contents" data-render-id="quarto-int-sidebar:/research/13-research.html13:-SPSS-ve-R-ile-Veri-Analizi-Temelleri">13: SPSS ve R ile Veri Analizi Temelleri</span> <span class="hidden quarto-markdown-envelope-contents" data-render-id="quarto-int-sidebar:/research/14-research.html14:-Bulguların-Yorumlanması-ve-Raporlama">14: Bulguların Yorumlanması ve Raporlama</span> <span class="hidden quarto-markdown-envelope-contents" data-render-id="quarto-int-sidebar:/research/15-research.html15:-Etik-Kurallar-ve-Araştırma-Yazımı">15: Etik Kurallar ve Araştırma Yazımı</span> <span class="hidden quarto-markdown-envelope-contents" data-render-id="quarto-int-navbar:Ana Sayfa">Ana Sayfa</span> <span class="hidden quarto-markdown-envelope-contents" data-render-id="quarto-int-navbar:/index.html">/index.html</span> <span class="hidden quarto-markdown-envelope-contents" data-render-id="quarto-int-navbar:Analizler">Analizler</span> <span class="hidden quarto-markdown-envelope-contents" data-render-id="quarto-int-navbar:/analizler/index.html">/analizler/index.html</span> <span class="hidden quarto-markdown-envelope-contents" data-render-id="quarto-int-navbar:Veri Görsel">Veri Görsel</span> <span class="hidden quarto-markdown-envelope-contents" data-render-id="quarto-int-navbar:/verigorsel/index.html">/verigorsel/index.html</span> <span class="hidden quarto-markdown-envelope-contents" data-render-id="quarto-int-navbar:Blog">Blog</span> <span class="hidden quarto-markdown-envelope-contents" data-render-id="quarto-int-navbar:/blog/index.html">/blog/index.html</span> <span class="hidden quarto-markdown-envelope-contents" data-render-id="quarto-int-navbar:Araştırma Yöntemleri">Araştırma Yöntemleri</span> <span class="hidden quarto-markdown-envelope-contents" data-render-id="quarto-int-navbar:/research/index.html">/research/index.html</span> <span class="hidden quarto-markdown-envelope-contents" data-render-id="quarto-int-navbar:Katkı">Katkı</span> <span class="hidden quarto-markdown-envelope-contents" data-render-id="quarto-int-navbar:/katkı.html">/katkı.html</span> <span class="hidden quarto-markdown-envelope-contents" data-render-id="quarto-int-navbar:İletişim">İletişim</span> <span class="hidden quarto-markdown-envelope-contents" data-render-id="quarto-int-navbar:/iletişim.html">/iletişim.html</span> <span class="hidden quarto-markdown-envelope-contents" data-render-id="quarto-int-navbar:https://github.com/kaansevim/rapor">https://github.com/kaansevim/rapor</span> <span class="hidden quarto-markdown-envelope-contents" data-render-id="quarto-int-navbar:https://x.com/kaanswm">https://x.com/kaanswm</span> <span class="hidden quarto-markdown-envelope-contents" data-render-id="quarto-int-navbar:https://www.linkedin.com/in/kaan-sevim-43043875/">https://www.linkedin.com/in/kaan-sevim-43043875/</span> <span class="hidden quarto-markdown-envelope-contents" data-render-id="quarto-breadcrumbs-Genel-Giriş">Genel Giriş</span> <span class="hidden quarto-markdown-envelope-contents" data-render-id="quarto-breadcrumbs-R-ve-RStudio-Kurulumu">R ve RStudio Kurulumu</span></p>
+<div class="hidden quarto-markdown-envelope-contents" data-render-id="footer-left">
+<p><a href="https://kaansevim.github.io/rapor/">Rapor;</a> <a href="https://creativecommons.org"></a> <a href="https://creativecommons.org/licenses/by/4.0/">CC BY 4.0</a> ile lisanlanmşıtır. <img src="https://mirrors.creativecommons.org/presskit/icons/cc.svg" 
+   alt="" 
+   style="max-width:1em;max-height:1em;margin-left:.2em;"> <img src="https://mirrors.creativecommons.org/presskit/icons/by.svg" 
+   alt="" 
+   style="max-width:1em;max-height:1em;margin-left:.2em;"></p>
+</div>
+<div class="hidden quarto-markdown-envelope-contents" data-render-id="footer-center-/index.html">
+<p>Hakkımızda</p>
+</div>
+<div class="hidden quarto-markdown-envelope-contents" data-render-id="footer-center-https://github.com/kaansevim/rapor/tree/master?tab=MIT-1-ov-file#readme">
+<p>Lisans</p>
+</div>
+<div class="hidden quarto-markdown-envelope-contents" data-render-id="footer-center-/iletişim.html">
+<p>İletişim</p>
+</div>
+</div>
+<div id="quarto-meta-markdown" class="hidden">
+<p><span class="hidden quarto-markdown-envelope-contents" data-render-id="quarto-metatitle">R ve R Studio Kurulumu – Rapor</span> <span class="hidden quarto-markdown-envelope-contents" data-render-id="quarto-twittercardtitle">R ve R Studio Kurulumu – Rapor</span> <span class="hidden quarto-markdown-envelope-contents" data-render-id="quarto-ogcardtitle">R ve R Studio Kurulumu – Rapor</span> <span class="hidden quarto-markdown-envelope-contents" data-render-id="quarto-metasitename">Rapor</span> <span class="hidden quarto-markdown-envelope-contents" data-render-id="quarto-twittercarddesc"></span> <span class="hidden quarto-markdown-envelope-contents" data-render-id="quarto-ogcardddesc"></span></p>
+</div>
+</section>
 
 </main> <!-- /main -->
-<script id="quarto-html-after-body" type="application/javascript">
+<script id = "quarto-html-after-body" type="application/javascript">
 window.document.addEventListener("DOMContentLoaded", function (event) {
   const toggleBodyColorMode = (bsSheetEl) => {
     const mode = bsSheetEl.getAttribute("data-mode");
@@ -760,7 +985,19 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
   }
 });
 </script>
-<script src="https://giscus.app/client.js" data-repo="kaansevim/rapor" data-repo-id="R_kgDOPT95Nw" data-category="General" data-category-id="DIC_kwDOPT95N84CtjTn" data-mapping="title" data-reactions-enabled="1" data-emit-metadata="0" data-input-position="top" data-theme="light" data-lang="en" crossorigin="anonymous" async="">
+<script src="https://giscus.app/client.js"
+        data-repo="kaansevim/rapor"
+        data-repo-id="R_kgDOPT95Nw"
+        data-category="General"
+        data-category-id="DIC_kwDOPT95N84CtjTn"
+        data-mapping="title"
+        data-reactions-enabled="1"
+        data-emit-metadata="0"
+        data-input-position="top"
+        data-theme="light"
+        data-lang="en"
+        crossorigin="anonymous"
+        async>
 </script>
 <input type="hidden" id="giscus-base-theme" value="light">
 <input type="hidden" id="giscus-alt-theme" value="dark">
@@ -768,32 +1005,44 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
 <footer class="footer">
   <div class="nav-footer">
     <div class="nav-footer-left">
-<p><a href="https://kaansevim.github.io/rapor/">Rapor;</a> <a href="https://creativecommons.org"></a> <a href="https://creativecommons.org/licenses/by/4.0/">CC BY 4.0</a> ile lisanlanmşıtır. <img src="https://mirrors.creativecommons.org/presskit/icons/cc.svg" alt="" style="max-width:1em;max-height:1em;margin-left:.2em;"> <img src="https://mirrors.creativecommons.org/presskit/icons/by.svg" alt="" style="max-width:1em;max-height:1em;margin-left:.2em;"></p>
-</div>   
+      <div class='footer-contents'><a href="https://kaansevim.github.io/rapor/">Rapor;</a> 
+<a href="https://creativecommons.org"></a>
+<a href="https://creativecommons.org/licenses/by/4.0/">CC BY 4.0</a> ile lisanlanmşıtır.
+<img src="https://mirrors.creativecommons.org/presskit/icons/cc.svg" 
+   alt="" 
+   style="max-width:1em;max-height:1em;margin-left:.2em;">
+<img src="https://mirrors.creativecommons.org/presskit/icons/by.svg" 
+   alt="" 
+   style="max-width:1em;max-height:1em;margin-left:.2em;">
+</div>  
+    </div>   
     <div class="nav-footer-center">
       <ul class="footer-items list-unstyled">
     <li class="nav-item">
-    <a class="nav-link" href="../../index.html">
-<p>Hakkımızda</p>
-</a>
+    <a class="nav-link" href="/index.html">
+ Hakkımızda
+    </a>
   </li>  
     <li class="nav-item">
     <a class="nav-link" href="https://github.com/kaansevim/rapor/tree/master?tab=MIT-1-ov-file#readme">
-<p>Lisans</p>
-</a>
+ Lisans
+    </a>
   </li>  
     <li class="nav-item">
-    <a class="nav-link" href="../../iletişim.html">
-<p>İletişim</p>
-</a>
+    <a class="nav-link" href="/iletişim.html">
+ İletişim
+    </a>
   </li>  
 </ul>
-    <div class="toc-actions"><ul><li><a href="https://github.com/kaansevim/rapor/edit/main/verigorsel/post/rank-03-ordered-column.qmd" class="toc-action"><i class="bi bi-github"></i>Bu sayfayı düzenle</a></li><li><a href="https://github.com/kaansevim/rapor/issues/new" class="toc-action"><i class="bi empty"></i>Sorun bildir</a></li></ul></div></div>
+    </div>
     <div class="nav-footer-right">
       <ul class="footer-items list-unstyled">
     <li class="nav-item compact">
     <a class="nav-link" href="https://github.com/kaansevim/rapor">
-      <i class="bi bi-github" role="img">
+      <i 
+  class="bi bi-github" 
+  role="img" 
+>
 </i> 
     </a>
   </li>  
@@ -802,7 +1051,6 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
   </div>
 </footer>
 
+</body>
 
-
-
-</body></html>
+</html>

@@ -231,7 +231,7 @@ Dolayısıyla, sadece bu örneklemde basketbolcuların daha uzun çıkması **ta
 
 Bu nedenle, yapılan çıkarım **belirli bir olasılık düzeyinde** (örneğin %95 güvenle) desteklenebilir ya da reddedilebilir; ama **kesin** bir yargıya varmak mümkün değildir.
 
-### **Betimsel ve Çıkarımsal İstatistik Örneği** 
+### **Betimsel ve Çıkarımsal İstatistik Örneği**
 
 Bir sosyal hizmet kurumu, **madde bağımlılığıyla mücadele eden bireylerin çok fazla depresyona maruz kaldığını tespit etmiş ve bu grup için yeni bir danışmanlık programı** geliştirmiştir. Programın etkili olup olmadığını değerlendirmek amacıyla **200 danışan** programa katılmış ve müdahale öncesi ile sonrası **depresyon düzeyleri ölçülmüştür**.
 
