@@ -103,3 +103,20 @@ iframe.slide-deck {
   max-width: 1em;
   max-height: 1em;
 }
+
+
+
+/* Sadece navbar başlığındaki R²'yi büyüt/kalınlaştır */
+.navbar .navbar-brand .brand-r2{
+  font-weight: 900 !important;
+  font-size: clamp(2.2rem, 3.2vw, 3.4rem) !important; /* masaüstünde daha büyük */
+  line-height: 1;
+  letter-spacing: .2px;
+}
+
+.navbar .navbar-brand .brand-r2 sup{
+  font-size: .55em !important;   /* 0.12em çok küçüktü */
+  position: relative;
+  top: -.35em;                    /* üst simgeyi belirgin kaldır */
+  font-weight: 800;
+}

@@ -13,9 +13,8 @@ comments:
     
 
 website:
-  title: "Rapor"
-  image: "images/logo3.png"
-  favicon: "images/logo3.png"
+  image: "images/logo4.png"
+  favicon: "images/logo4.png"
   
   reader-mode: true
   
@@ -25,6 +24,7 @@ website:
   repo-actions: [edit, issue]
   
   navbar:
+    title: "<span class='brand-r2'>R<sup>2</sup></span>"
     background: primary
     right:
       - text: "Ana Sayfa"
@@ -98,15 +98,15 @@ website:
   page-footer:
     background: light
     left: |
-      <a href="https://kaansevim.github.io/rapor/">Rapor;</a> 
-      <a href="https://creativecommons.org"></a>
-      <a href="https://creativecommons.org/licenses/by/4.0/">CC BY 4.0</a> ile lisanlanmşıtır.
       <img src="https://mirrors.creativecommons.org/presskit/icons/cc.svg" 
          alt="" 
          style="max-width:1em;max-height:1em;margin-left:.2em;">
-      <img src="https://mirrors.creativecommons.org/presskit/icons/by.svg" 
+       <img src="https://mirrors.creativecommons.org/presskit/icons/by.svg" 
          alt="" 
          style="max-width:1em;max-height:1em;margin-left:.2em;">
+      <a href="https://kaansevim.github.io/rapor/">R²apor;</a> 
+      <a href="https://creativecommons.org"></a>
+      <a href="https://creativecommons.org/licenses/by/4.0/">CC BY 4.0</a> ile lisanlanmşıtır.
     center: 
       - text: Hakkımızda
         href: index.qmd
