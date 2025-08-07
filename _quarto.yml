@@ -10,6 +10,7 @@ execute:
 comments:
   giscus:
     repo: "kaansevim/rapor"
+    
 
 website:
   title: "Rapor"
@@ -17,6 +18,7 @@ website:
   favicon: "images/logo3.png"
   
   reader-mode: true
+  
   
   repo-url:    https://github.com/kaansevim/rapor
   repo-branch: main
@@ -96,8 +98,15 @@ website:
   page-footer:
     background: light
     left: |
-      [![](/images/logo3.png){width=20px .light-content}](https://kaansevim.github.io/rapor/)
-      &copy; Rapor.tr
+      <a href="https://kaansevim.github.io/rapor/">Rapor;</a> 
+      <a href="https://creativecommons.org"></a>
+      <a href="https://creativecommons.org/licenses/by/4.0/">CC BY 4.0</a> ile lisanlanmşıtır.
+      <img src="https://mirrors.creativecommons.org/presskit/icons/cc.svg" 
+         alt="" 
+         style="max-width:1em;max-height:1em;margin-left:.2em;">
+      <img src="https://mirrors.creativecommons.org/presskit/icons/by.svg" 
+         alt="" 
+         style="max-width:1em;max-height:1em;margin-left:.2em;">
     center: 
       - text: Hakkımızda
         href: index.qmd
