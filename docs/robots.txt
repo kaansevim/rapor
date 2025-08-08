@@ -1,1 +1,1 @@
-Sitemap: https://kaansevim.github.io/rapor/sitemap.xml
+Sitemap: www.rrapor.com/sitemap.xml

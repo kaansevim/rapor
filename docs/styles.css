@@ -117,6 +117,6 @@ iframe.slide-deck {
 .navbar .navbar-brand .brand-r2 sup{
   font-size: .55em !important;   /* 0.12em çok küçüktü */
   position: relative;
-  top: -.35em;                    /* üst simgeyi belirgin kaldır */
+  top: -.75em;                    /* üst simgeyi belirgin kaldır */
   font-weight: 800;
 }
