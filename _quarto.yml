@@ -1,6 +1,7 @@
 project:
   type: website
   output-dir: docs
+  resources: ["CNAME"]
   
 lang: tr
   
@@ -13,8 +14,8 @@ comments:
     
 
 website:
-  image: "images/logo4.png"
-  favicon: "images/logo4.png"
+  image: "images/png4.png"
+  favicon: "images/png4.png"
   
   reader-mode: true
   
