@@ -1,21 +1,21 @@
 [
   {
-    "listing": "/verigorsel/index.html",
-    "items": [
-      "/verigorsel/post/cor-01-bubble.html",
-      "/verigorsel/post/cor-02-heatmap.html",
-      "/verigorsel/post/cor-03-scatterplot-connect.html",
-      "/verigorsel/post/cor-04-scatter.html",
-      "/verigorsel/post/rank-01-lollipop.html",
-      "/verigorsel/post/rank-02-ordered.html",
-      "/verigorsel/post/rank-03-ordered-column.html",
-      "/verigorsel/post/rank-04-slope.html"
-    ]
-  },
-  {
     "listing": "/analizler/index.html",
     "items": [
       "/analizler/post/01-one-sample/01-one-sample.html"
+    ]
+  },
+  {
+    "listing": "/verigorsel/index.html",
+    "items": [
+      "/verigorsel/post/rank-02-ordered.html",
+      "/verigorsel/post/cor-02-heatmap.html",
+      "/verigorsel/post/cor-04-scatter.html",
+      "/verigorsel/post/rank-01-lollipop.html",
+      "/verigorsel/post/rank-03-ordered-column.html",
+      "/verigorsel/post/cor-01-bubble.html",
+      "/verigorsel/post/rank-04-slope.html",
+      "/verigorsel/post/cor-03-scatterplot-connect.html"
     ]
   },
   {

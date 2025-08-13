@@ -1,5 +1,5 @@
 ---
-title: "R ile Rapor; Sosyal Bilimler"
+title: "R ile Rapor"
 page-layout: full
 title-block-banner: false
 format:
@@ -8,6 +8,8 @@ format:
 comments: false
 repo-actions: false
 ---
+
+# Sosyal Bilimlerde R'ı Kullanmak
 
 Merhaba, Rapor sitesi sosyal bilimlerde veriyle düşünen, üreten ve paylaşan herkes için açık bir öğrenme platformu olması için tasarlanmıştır.
 
