@@ -1,5 +1,5 @@
 ---
-title: "R ile Sosyal Bilimler"
+title: "R ile Rapor; Sosyal Bilimler"
 page-layout: full
 title-block-banner: false
 format:
