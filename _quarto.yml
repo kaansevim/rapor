@@ -41,7 +41,7 @@ website:
       - text: "Katkı"
         file: katkı.qmd
       - text: "İletişim"
-        file: iletişim.qmd
+        file: iletisim.qmd
       - icon: github
         href: https://github.com/kaansevim/rapor
       - icon: twitter
@@ -114,7 +114,7 @@ website:
       - text: Lisans
         href: https://github.com/kaansevim/rapor/tree/master?tab=MIT-1-ov-file#readme
       - text: İletişim
-        href: iletişim.qmd
+        href: iletisim.qmd
     right: 
       - icon: github
         href: https://github.com/kaansevim/rapor
