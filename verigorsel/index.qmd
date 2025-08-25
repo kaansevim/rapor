@@ -1,5 +1,6 @@
 ---
 title: "Veri Görselleştirme"
+format: html
 listing:
   contents: post
   sort: "date desc"

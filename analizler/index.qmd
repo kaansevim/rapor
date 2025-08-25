@@ -1,5 +1,6 @@
 ---
 title: "Analizler"
+format: html
 listing:
   contents: post
   sort: "date desc"

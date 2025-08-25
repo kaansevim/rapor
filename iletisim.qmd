@@ -1,5 +1,6 @@
 ---
 title: "Dr. Kaan Sevim"
+format: html
 image: images/dergiresim.jpg
 about:
   template: jolla

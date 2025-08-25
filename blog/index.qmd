@@ -1,5 +1,6 @@
 ---
 title: "Blog"
+format: html
 listing:
   contents: "."
   sort: "date desc"

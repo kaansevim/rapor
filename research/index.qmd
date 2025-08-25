@@ -1,5 +1,6 @@
 ---
 title: "R Programı ile Araştırma Analizleri"
+format: html
 author: Dr. Kaan Sevim
 repo-actions: false
 ---

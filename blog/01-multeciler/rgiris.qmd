@@ -19,6 +19,8 @@ Dünya’da mülteci sayısının artmasıyla beraber hep negatif algıların or
 #| message: false
 #| warning: false
 #| fig-cap: "Şekil 1. Dünyadaki Sınır Duvarları"
+
+
 library(readxl)
 library(dplyr)
 library(ggplot2)
@@ -34,8 +36,6 @@ walls <- read_excel("walls.xlsx")# Çıktıda "walls.xlsx" görebiliyor olmalıs
 walls_cum <- walls %>%
   arrange(Year) %>%
   mutate(Cumulative = cumsum(`Number of Walls`))
-
-
 
 
 ggplot(walls_cum, aes(x = Year, y = Cumulative)) +

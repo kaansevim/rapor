@@ -130,6 +130,16 @@ format:
       dark: darkly
     css: styles.css
     toc: true
+    
+  pdf:
+    pdf-engine: xelatex
+    lang: tr
+    mainfont: "Times New Roman"
+    knitr:
+      opts_chunk:
+        dev: cairo_pdf
+        dpi: 300
+    
   
 reference-location: section
 reference-section-title: "Kaynaklar"
